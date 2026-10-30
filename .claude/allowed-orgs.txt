@@ -1,0 +1,12 @@
+# Alias org yang BOLEH diubah oleh agent (deploy, import data, dll).
+# Satu alias per baris. Mendukung wildcard (*).
+# Login dulu dengan: sf org login web --alias <alias>
+# Untuk sandbox:     sf org login web --alias <alias> --instance-url https://test.salesforce.com
+#
+# JANGAN pernah memasukkan alias org production atau org milik klien.
+
+demo
+sandbox-demo
+trial-*
+scratch-*
+TamanSafari

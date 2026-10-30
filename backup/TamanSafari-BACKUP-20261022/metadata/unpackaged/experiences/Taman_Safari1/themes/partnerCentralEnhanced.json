@@ -1,0 +1,675 @@
+{
+  "activeBrandingSetId" : "5f6b85e2-419d-4a27-9225-7ddf2750ff0a",
+  "customCSS" : "",
+  "developerName" : "prmEnhanced",
+  "id" : "aab5d02f-b314-4ecb-b7e3-a79b1b724836",
+  "label" : "Partner Central (Enhanced)",
+  "layouts" : {
+    "GuestMinimal" : "fc7b3265-3791-4776-95e1-46c6454bb8ad",
+    "Home" : "865d1076-e304-4391-9b90-1a24ac633a0f",
+    "Inner" : "f4f2eb3b-e382-4c4f-a2ed-d0cec7c64596",
+    "Login" : "e2196174-a40f-46e1-bdc1-7254415cd600",
+    "ServiceNotAvailable" : "9a2aafaf-f9cd-421c-868a-2d099378fbe7"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "e2196174-a40f-46e1-bdc1-7254415cd600",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "51e33f18-8ffd-461d-b81f-673e6868c262",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "46b192c6-680b-4d06-a2c4-4a42f7483202",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "7e815f3b-c2f6-402f-be43-5480b2af0dff",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "f4f2eb3b-e382-4c4f-a2ed-d0cec7c64596",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "runtime_sales_prm:globalJavaScriptRunner",
+        "id" : "d7e43492-8842-4ed0-a626-2fe447389968",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "background" : "background: #FFFFFF",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0)",
+          "borderBottomColor" : "rgba(0, 0, 0, 0)",
+          "borderTopColor" : "rgba(0, 0, 0, 0)",
+          "bottomRowHeight" : "8",
+          "bottomRowOverlayColor" : "rgba(0, 0, 0, 0)",
+          "containHeader" : true,
+          "containHeaderWidth" : "1440",
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "iconLinkColor" : "rgb(17, 71, 41)",
+          "iconLinkHoverColor" : "rgb(130, 187, 58)",
+          "iconLinkTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(17, 71, 41)",
+          "linkHoverColor" : "rgb(130, 187, 58)",
+          "linkTextShadowColor" : "",
+          "logoWidth" : "100",
+          "searchPosition" : "right",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true,
+          "topRowHeight" : "16"
+        },
+        "componentName" : "runtime_sales_prm:prmThemeHeader",
+        "id" : "f77e73fc-be40-4a18-bf7f-a96c1aa006fb",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "actions" : "[]"
+            },
+            "componentName" : "runtime_sales_prm:actionDropdownContainer",
+            "id" : "bcf4328c-7120-40c3-8e94-998383cfa2de",
+            "renditionMap" : { },
+            "type" : "component"
+          }, {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Manajemen Akun",
+              "buttonBackgroundColor" : "#114729",
+              "buttonBackgroundHoverColor" : "#82BB3A",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 4,
+              "buttonText" : "Masuk",
+              "buttonTextColor" : "#FFFFFF",
+              "buttonTextHoverColor" : "#FFFFFF",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Hubungi Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Beranda",
+              "logoutLabel" : "Keluar",
+              "menuStyle" : "iconAndName",
+              "messagesLabel" : "Pesan",
+              "myAccountLabel" : "Informasi Akun",
+              "showAccountManagement" : true,
+              "showContactSupport" : false,
+              "showMessages" : false,
+              "showUserSettings" : false,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "7142924e-7308-48ad-b0c7-2e9207526739",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "d259bf22-1082-4718-87b3-220ba92a86b8",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "maxAutoCompleteResults" : 5,
+              "searchLabel" : "Cari...",
+              "searchObjects" : [ {
+                "isPublic" : false,
+                "name" : "Lead"
+              }, {
+                "isPublic" : false,
+                "name" : "Opportunity"
+              }, {
+                "isPublic" : false,
+                "name" : "ContentDocument"
+              }, {
+                "isPublic" : false,
+                "name" : "Case"
+              }, {
+                "isPublic" : false,
+                "name" : "Contact"
+              }, {
+                "isPublic" : false,
+                "name" : "Account"
+              }, {
+                "isPublic" : false,
+                "name" : "Order"
+              } ]
+            },
+            "componentName" : "forceCommunity:globalSearchInput",
+            "id" : "4730f067-559f-4c19-bf91-f391703001c7",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "197bc59a-0d1b-4ff0-9303-66fbc8bb0faa",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "",
+              "alignment" : "left",
+              "showAppLauncher" : false,
+              "showBackLabel" : false,
+              "showHomeLink" : true
+            },
+            "componentName" : "forceCommunity:multiLevelNavigationWrapper",
+            "id" : "350f5d74-0d64-46ad-b108-72b3f7d4e42b",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "c330e003-fa3e-4457-90a5-110da0993cfc",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : { },
+        "componentName" : "runtime_sales_prm:navigationTabsetContainer",
+        "id" : "fdb6f818-01c1-47f1-ab44-addb39e0e5b1",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : { },
+        "componentName" : "runtime_sales_prm:navigateBackButtonContainer",
+        "id" : "7f5e964d-0b69-4381-9ea4-493ee99b47ea",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "8801eccf-bed8-46e1-8122-e2ce624e7974",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "clientVersion" : "WebV1",
+          "deploymentName" : "SDO_Messaging_for_Web",
+          "hideChatButtonOnLoad" : "Default",
+          "isExpSiteAuthMode" : true,
+          "scrtUrl" : "https://pt1784703904467.my.salesforce-scrt.com",
+          "siteEndpoint" : "https://pt1784703904467.my.site.com/ESWSDOMessagingforWeb1784821689090"
+        },
+        "componentName" : "experience_messaging:embeddedMessaging",
+        "id" : "647c87d3-c37b-4232-bf76-891d99c75652",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "richTextValue" : "<div style='background-color: #114729; color: #ffffff; font-family: Lato, Arial, sans-serif; padding: 3rem 4rem 2rem;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left;'>                     <img src='/file-asset/taman_safari_logo_600x120_horizonta1?v=1' alt='Taman Safari Indonesia' style='height: 32px; filter: brightness(0) invert(1);' />                 </div>                 <div class='slds-size_1-of-2' style='text-align: right;'>                     <a href='https://www.instagram.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Instagram</a>                     <a href='https://www.facebook.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Facebook</a>                     <a href='mailto:partner@tamansafari.co.id' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>partner@tamansafari.co.id</a>                 </div>             </div>             <hr style='border: none; border-top: 1px solid rgba(255,255,255,0.25); margin: 1.5rem 0;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>Bahasa Indonesia</span>                 </div>                 <div class='slds-size_1-of-2' style='text-align: right; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>© Taman Safari Indonesia. Seluruh hak cipta dilindungi.</span>                 </div>             </div>         </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "dd1bf739-82d5-4227-aef0-33d8ea995ee3",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "ae00ff83-e4c9-419a-b367-574c6f8939a7",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(28, 22, 28, 0.9)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "865d1076-e304-4391-9b90-1a24ac633a0f",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "runtime_sales_prm:globalJavaScriptRunner",
+        "id" : "05e3b096-d861-4b0b-a194-b81c8c1e746f",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "background" : "background: #FFFFFF",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0)",
+          "borderBottomColor" : "rgba(0, 0, 0, 0)",
+          "borderTopColor" : "rgba(0, 0, 0, 0)",
+          "bottomRowHeight" : "8",
+          "bottomRowOverlayColor" : "rgba(0, 0, 0, 0)",
+          "containHeader" : true,
+          "containHeaderWidth" : "1440",
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "iconLinkColor" : "rgb(17, 71, 41)",
+          "iconLinkHoverColor" : "rgb(130, 187, 58)",
+          "iconLinkTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(17, 71, 41)",
+          "linkHoverColor" : "rgb(130, 187, 58)",
+          "linkTextShadowColor" : "",
+          "logoWidth" : "100",
+          "searchPosition" : "right",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true,
+          "topRowHeight" : "16"
+        },
+        "componentName" : "runtime_sales_prm:prmThemeHeader",
+        "id" : "47571dbc-e56a-40c3-8c82-4486912a375a",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "actions" : "[]"
+            },
+            "componentName" : "runtime_sales_prm:actionDropdownContainer",
+            "id" : "ad884bef-09f4-40ca-9faa-455b923dd949",
+            "renditionMap" : { },
+            "type" : "component"
+          }, {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Manajemen Akun",
+              "buttonBackgroundColor" : "#114729",
+              "buttonBackgroundHoverColor" : "#82BB3A",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 4,
+              "buttonText" : "Masuk",
+              "buttonTextColor" : "#FFFFFF",
+              "buttonTextHoverColor" : "#FFFFFF",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Hubungi Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Beranda",
+              "logoutLabel" : "Keluar",
+              "menuStyle" : "iconAndName",
+              "messagesLabel" : "Pesan",
+              "myAccountLabel" : "Informasi Akun",
+              "showAccountManagement" : true,
+              "showContactSupport" : false,
+              "showMessages" : false,
+              "showUserSettings" : false,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "1c597b98-6e73-4805-aee5-0cfa844006d8",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "315fc4ae-8f55-4372-a94f-e5f4f41d4201",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "maxAutoCompleteResults" : 5,
+              "searchLabel" : "Cari...",
+              "searchObjects" : [ {
+                "isPublic" : false,
+                "name" : "Lead"
+              }, {
+                "isPublic" : false,
+                "name" : "Opportunity"
+              }, {
+                "isPublic" : false,
+                "name" : "ContentDocument"
+              }, {
+                "isPublic" : false,
+                "name" : "Case"
+              }, {
+                "isPublic" : false,
+                "name" : "Contact"
+              }, {
+                "isPublic" : false,
+                "name" : "Account"
+              }, {
+                "isPublic" : false,
+                "name" : "Order"
+              } ]
+            },
+            "componentName" : "forceCommunity:globalSearchInput",
+            "id" : "2251cb89-7068-455b-8b2f-a6d7a208eabd",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "6c3337b7-fb0e-4967-8873-a2b19bceaffc",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "NavigationMenuEditorRefresh" : "",
+              "alignment" : "left",
+              "showAppLauncher" : false,
+              "showBackLabel" : false,
+              "showHomeLink" : true
+            },
+            "componentName" : "forceCommunity:multiLevelNavigationWrapper",
+            "id" : "fa481c27-d8c6-4eb4-847e-caa243057749",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "ae4243d1-6fc2-4bc8-b8e4-f100a6bdce43",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "eee83374-ea79-4e41-ade7-077a9425f20c",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div id='placeholderBanner' style='position: relative; height: 485px; width: 100%; display: flex; align-items: center; color: white; font-family: Montserrat, Arial, sans-serif; overflow: hidden; background: linear-gradient(120deg, #114729 0%, #0D542E 55%, #82BB3A 140%);'>             <div style='position: relative; z-index: 2; padding: 3rem; max-width: 60%; text-align: left;'>                 <p style='font-size: 0.95rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.75rem; color: #C9E8A6; font-weight: 600;'>Program Afiliasi Taman Safari Indonesia</p>                 <h1 style='font-size: 3rem; margin-bottom: 1.5rem; font-weight: bold; line-height: 1.2; color: #FFFFFF;'>Selamat Datang, Mitra Afiliasi</h1>                 <p style='font-size: 1.15rem; margin-bottom: 2rem; line-height: 1.5; color: #EAF3E2;'>Kelola kode afiliasi, pantau riwayat redemption, dan cek status komisi Anda dari satu tempat -- untuk mitra resmi Taman Safari Bogor, Prigen, Bali, dan Batang.</p>             </div>         </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "17d9d780-eccf-43e3-9616-29101ae1ef80",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "config" : {
+            "collectionLayoutDefinition" : {
+              "attributes" : {
+                "contentIndicatorSpacing" : "none",
+                "limitItems" : 5,
+                "pauseButtonPlacement" : "left",
+                "progressionPace" : 5,
+                "shouldAutoScroll" : false,
+                "showPauseButton" : true,
+                "showProgressArrows" : true,
+                "showProgressIndicator" : true,
+                "transitionSpeed" : 600,
+                "transitionType" : "slide"
+              },
+              "componentName" : "forceCommunity:dynamicCollectionCarousel"
+            },
+            "dataProviderDefinition" : {
+              "componentName" : "forceCommunity:managedContentCollectionDataProvider"
+            },
+            "itemLayoutDefinition" : {
+              "attributes" : {
+                "additionalLinks" : "{}",
+                "backgroundPosition" : "center center",
+                "backgroundSize" : "cover",
+                "bannerAspectRatio" : "16:9",
+                "bannerHeight" : "485",
+                "bannerSubTitleTextColor" : "#ffffff",
+                "bannerTitleTextColor" : "#ffffff",
+                "callToActionButtonBackgroundColor" : "",
+                "callToActionButtonBackgroundColorHover" : "",
+                "callToActionButtonBorderColor" : "",
+                "callToActionButtonBorderColorHover" : "",
+                "callToActionButtonBorderStyles" : "",
+                "callToActionButtonTextColor" : "",
+                "callToActionButtonTextColorHover" : "",
+                "callToActionLabel" : "View",
+                "componentHoverEffect" : "none",
+                "contentWidth" : 80,
+                "dateFormat" : "none",
+                "datetime" : "",
+                "datetimeFontSize" : "regular",
+                "datetimeTextColor" : "#ffffff",
+                "datetimeTextDecoration" : "",
+                "defaultLinksOverrides" : "",
+                "displayDayOfWeek" : false,
+                "eyebrowFontSize" : "regular",
+                "eyebrowHighlightColor" : "",
+                "eyebrowText" : "",
+                "eyebrowTextColor" : "#ffffff",
+                "eyebrowTextDecoration" : "",
+                "flagAlignment" : "top left",
+                "flagBackgroundColor" : "#ff0000",
+                "flagBorderColor" : "#ffffff",
+                "flagBorderStyles" : "",
+                "flagRotation" : 0,
+                "flagSpacing" : "medium",
+                "flagText" : "",
+                "flagTextColor" : "#ffffff",
+                "flagTextDecoration" : "",
+                "hideTextElementsForVideo" : false,
+                "imageAltText" : "{!CurrentItem.source.url}",
+                "imageUrl" : "{!CurrentItem.source.url}",
+                "metadata1HighlightColor" : "",
+                "metadata1Text" : "",
+                "metadata2HighlightColor" : "",
+                "metadata2Text" : "",
+                "metadataFontSize" : "regular",
+                "metadataTextColor" : "#ffffff",
+                "metadataTextDecoration" : "",
+                "overlayBackgroundColor" : "rgba(0, 0, 0, 0.4)",
+                "showButton" : false,
+                "showCaption" : false,
+                "showDateTime" : false,
+                "showEyebrow" : false,
+                "showEyebrowHighlight" : false,
+                "showFlag" : false,
+                "showMetadata1" : false,
+                "showMetadata1Highlight" : false,
+                "showMetadata2" : false,
+                "showMetadata2Highlight" : false,
+                "showTitle" : false,
+                "showTitleHighlight" : false,
+                "subTitle" : "",
+                "subTitleFontSize" : "regular",
+                "textAlignment" : "center center",
+                "timeFormat" : "none",
+                "timeZoneDisplay" : "short",
+                "timeZoneOptions" : "none",
+                "title" : "",
+                "titleFontSize" : "large",
+                "titleHeadingTag" : "p",
+                "titleHighlightColor" : "",
+                "titleTextDecoration" : "",
+                "useAspectRatio" : false,
+                "videoUrl" : "{!CurrentItem.source.url}"
+              },
+              "componentName" : "forceCommunity:bannerLayout"
+            },
+            "schemaVersion" : "V2.0"
+          }
+        },
+        "componentName" : "forceCommunity:dynamicCollection",
+        "id" : "39e43786-04b5-4436-b54c-8204d895ff55",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "64aecef6-6e62-4083-892c-b8ef9188aa42",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "clientVersion" : "WebV1",
+          "deploymentName" : "SDO_Messaging_for_Web",
+          "hideChatButtonOnLoad" : "Default",
+          "isExpSiteAuthMode" : true,
+          "scrtUrl" : "https://pt1784703904467.my.salesforce-scrt.com",
+          "siteEndpoint" : "https://pt1784703904467.my.site.com/ESWSDOMessagingforWeb1784821689090"
+        },
+        "componentName" : "experience_messaging:embeddedMessaging",
+        "id" : "6454ebcb-a6a4-4dad-b728-9fd39a6207ca",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "richTextValue" : "<div style='background-color: #114729; color: #ffffff; font-family: Lato, Arial, sans-serif; padding: 3rem 4rem 2rem;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left;'>                     <img src='/file-asset/taman_safari_logo_600x120_horizonta1?v=1' alt='Taman Safari Indonesia' style='height: 32px; filter: brightness(0) invert(1);' />                 </div>                 <div class='slds-size_1-of-2' style='text-align: right;'>                     <a href='https://www.instagram.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Instagram</a>                     <a href='https://www.facebook.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Facebook</a>                     <a href='mailto:partner@tamansafari.co.id' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>partner@tamansafari.co.id</a>                 </div>             </div>             <hr style='border: none; border-top: 1px solid rgba(255,255,255,0.25); margin: 1.5rem 0;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>Bahasa Indonesia</span>                 </div>                 <div class='slds-size_1-of-2' style='text-align: right; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>© Taman Safari Indonesia. Seluruh hak cipta dilindungi.</span>                 </div>             </div>         </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "d24776dc-9374-4f03-b113-27a62bf7fb64",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b9480d32-98f7-4d71-aa17-958e80882c5a",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "9a2aafaf-f9cd-421c-868a-2d099378fbe7",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "b7d350bb-e07d-4236-be80-798dd0a765ae",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "d8147ec5-1bc1-4b18-bf4f-34c24db6c986",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1440,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "fc7b3265-3791-4776-95e1-46c6454bb8ad",
+    "label" : "GuestMinimal",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: #FFFFFF",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0)",
+          "borderBottomColor" : "rgba(0, 0, 0, 0)",
+          "borderTopColor" : "rgba(0, 0, 0, 0)",
+          "bottomRowHeight" : "8",
+          "bottomRowOverlayColor" : "rgba(0, 0, 0, 0)",
+          "containHeader" : true,
+          "containHeaderWidth" : "1440",
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "iconLinkColor" : "rgb(17, 71, 41)",
+          "iconLinkHoverColor" : "rgb(130, 187, 58)",
+          "iconLinkTextShadowColor" : "rgba(0, 0, 0, 0)",
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(17, 71, 41)",
+          "linkHoverColor" : "rgb(130, 187, 58)",
+          "linkTextShadowColor" : "",
+          "logoWidth" : "100",
+          "searchPosition" : "right",
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNotifications" : true,
+          "showProfileMenu" : true,
+          "showSearch" : true,
+          "topRowHeight" : "16"
+        },
+        "componentName" : "runtime_sales_prm:prmThemeHeader",
+        "id" : "be26515c-5d82-4748-b8de-91dbbf864d3e",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "accountManagementLabel" : "Manajemen Akun",
+              "buttonBackgroundColor" : "#114729",
+              "buttonBackgroundHoverColor" : "#82BB3A",
+              "buttonBorderColor" : "rgba(0, 0, 0, 0)",
+              "buttonBorderRadius" : 4,
+              "buttonText" : "Masuk",
+              "buttonTextColor" : "#FFFFFF",
+              "buttonTextHoverColor" : "#FFFFFF",
+              "communityBuilderLabel" : "Experience Builder",
+              "communitySetupLabel" : "Salesforce Setup",
+              "contactSupportLabel" : "Hubungi Support",
+              "filterName" : "MyCases",
+              "homeLabel" : "Beranda",
+              "logoutLabel" : "Keluar",
+              "menuStyle" : "iconAndName",
+              "messagesLabel" : "Pesan",
+              "myAccountLabel" : "Informasi Akun",
+              "showAccountManagement" : true,
+              "showContactSupport" : false,
+              "showMessages" : false,
+              "showUserSettings" : false,
+              "userSettingsLabel" : "My Settings",
+              "viewProfileLabel" : "Profile"
+            },
+            "componentName" : "forceCommunity:themeProfileMenu",
+            "id" : "e582bb80-41ae-4763-a003-e8aa7e68fd08",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "079cfd8d-53b9-4e13-8cc0-978fb8acdd81",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "7a53e860-e9d6-42af-aea5-d5ae91e804c0",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "clientVersion" : "WebV1",
+          "deploymentName" : "SDO_Messaging_for_Web",
+          "hideChatButtonOnLoad" : "Default",
+          "isExpSiteAuthMode" : true,
+          "scrtUrl" : "https://pt1784703904467.my.salesforce-scrt.com",
+          "siteEndpoint" : "https://pt1784703904467.my.site.com/ESWSDOMessagingforWeb1784821689090"
+        },
+        "componentName" : "experience_messaging:embeddedMessaging",
+        "id" : "af34e413-0cef-4bb4-8db6-4d5fca07600c",
+        "renditionMap" : { },
+        "type" : "component"
+      }, {
+        "componentAttributes" : {
+          "richTextValue" : "<div style='background-color: #114729; color: #ffffff; font-family: Lato, Arial, sans-serif; padding: 3rem 4rem 2rem;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left;'>                     <img src='/file-asset/taman_safari_logo_600x120_horizonta1?v=1' alt='Taman Safari Indonesia' style='height: 32px; filter: brightness(0) invert(1);' />                 </div>                 <div class='slds-size_1-of-2' style='text-align: right;'>                     <a href='https://www.instagram.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Instagram</a>                     <a href='https://www.facebook.com/tamansafariindonesia' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>Facebook</a>                     <a href='mailto:partner@tamansafari.co.id' style='color:#ffffff; text-decoration:none; margin-left: 1rem; font-size: 13px;'>partner@tamansafari.co.id</a>                 </div>             </div>             <hr style='border: none; border-top: 1px solid rgba(255,255,255,0.25); margin: 1.5rem 0;'>             <div class='slds-grid slds-wrap slds-grid_vertical-align-center'>                 <div class='slds-size_1-of-2' style='text-align: left; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>Bahasa Indonesia</span>                 </div>                 <div class='slds-size_1-of-2' style='text-align: right; font-size: 12px; font-weight: normal; color: #C9E8A6;'>                     <span>© Taman Safari Indonesia. Seluruh hak cipta dilindungi.</span>                 </div>             </div>         </div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "34172174-2278-4576-bb3f-f0eaa089f43d",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3aa61160-e255-4e5b-b305-a69469f4fbd2",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

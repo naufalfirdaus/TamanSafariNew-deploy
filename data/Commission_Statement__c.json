@@ -1,0 +1,106 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef1"
+      },
+      "Period_Start__c": "2026-07-12",
+      "Period_End__c": "2026-08-11",
+      "Total_Gross__c": 63200000000,
+      "Total_Commission__c": 6320000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Claimed",
+      "Request_Date__c": "2026-08-09",
+      "Afiliator__c": "@AccountRef1"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef2"
+      },
+      "Period_Start__c": "2026-06-12",
+      "Period_End__c": "2026-07-12",
+      "Total_Gross__c": 134300000000,
+      "Total_Commission__c": 13430000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Paid",
+      "Paid_Date__c": "2026-07-17",
+      "Afiliator__c": "@AccountRef1"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef3"
+      },
+      "Period_Start__c": "2026-07-12",
+      "Period_End__c": "2026-08-11",
+      "Total_Gross__c": 60040000000,
+      "Total_Commission__c": 6004000000,
+      "Carry_Over_In__c": 2370000000,
+      "Carry_Over_Out__c": 8374000000,
+      "Status__c": "Issued",
+      "Afiliator__c": "@AccountRef2"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef4"
+      },
+      "Period_Start__c": "2026-07-12",
+      "Period_End__c": "2026-08-11",
+      "Total_Gross__c": 908500000000,
+      "Total_Commission__c": 90850000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Eligible",
+      "Afiliator__c": "@AccountRef3"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef5"
+      },
+      "Period_Start__c": "2026-07-12",
+      "Period_End__c": "2026-08-11",
+      "Total_Gross__c": 1975000000000,
+      "Total_Commission__c": 197500000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Approved",
+      "Request_Date__c": "2026-08-06",
+      "Afiliator__c": "@AccountRef4"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef6"
+      },
+      "Period_Start__c": "2026-07-12",
+      "Period_End__c": "2026-08-11",
+      "Total_Gross__c": 48980000000,
+      "Total_Commission__c": 4898000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Eligible",
+      "Afiliator__c": "@AccountRef6"
+    },
+    {
+      "attributes": {
+        "type": "Commission_Statement__c",
+        "referenceId": "Commission_Statement__cRef7"
+      },
+      "Period_Start__c": "2026-06-12",
+      "Period_End__c": "2026-07-12",
+      "Total_Gross__c": 97960000000,
+      "Total_Commission__c": 9796000000,
+      "Carry_Over_In__c": 0,
+      "Carry_Over_Out__c": 0,
+      "Status__c": "Paid",
+      "Paid_Date__c": "2026-07-22",
+      "Afiliator__c": "@AccountRef6"
+    }
+  ]
+}

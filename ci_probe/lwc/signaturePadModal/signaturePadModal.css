@@ -1,0 +1,27 @@
+.modal-description {
+  font-size: 0.9rem;
+  color: #475569;
+}
+.pad-container {
+  border: 2px dashed #cbd5e1;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  overflow: hidden;
+  touch-action: none; /* VERY IMPORTANT: Prevents scrolling when signing on mobile */
+  width: 100%;
+}
+.signature-pad {
+  display: block;
+  width: 100%;
+  cursor: crosshair;
+}
+.footer-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.right-actions {
+  display: flex;
+  gap: 8px;
+}

@@ -1,0 +1,193 @@
+<template>
+  <div class="field-visit-app">
+    <!-- Top Telemetry Bar when Active Visit (S2-S4) -->
+    <template if:true={isActiveVisit}>
+      <c-visit-telemetry-bar
+        elapsed-seconds={elapsedSeconds}
+        location-status={telemetryLocationStatus}
+        distance-meters={currentDistanceMeters}
+        target-name={targetName}
+        is-saving={isSaving}
+        oncancelclick={handleCancelVisitPrompt}
+      ></c-visit-telemetry-bar>
+    </template>
+
+    <main class="app-canvas">
+      <!-- Error Scoped Notification -->
+      <template if:true={serverError}>
+        <div class="server-error-banner slds-m-bottom_small" role="alert">
+          <lightning-icon icon-name="utility:error" size="x-small" class="icon-err slds-m-right_x-small"></lightning-icon>
+          <span class="error-text">{serverError}</span>
+          <button type="button" class="btn-close-error" onclick={handleClearError}>✕</button>
+        </div>
+      </template>
+
+      <!-- S1: Target Selection & Check-In -->
+      <template if:true={isViewS1}>
+        <div class="s1-container">
+          <!-- Brand Header -->
+          <div class="brand-header slds-m-bottom_medium">
+            <div class="brand-title-wrap">
+              <span class="brand-subtitle">PT Taman Safari Indonesia</span>
+              <h1 class="brand-title">{labels.appTitle}</h1>
+            </div>
+          </div>
+
+          <!-- Target Selector (when not locked to record page) -->
+          <template if:false={isRecordPageLocked}>
+            <div class="target-selector-card slds-m-bottom_medium">
+              <label class="section-label">PILIH TARGET KUNJUNGAN</label>
+              <div class="target-toggle-row slds-m-top_xx-small">
+                <button
+                  type="button"
+                  class={accountToggleClass}
+                  data-target-type="Account"
+                  onclick={handleTargetTypeToggle}
+                >
+                  {labels.targetAccount}
+                </button>
+                <button
+                  type="button"
+                  class={leadToggleClass}
+                  data-target-type="Lead"
+                  onclick={handleTargetTypeToggle}
+                >
+                  {labels.targetLead}
+                </button>
+              </div>
+
+              <div class="slds-m-top_small">
+                <template if:true={isSelectingAccount}>
+                  <lightning-record-picker
+                    object-api-name="Account"
+                    label={labels.targetAccount}
+                    placeholder={labels.searchTarget}
+                    value={selectedTargetId}
+                    onchange={handleTargetRecordChange}
+                  ></lightning-record-picker>
+                </template>
+                <template if:false={isSelectingAccount}>
+                  <lightning-record-picker
+                    object-api-name="Lead"
+                    label={labels.targetLead}
+                    placeholder={labels.searchTarget}
+                    value={selectedTargetId}
+                    onchange={handleTargetRecordChange}
+                  ></lightning-record-picker>
+                </template>
+              </div>
+            </div>
+          </template>
+
+          <!-- Target Summary Card -->
+          <template if:true={hasTargetContext}>
+            <c-visit-target-card
+              target-context={targetContext}
+              address={targetAddress}
+              gps-accuracy={gpsAccuracy}
+              rep-latitude={currentRepLat}
+              rep-longitude={currentRepLng}
+              onpinlocation={handlePinLocation}
+              onupdateaddress={handleUpdateAddress}
+              onlocationlockchange={handleLocationLockChange}
+            ></c-visit-target-card>
+          </template>
+
+          <template if:false={hasTargetContext}>
+            <div class="no-target-empty-state">
+              <lightning-icon icon-name="utility:search" size="medium" class="icon-search-muted slds-m-bottom_x-small"></lightning-icon>
+              <p>{labels.searchTarget}</p>
+            </div>
+          </template>
+        </div>
+      </template>
+
+      <!-- S2–S4 Active Visit Wizard -->
+      <template if:true={isActiveVisit}>
+        <!-- Step 1: Info & Photo -->
+        <template if:true={isStep1}>
+          <c-visit-active-info
+            target-type={activeTargetType}
+            account-id={activeAccountId}
+            lead-name={activeLeadName}
+            contacts={accountContacts}
+            opportunities={openOpportunities}
+            selected-contact-id={activeContactId}
+            purpose={activePurpose}
+            linked-opportunity-id={activeOppId}
+            photo-snapshot-url={photoSnapshotUrl}
+            photo-captured-at={photoCapturedAt}
+            is-duplicate-photo={isDuplicatePhoto}
+            has-prefill-notice={hasPrefillNotice}
+            oncontactchange={handleContactChange}
+            onquickcreatecontact={handleOpenQuickCreateContact}
+            onpurposechange={handlePurposeChange}
+            onopportunitychange={handleOpportunityChange}
+            ontakephoto={handleTakePhoto}
+            onretakephoto={handleTakePhoto}
+          ></c-visit-active-info>
+        </template>
+
+        <!-- Step 2: Dynamic BANT Qualification -->
+        <template if:true={isStep2}>
+          <c-visit-qualification-form
+            form-data={activeDraft}
+            purpose={activePurpose}
+            has-signature={hasSignature}
+            signed-by-name={signedByName}
+            signature-declined-reason={signatureDeclinedReason}
+            onformchange={handleFormChange}
+            onopensignature={handleOpenSignature}
+            ondeclinesignature={handleDeclineSignature}
+          ></c-visit-qualification-form>
+        </template>
+
+        <!-- Step 3: Check-Out & Pipeline Bridge -->
+        <template if:true={isStep3}>
+          <c-visit-checkout-panel
+            readiness={checkoutReadiness}
+            target-type={activeTargetType}
+            linked-opp={linkedOpportunityRecord}
+            pipeline-action={pipelineAction}
+            opp-stage={oppStage}
+            opp-amount={oppAmount}
+            opp-close-date={oppCloseDate}
+            gps-accuracy={gpsAccuracy}
+            check-in-address={activeCheckInAddress}
+            checkout-address={currentCheckoutAddress}
+            distance-meters={currentDistanceMeters}
+            onpipelineactionchange={handlePipelineActionChange}
+            onoppfieldchange={handleOppFieldChange}
+            onnavigatetostep={handleNavigateToStep}
+          ></c-visit-checkout-panel>
+        </template>
+      </template>
+
+      <!-- S5: Completion Summary -->
+      <template if:true={isViewS5}>
+        <c-visit-completion-summary
+          completion-result={completedVisit}
+          onstartnewvisit={handleStartNewVisit}
+        ></c-visit-completion-summary>
+      </template>
+    </main>
+
+    <!-- Sticky Bottom Bar -->
+    <template if:true={showStickyBottomBar}>
+      <c-visit-sticky-bottom-bar
+        current-step={currentStep}
+        total-steps="3"
+        is-next-disabled={isBottomNextDisabled}
+        next-label={bottomNextLabel}
+        prev-label="Kembali"
+        show-previous={showBottomPrevious}
+        save-status={draftSaveStatus}
+        is-loading={isBottomLoading}
+        loading-label={bottomLoadingLabel}
+        onprevious={handleStepPrevious}
+        onnext={handleBottomNext}
+        onretrysave={handleRetryDraftSave}
+      ></c-visit-sticky-bottom-bar>
+    </template>
+  </div>
+</template>

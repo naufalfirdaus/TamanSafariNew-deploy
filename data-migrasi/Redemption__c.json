@@ -1,0 +1,227 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef1"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-06-27",
+      "Product_Family__c": "Bundled Package",
+      "Qty_Redeemed__c": 20,
+      "Gross_Amount__c": 134300000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 13430000000,
+      "Booking_Ref__c": "BK-2026-1001",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef12",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef1",
+      "Commission_Statement__c": "@Commission_Statement__cRef1"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef2"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-07-27",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 40,
+      "Gross_Amount__c": 63200000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 6320000000,
+      "Booking_Ref__c": "BK-2026-1050",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef12",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef2",
+      "Commission_Statement__c": "@Commission_Statement__cRef2"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef3"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-07-30",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 19,
+      "Gross_Amount__c": 60040000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 6004000000,
+      "Booking_Ref__c": "BK-2026-1055",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef10",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef3",
+      "Commission_Statement__c": "@Commission_Statement__cRef5"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef4"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-03",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 250,
+      "Gross_Amount__c": 711000000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 71100000000,
+      "Booking_Ref__c": "BK-2026-1080",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef4",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef4",
+      "Commission_Statement__c": "@Commission_Statement__cRef3"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef5"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-05",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 69,
+      "Gross_Amount__c": 197500000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 19750000000,
+      "Booking_Ref__c": "BK-2026-1090",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef4",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef5",
+      "Commission_Statement__c": "@Commission_Statement__cRef3"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef6"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-02",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 625,
+      "Gross_Amount__c": 1975000000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 197500000000,
+      "Booking_Ref__c": "BK-2026-1100",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef1",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef6",
+      "Commission_Statement__c": "@Commission_Statement__cRef4"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef7"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-10",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 5,
+      "Gross_Amount__c": 11850000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 1185000000,
+      "Booking_Ref__c": "BK-2026-1120",
+      "Status__c": "Accrued",
+      "Afiliator__c": "@AccountRef12",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef1"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef8"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-11",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 2,
+      "Gross_Amount__c": 4740000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 474000000,
+      "Booking_Ref__c": "BK-2026-1121",
+      "Status__c": "Accrued",
+      "Afiliator__c": "@AccountRef10",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef3"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef9"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-11",
+      "Status__c": "Accrued",
+      "Afiliator__c": "@AccountRef2",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef9"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef10"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-07-02",
+      "Product_Family__c": "Bundled Package",
+      "Qty_Redeemed__c": 12,
+      "Gross_Amount__c": 97960000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 9796000000,
+      "Booking_Ref__c": "BK-2026-2001",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef2",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef9",
+      "Commission_Statement__c": "@Commission_Statement__cRef6"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef11"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-07-30",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 31,
+      "Gross_Amount__c": 48980000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 4898000000,
+      "Booking_Ref__c": "BK-2026-2050",
+      "Status__c": "Statemented",
+      "Afiliator__c": "@AccountRef2",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef10",
+      "Commission_Statement__c": "@Commission_Statement__cRef7"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef12"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-09",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 4,
+      "Gross_Amount__c": 9480000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 948000000,
+      "Booking_Ref__c": "BK-2026-2090",
+      "Status__c": "Accrued",
+      "Afiliator__c": "@AccountRef2",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef11"
+    },
+    {
+      "attributes": {
+        "type": "Redemption__c",
+        "referenceId": "Redemption__cRef13"
+      },
+      "CurrencyIsoCode": "IDR",
+      "Redemption_Date__c": "2026-08-11",
+      "Product_Family__c": "Ticket & Voucher",
+      "Qty_Redeemed__c": 5,
+      "Gross_Amount__c": 1000000,
+      "Commission_Rate__c": 10,
+      "Commission_Amount__c": 100000,
+      "Booking_Ref__c": "BO-92321-2026",
+      "Status__c": "Accrued",
+      "Afiliator__c": "@AccountRef2",
+      "Affiliate_Code__c": "@Affiliate_Code__cRef11"
+    }
+  ]
+}

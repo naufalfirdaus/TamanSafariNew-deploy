@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metode_Top_Up_Dominan__c</fullName>
+    <description>Metode top up saldo Nabila yang paling sering dipakai reseller ini.</description>
+    <label>Metode Top Up Dominan</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Virtual Account</fullName>
+                <default>false</default>
+                <label>Virtual Account</label>
+            </value>
+            <value>
+                <fullName>Campuran</fullName>
+                <default>false</default>
+                <label>Campuran</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

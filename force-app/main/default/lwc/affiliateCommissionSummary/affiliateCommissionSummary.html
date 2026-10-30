@@ -1,0 +1,12 @@
+<template>
+    <div class="summary-wrap">
+        <div class="summary-card unpaid">
+            <p class="summary-label">Total Komisi Belum Dicairkan</p>
+            <p class="summary-amount"><lightning-formatted-number value={totalUnpaid} format-style="currency" currency-code="IDR" minimum-fraction-digits="0"></lightning-formatted-number></p>
+        </div>
+        <div class="summary-card paid">
+            <p class="summary-label">Total Komisi Sudah Dicairkan</p>
+            <p class="summary-amount"><lightning-formatted-number value={totalPaid} format-style="currency" currency-code="IDR" minimum-fraction-digits="0"></lightning-formatted-number></p>
+        </div>
+    </div>
+</template>

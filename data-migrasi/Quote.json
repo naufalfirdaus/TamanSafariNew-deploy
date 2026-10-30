@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef1"
+      },
+      "Name": "Quotation Interdesign - Corporate Gathering",
+      "CurrencyIsoCode": "IDR",
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "OpportunityId": "@OpportunityRef2",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "CanCreateQuoteLineItems": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef2"
+      },
+      "Name": "Quotation Bank Cakrawala - Voucher Batch",
+      "CurrencyIsoCode": "IDR",
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "OpportunityId": "@OpportunityRef3",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "CanCreateQuoteLineItems": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef3"
+      },
+      "Name": "Quotation Nusantara EO - MICE Batang",
+      "CurrencyIsoCode": "IDR",
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "OpportunityId": "@OpportunityRef6",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "CanCreateQuoteLineItems": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    }
+  ]
+}

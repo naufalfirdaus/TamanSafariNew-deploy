@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms__c</fullName>
+    <description>Number of payment terms (installments), 1-12. Payment schedule is generated automatically, split equally.</description>
+    <label>Payment Terms</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

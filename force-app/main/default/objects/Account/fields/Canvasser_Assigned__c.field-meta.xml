@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canvasser_Assigned__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Canvasser internal yang bertanggung jawab atas akuisisi &amp; pembinaan reseller/toko ini.</description>
+    <label>Canvasser Assigned</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Accounts (Canvasser Assigned)</relationshipLabel>
+    <relationshipName>Canvasser_Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

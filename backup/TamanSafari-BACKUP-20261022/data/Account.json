@@ -1,0 +1,329 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NoAqAIAV"
+        },
+        "Id": "001Bh00000NoAqAIAV",
+        "Name": "Sample Account for Entitlements",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": null,
+        "BillingCity": null,
+        "BillingState": null,
+        "BillingPostalCode": null,
+        "BillingCountry": null
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NsdIeIAJ"
+        },
+        "Id": "001Bh00000NsdIeIAJ",
+        "Name": "Kopdes Inc.",
+        "Type": "Mid-Market",
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Taman Mini I No.1, RT.3/RW.2, Pinang Ranti, Kec. Makasar, Jakarta Timur",
+        "BillingCity": "Jakarta Timur",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "13560",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NsoE3IAJ"
+        },
+        "Id": "001Bh00000NsoE3IAJ",
+        "Name": "Angin Riboet, PT",
+        "Type": "Small Business",
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Letjen S. Parman No.22-24 (Kav. 22-24), RT.1/RW.4, Palmerah, Kecamatan Palmerah",
+        "BillingCity": "Jakarta Barat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "11480",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtjIAF"
+        },
+        "Id": "001Bh00000NuXtjIAF",
+        "Name": "PT Bank Mandiri (Persero) Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Jenderal Gatot Subroto Kav. 36-38, Senayan",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12190",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtkIAF"
+        },
+        "Id": "001Bh00000NuXtkIAF",
+        "Name": "PT Telekomunikasi Seluler (Telkomsel)",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "The Telkom Hub, Jl. Jend. Gatot Subroto Kav. 52",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12710",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtlIAF"
+        },
+        "Id": "001Bh00000NuXtlIAF",
+        "Name": "PT Astra International Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Menara Astra, Jl. Jend. Sudirman Kav. 5-6",
+        "BillingCity": "Jakarta Pusat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "10220",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtmIAF"
+        },
+        "Id": "001Bh00000NuXtmIAF",
+        "Name": "PT Bank Central Asia Tbk (BCA)",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Menara BCA, Grand Indonesia, Jl. M.H. Thamrin No. 1",
+        "BillingCity": "Jakarta Pusat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "10310",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtnIAF"
+        },
+        "Id": "001Bh00000NuXtnIAF",
+        "Name": "PT Indofood Sukses Makmur Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Sudirman Plaza, Indofood Tower, Jl. Jend. Sudirman Kav. 76-78",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12910",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtoIAF"
+        },
+        "Id": "001Bh00000NuXtoIAF",
+        "Name": "PT Kalbe Farma Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Letjen Suprapto Kav. 4, Cempaka Putih",
+        "BillingCity": "Jakarta Pusat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "10510",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtpIAF"
+        },
+        "Id": "001Bh00000NuXtpIAF",
+        "Name": "PT Semen Indonesia (Persero) Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "South Quarter Tower A, Jl. R.A. Kartini Kav. 8, Cilandak",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12430",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtqIAF"
+        },
+        "Id": "001Bh00000NuXtqIAF",
+        "Name": "PT Gudang Garam Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Jend. A. Yani No. 79, Cempaka Putih",
+        "BillingCity": "Jakarta Pusat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "10510",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtrIAF"
+        },
+        "Id": "001Bh00000NuXtrIAF",
+        "Name": "PT Bank Pembangunan Daerah Bali (BPD Bali)",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Raya Puputan Niti Mandala, Renon",
+        "BillingCity": "Denpasar",
+        "BillingState": "Bali",
+        "BillingPostalCode": "80235",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtsIAF"
+        },
+        "Id": "001Bh00000NuXtsIAF",
+        "Name": "PT Surya Citra Media (SCM) Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "SCTV Tower, Senayan City, Jl. Asia Afrika Lot 19",
+        "BillingCity": "Jakarta Pusat",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "10270",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXttIAF"
+        },
+        "Id": "001Bh00000NuXttIAF",
+        "Name": "PT Pupuk Indonesia (Persero)",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Wijaya I No. 63, Kebayoran Baru",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12170",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtuIAF"
+        },
+        "Id": "001Bh00000NuXtuIAF",
+        "Name": "PT Sinarmas Land Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Sinar Mas Land Plaza, BSD City, Jl. Grand Boulevard",
+        "BillingCity": "Tangerang Selatan",
+        "BillingState": "Banten",
+        "BillingPostalCode": "15345",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtvIAF"
+        },
+        "Id": "001Bh00000NuXtvIAF",
+        "Name": "PT Unilever Indonesia Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Grha Unilever, BSD Green Office Park Kav. 3",
+        "BillingCity": "Tangerang",
+        "BillingState": "Banten",
+        "BillingPostalCode": "15345",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtwIAF"
+        },
+        "Id": "001Bh00000NuXtwIAF",
+        "Name": "PT Paragon Technology and Innovation",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Jl. Swadarma Raya No. 58, Ulujami, Pesanggrahan",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12250",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtxIAF"
+        },
+        "Id": "001Bh00000NuXtxIAF",
+        "Name": "PT Garuda Indonesia (Persero) Tbk",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Gedung Manajemen Garuda Indonesia, Bandara Soekarno-Hatta",
+        "BillingCity": "Tangerang",
+        "BillingState": "Banten",
+        "BillingPostalCode": "19120",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000NuXtyIAF"
+        },
+        "Id": "001Bh00000NuXtyIAF",
+        "Name": "PT Pertamina Patra Niaga",
+        "Type": null,
+        "Phone": null,
+        "Industry": null,
+        "BillingStreet": "Wisma Tugu II, Jl. H.R. Rasuna Said Kav. C7-9, Kuningan",
+        "BillingCity": "Jakarta Selatan",
+        "BillingState": "DKI Jakarta",
+        "BillingPostalCode": "12920",
+        "BillingCountry": "Indonesia"
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v68.0/sobjects/Account/001Bh00000Nua1LIAR"
+        },
+        "Id": "001Bh00000Nua1LIAR",
+        "Name": "Kopi Kamu Wijaya",
+        "Type": null,
+        "Phone": "087345221665",
+        "Industry": "Food & Beverage",
+        "BillingStreet": "Pand’or, Jalan Wijaya I, Kebayoran Baru, South Jakarta 12170, Indonesia",
+        "BillingCity": "South Jakarta",
+        "BillingState": "Jakarta",
+        "BillingPostalCode": null,
+        "BillingCountry": "Indonesia"
+      }
+    ],
+    "totalSize": 20,
+    "done": true
+  }
+}

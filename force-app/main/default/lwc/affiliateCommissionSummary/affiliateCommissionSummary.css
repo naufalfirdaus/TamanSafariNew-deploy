@@ -1,0 +1,37 @@
+.summary-wrap {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 1.5rem 1rem;
+    font-family: Lato, Arial, sans-serif;
+}
+
+.summary-card {
+    flex: 1;
+    min-width: 220px;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    color: #FFFFFF;
+}
+
+.summary-card.unpaid {
+    background: linear-gradient(120deg, #114729 0%, #0D542E 100%);
+}
+
+.summary-card.paid {
+    background: linear-gradient(120deg, #82BB3A 0%, #6a9c2e 100%);
+}
+
+.summary-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.85;
+    margin: 0 0 0.35rem 0;
+}
+
+.summary-amount {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0;
+}

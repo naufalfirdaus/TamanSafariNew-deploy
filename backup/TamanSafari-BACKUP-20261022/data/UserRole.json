@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "UserRole",
+          "url": "/services/data/v68.0/sobjects/UserRole/00EBh000003mt25MAA"
+        },
+        "Id": "00EBh000003mt25MAA",
+        "Name": "Taman Safari Sales Manager",
+        "DeveloperName": "Taman_Safari_Sales_Manager",
+        "ParentRoleId": null,
+        "ForecastUserId": "005Bh000006MpN0IAK"
+      },
+      {
+        "attributes": {
+          "type": "UserRole",
+          "url": "/services/data/v68.0/sobjects/UserRole/00EBh000003mt26MAA"
+        },
+        "Id": "00EBh000003mt26MAA",
+        "Name": "Taman Safari Sales Rep",
+        "DeveloperName": "Taman_Safari_Sales_Rep",
+        "ParentRoleId": "00EBh000003mt25MAA",
+        "ForecastUserId": null
+      }
+    ],
+    "totalSize": 2,
+    "done": true
+  }
+}

@@ -1,0 +1,40 @@
+.redeem-wrap {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 2.5rem;
+    font-family: Lato, Arial, sans-serif;
+}
+
+.redeem-wrap lightning-input,
+.redeem-wrap lightning-combobox {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.redeem-actions {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.ts-btn {
+    --slds-c-button-brand-color-background: #114729;
+    --slds-c-button-brand-color-border: #114729;
+    --slds-c-button-brand-color-background-hover: #82BB3A;
+}
+
+.redeem-error {
+    background: #FBEAEA;
+    color: #C0392B;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.redeem-success {
+    background: #EAF3E2;
+    color: #114729;
+    padding: 1.5rem;
+    border-radius: 6px;
+    text-align: center;
+}

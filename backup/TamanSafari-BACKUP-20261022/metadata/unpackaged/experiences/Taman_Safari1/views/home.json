@@ -1,0 +1,120 @@
+{
+  "appPageId" : "7157b2a7-1483-4997-a9cb-8cd980892b08",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8e8b7894-383c-45ce-a50a-8515ca2aefea",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "cb0ae9a9-dba2-41d5-9ff1-2bb87610105b",
+          "columns" : [ {
+            "UUID" : "be0c7b5d-49ca-44ac-a8a1-47db3bbd2507",
+            "columnKey" : "col1",
+            "columnName" : "Header Column",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "richTextValue" : "                <h2 class=\"quickLinksTitle\">                    Quick Links                </h2>            ",
+                "sfdc:identifier" : "quickLinks_htmlBlock"
+              },
+              "fqn" : "forceCommunity:htmlBlock"
+            }, {
+              "attributes" : {
+                "defaultMasterLabel" : "PRM_Enhanced_Menu",
+                "sfdc:identifier" : "forceCommunity_tileMenu",
+                "titleFontSize" : "12",
+                "useThemeColor" : "true"
+              },
+              "fqn" : "runtime_sales_prm:tileMenuWrapperPRM"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "cb0ae9a9-dba2-41d5-9ff1-2bb87610105b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div style='text-align:center; padding: 1.5rem 1rem 0.5rem;'><h2 style='font-family:Montserrat,Arial,sans-serif; color:#114729; margin-bottom:0.5rem;'>Punya Kode Voucher?</h2><p style='color:#5C6B62; margin-bottom:0;'>Tukarkan kode voucher dari afiliator Taman Safari Anda langsung di bawah ini.</p></div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "25b2915c-db54-4796-a9d7-f12329e36943",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:guestRedeemVoucher",
+          "id" : "09b5f980-7d20-45c4-a4c1-42fd33965d7c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "be0c7b5d-49ca-44ac-a8a1-47db3bbd2507",
+        "regionLabel" : "Header Column",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e0ba4223-eedc-4613-89b8-6c5a178a2a39",
+          "columns" : [ {
+            "UUID" : "42c80671-30bc-45f0-b364-8e521b008ecb",
+            "columnKey" : "col1",
+            "columnName" : "Footer Column",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e0ba4223-eedc-4613-89b8-6c5a178a2a39",
+      "regions" : [ {
+        "id" : "42c80671-30bc-45f0-b364-8e521b008ecb",
+        "regionLabel" : "Footer Column",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "52b989aa-1e6a-4f56-b521-488a95d984c2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "13dadcb1-33bd-4816-a394-4fac06a03301",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "723ebfcb-35ac-4c2d-a572-335431baad2e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

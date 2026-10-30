@@ -1,0 +1,16 @@
+Savepoint sp = Database.setSavepoint();
+String log='';
+Affiliate_Code__c ac = [SELECT Code__c FROM Affiliate_Code__c WHERE Status__c='Active' AND Valid_To__c >= TODAY LIMIT 1];
+GuestRedeemVoucherController.AffiliateCodeResult v = GuestRedeemVoucherController.validateCode(ac.Code__c);
+log += '\nV1 validasi kode '+ac.Code__c+' -> '+v.valid+' | '+v.message;
+GuestRedeemVoucherController.AffiliateCodeResult v2 = GuestRedeemVoucherController.validateCode('KODE-NGASAL-123');
+log += '\nV2 kode palsu -> '+v2.valid+' | '+v2.message;
+Integer rb=[SELECT COUNT() FROM Redemption__c]; Integer ob=[SELECT COUNT() FROM Opportunity];
+GuestRedeemVoucherController.RedemptionResult rr = GuestRedeemVoucherController.submitRedemption(ac.Code__c,'Budi Uji','BK-UJI-001','Ticket & Voucher',2,300000);
+log += '\nV3 submit redemption -> '+rr.success+' | '+rr.message;
+Integer ra=[SELECT COUNT() FROM Redemption__c]; Integer oa=[SELECT COUNT() FROM Opportunity];
+log += '\nV4 Redemption '+rb+'->'+ra+', Opportunity retail '+ob+'->'+oa;
+Redemption__c r = [SELECT Status__c, Commission_Rate__c, Commission_Amount__c, Gross_Amount__c FROM Redemption__c ORDER BY CreatedDate DESC LIMIT 1];
+log += '\nV5 redemption baru: status='+r.Status__c+' rate='+r.Commission_Rate__c+' komisi='+r.Commission_Amount__c+' gross='+r.Gross_Amount__c;
+Database.rollback(sp);
+System.debug('HASIL_VOUCHER'+log);

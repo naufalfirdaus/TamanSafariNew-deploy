@@ -1,0 +1,184 @@
+<template>
+  <!-- TAMPILAN AWAL DI RECORD PAGE EVENT (TETAP SAMA) -->
+  <lightning-card title="Upload MOM" icon-name="standard:bot">
+    <template if:true={isLoading}>
+      <lightning-spinner
+        alternative-text="Processing..."
+        size="medium"
+        variant="brand"
+      ></lightning-spinner>
+    </template>
+
+    <div class="slds-p-around_medium card-content">
+      <p class="slds-m-bottom_medium slds-text-color_weak instruction-text">
+        Meeting completed? Upload your transcript here. Our AI will extract the
+        discussions and update this Event automatically.
+      </p>
+      <lightning-input
+        type="file"
+        label="Upload Transcript (.txt)"
+        accept=".txt"
+        onchange={handleFileUpload}
+        disabled={isLoading}
+      >
+      </lightning-input>
+    </div>
+  </lightning-card>
+
+  <!-- 🔥 POP-UP (MODAL) DESAIN CLEAN & FLAT -->
+  <template if:true={showPreviewModal}>
+    <section
+      role="dialog"
+      tabindex="-1"
+      aria-modal="true"
+      class="slds-modal slds-fade-in-open slds-modal_large custom-modal"
+    >
+      <div class="slds-modal__container">
+        <!-- MODAL HEADER (Bersih, Putih, Rata Kiri) -->
+        <header class="slds-modal__header clean-header">
+          <button
+            class="slds-button slds-button_icon slds-modal__close close-x-btn"
+            title="Close"
+            onclick={handleCancel}
+          >
+            <lightning-icon
+              icon-name="utility:close"
+              alternative-text="close"
+              size="small"
+            ></lightning-icon>
+            <span class="slds-assistive-text">Close</span>
+          </button>
+
+          <div class="header-layout">
+            <div class="header-icon-wrapper">
+              <lightning-icon
+                icon-name="standard:bot"
+                size="medium"
+              ></lightning-icon>
+            </div>
+            <div class="header-titles">
+              <h2 class="slds-text-heading_medium">Review AI Insights</h2>
+              <p>Review & configure details before updating the Event.</p>
+            </div>
+          </div>
+        </header>
+
+        <!-- MODAL BODY (Tanpa Kotak-Kotak Bersarang) -->
+        <div
+          class="slds-is-relative slds-p-around_large slds-modal__content clean-body"
+        >
+          <template if:true={isSaving}>
+            <lightning-spinner
+              alternative-text="Saving..."
+              size="medium"
+              variant="brand"
+            ></lightning-spinner>
+          </template>
+
+          <!-- Indikator File -->
+          <div class="slds-m-bottom_medium preview-header">
+            <span class="preview-title">Document Loaded</span>
+            <span class="success-capsule">✅ {fileName}</span>
+          </div>
+
+          <!-- Input Form -->
+          <div class="form-container">
+            <!-- AI Results Section -->
+            <div class="ai-results fade-in">
+              <div class="result-banner">
+                <lightning-icon
+                  icon-name="utility:success"
+                  size="x-small"
+                  variant="inverse"
+                  class="slds-m-right_x-small"
+                ></lightning-icon>
+                <span
+                  >AI processing complete. Review the insights below (Max 255
+                  Chars).</span
+                >
+              </div>
+
+              <div class="slds-grid custom-grid-spacing slds-wrap slds-gutters">
+                <div class="slds-m-bottom_medium slds-col slds-size_1-of-1">
+                  <lightning-textarea
+                    label="Meeting Objective (AI)"
+                    value={objective}
+                    onchange={handleObjectiveChange}
+                    placeholder="Write the main goal of the meeting here..."
+                  ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                  <lightning-textarea
+                    label="Attendance (AI)"
+                    value={attendance}
+                    onchange={handleAttendanceChange}
+                    maxlength="255"
+                  ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                  <lightning-textarea
+                    label="Conclusions (AI)"
+                    value={conclusions}
+                    onchange={handleConclusionsChange}
+                    maxlength="255"
+                  ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-1">
+                  <lightning-textarea
+                    label="Point of Discussion (AI)"
+                    value={discussion}
+                    onchange={handleDiscussionChange}
+                    maxlength="255"
+                  ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-1">
+                  <lightning-textarea
+                    label="Next Steps (AI)"
+                    value={nextStep}
+                    onchange={handleNextStepChange}
+                    maxlength="255"
+                  ></lightning-textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-1">
+                  <lightning-textarea
+                    label="Summary (AI)"
+                    value={summary}
+                    onchange={handleSummaryChange}
+                  ></lightning-textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MODAL FOOTER -->
+        <footer class="slds-modal__footer clean-footer">
+          <div class="footer-layout">
+            <span class="footer-hint"
+              >Updates this Event and attaches Transcript automatically.</span
+            >
+            <div class="footer-actions">
+              <lightning-button
+                label="Cancel"
+                variant="neutral"
+                onclick={handleCancel}
+                class="slds-m-right_small"
+              ></lightning-button>
+              <lightning-button
+                icon-name="utility:save"
+                label="Update Event"
+                variant="brand"
+                onclick={handleUpdateEvent}
+                disabled={isSaving}
+                class="submit-btn"
+              ></lightning-button>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- BACKDROP GELAP BLUR -->
+    <div class="slds-backdrop slds-backdrop_open custom-backdrop"></div>
+  </template>
+</template>

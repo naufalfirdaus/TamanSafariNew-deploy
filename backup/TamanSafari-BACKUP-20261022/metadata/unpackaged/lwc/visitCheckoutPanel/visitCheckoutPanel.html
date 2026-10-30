@@ -1,0 +1,207 @@
+<template>
+  <div class="checkout-panel">
+    <div class="step-badge-wrap slds-m-bottom_medium">
+      <span class="step-pill">{labels.stepInfo}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill">{labels.stepBANT}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill step-pill--active">{labels.stepCheckout}</span>
+    </div>
+
+    <!-- Readiness Checklist Card -->
+    <div class="form-section slds-m-bottom_medium">
+      <div class="section-header-row">
+        <label class="section-label">{labels.checklistTitle}</label>
+        <span class={readinessSummaryClass}>{readinessSummaryText}</span>
+      </div>
+
+      <div class="checklist-items slds-m-top_small">
+        <div class="checklist-row">
+          <lightning-icon
+            icon-name={purposeIcon}
+            size="x-small"
+            class={purposeIconClass}
+          ></lightning-icon>
+          <span class="checklist-label">{labels.itemPurpose}</span>
+          <template if:false={readiness.hasPurpose}>
+            <button type="button" class="btn-fix-link" data-step="1" onclick={handleNavigateStep}>
+              Lengkapi
+            </button>
+          </template>
+        </div>
+
+        <div class="checklist-row">
+          <lightning-icon
+            icon-name={contactIcon}
+            size="x-small"
+            class={contactIconClass}
+          ></lightning-icon>
+          <span class="checklist-label">{labels.itemContact}</span>
+          <template if:false={readiness.hasContact}>
+            <button type="button" class="btn-fix-link" data-step="1" onclick={handleNavigateStep}>
+              Lengkapi
+            </button>
+          </template>
+        </div>
+
+        <div class="checklist-row">
+          <lightning-icon
+            icon-name={photoIcon}
+            size="x-small"
+            class={photoIconClass}
+          ></lightning-icon>
+          <span class="checklist-label">{labels.itemPhoto}</span>
+          <template if:false={readiness.hasPhoto}>
+            <button type="button" class="btn-fix-link" data-step="1" onclick={handleNavigateStep}>
+              Ambil Foto
+            </button>
+          </template>
+        </div>
+
+        <div class="checklist-row">
+          <lightning-icon
+            icon-name={summaryIcon}
+            size="x-small"
+            class={summaryIconClass}
+          ></lightning-icon>
+          <span class="checklist-label">{labels.itemSummary}</span>
+          <template if:false={readiness.hasSummary}>
+            <button type="button" class="btn-fix-link" data-step="2" onclick={handleNavigateStep}>
+              Isi Catatan
+            </button>
+          </template>
+        </div>
+
+        <div class="checklist-row">
+          <lightning-icon
+            icon-name={signatureIcon}
+            size="x-small"
+            class={signatureIconClass}
+          ></lightning-icon>
+          <span class="checklist-label">{labels.itemSignature}</span>
+          <template if:false={readiness.hasSignatureOrDeclined}>
+            <button type="button" class="btn-fix-link" data-step="2" onclick={handleNavigateStep}>
+              Minta TTD
+            </button>
+          </template>
+        </div>
+      </div>
+
+      <template if:false={isAllReady}>
+        <div class="missing-items-banner slds-m-top_small">
+          <lightning-icon icon-name="utility:warning" size="xx-small" class="icon-warn slds-m-right_xx-small"></lightning-icon>
+          <span>Lengkapi seluruh prasyarat di atas sebelum dapat menyelesaikan kunjungan.</span>
+        </div>
+      </template>
+    </div>
+
+    <!-- Pipeline Bridge Section -->
+    <div class="form-section slds-m-bottom_medium pipeline-section">
+      <label class="section-label">Tindak Lanjut Pipeline Sales</label>
+
+      <!-- Case A: Lead Visit -->
+      <template if:true={isLead}>
+        <div class="slds-m-top_x-small">
+          <lightning-input
+            type="checkbox"
+            label={labels.pipelineConvertLead}
+            checked={isConvertLeadChecked}
+            onchange={handleConvertLeadToggle}
+            class="pipeline-checkbox"
+          ></lightning-input>
+          <p class="pipeline-desc slds-m-top_xx-small">
+            Mengonversi prospek menjadi Akun, Kontak, dan Peluang (Opportunity) baru otomatis saat check-out.
+          </p>
+        </div>
+      </template>
+
+      <!-- Case B: Account Visit without linked Opp -->
+      <template if:true={isAccountWithoutOpp}>
+        <div class="slds-m-top_x-small">
+          <lightning-input
+            type="checkbox"
+            label={labels.pipelineCreateOpp}
+            checked={isCreateOppChecked}
+            onchange={handleCreateOppToggle}
+            class="pipeline-checkbox"
+          ></lightning-input>
+          <p class="pipeline-desc slds-m-top_xx-small">
+            Membuat rekord Peluang (Opportunity) baru di bawah Akun ini dengan data BANT yang telah Anda isi.
+          </p>
+        </div>
+      </template>
+
+      <!-- Case C: Account Visit with linked Opp -->
+      <template if:true={isAccountWithOpp}>
+        <div class="slds-m-top_x-small">
+          <p class="linked-opp-name">
+            <strong>Peluang Terhubung:</strong> {linkedOppName}
+          </p>
+
+          <lightning-combobox
+            label="Tahap Peluang (Stage)"
+            value={oppStage}
+            options={stageOptions}
+            onchange={handleStageChange}
+            class="slds-m-top_x-small"
+          ></lightning-combobox>
+
+          <lightning-input
+            type="text"
+            label="Nilai Peluang (Amount IDR)"
+            value={formattedOppAmount}
+            onchange={handleAmountChange}
+            class="slds-m-top_x-small"
+          ></lightning-input>
+
+          <lightning-input
+            type="date"
+            label="Target Closing"
+            value={oppCloseDate}
+            onchange={handleCloseDateChange}
+            class="slds-m-top_x-small"
+          ></lightning-input>
+        </div>
+      </template>
+    </div>
+
+    <!-- Verifikasi Lokasi Check-In & Check-Out -->
+    <div class="form-section slds-m-bottom_medium location-match-section">
+      <div class="section-header-row">
+        <label class="section-label">Verifikasi Lokasi Check-In &amp; Check-Out</label>
+        <span class={locationMatchBadgeClass}>{locationMatchBadgeText}</span>
+      </div>
+
+      <div class="location-details slds-m-top_small">
+        <div class="location-detail-row">
+          <lightning-icon icon-name="utility:checkin" size="xx-small" class="slds-m-right_xx-small icon-checkin"></lightning-icon>
+          <div>
+            <span class="detail-label">Alamat Check-In:</span>
+            <p class="detail-value">{displayCheckInAddress}</p>
+          </div>
+        </div>
+
+        <div class="location-detail-row slds-m-top_x-small">
+          <lightning-icon icon-name="utility:location" size="xx-small" class="slds-m-right_xx-small icon-checkout"></lightning-icon>
+          <div>
+            <span class="detail-label">Alamat Check-Out (Terkini):</span>
+            <p class="detail-value">{displayCheckoutAddress}</p>
+          </div>
+        </div>
+
+        <template if:true={isLocationMismatch}>
+          <div class="mismatch-warning slds-m-top_x-small">
+            <lightning-icon icon-name="utility:warning" size="xx-small" class="icon-warn slds-m-right_xx-small"></lightning-icon>
+            <span>Posisi Check-Out berjarak {distanceText} dari titik Check-In. Perbedaan lokasi ini akan dicatat untuk audit manajer.</span>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- GPS Info at Check-Out -->
+    <div class="checkout-gps-info slds-m-bottom_small">
+      <lightning-icon icon-name="utility:checkin" size="xx-small" class="icon-gps slds-m-right_xx-small"></lightning-icon>
+      <span>{gpsStatusText}</span>
+    </div>
+  </div>
+</template>

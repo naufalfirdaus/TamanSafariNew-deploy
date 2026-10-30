@@ -1,0 +1,22 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false" cache="false" title="Redeem Voucher - Taman Safari">
+<html lang="id">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        body { margin:0; font-family: Lato, Arial, sans-serif; background:#F7F9F5; }
+        .ts-header { background:#114729; padding:1.25rem 1.5rem; text-align:center; }
+        .ts-header h1 { color:#FFFFFF; font-size:1.25rem; margin:0; font-family: Montserrat, Arial, sans-serif; }
+        .ts-flow-wrap { max-width:640px; margin:0 auto; padding:2rem 1rem; }
+    </style>
+</head>
+<body>
+    <div class="ts-header">
+        <h1>Taman Safari Indonesia &#8211; Redeem Voucher</h1>
+    </div>
+    <div class="ts-flow-wrap">
+        <flow:interview name="Redeem_Affiliate_Voucher" finishLocation="{!$Page.GuestRedeemVoucher}"/>
+    </div>
+</body>
+</html>
+</apex:page>

@@ -1,0 +1,31 @@
+<template>
+  <lightning-modal-header label={labels.title}></lightning-modal-header>
+
+  <lightning-modal-body>
+    <div class="warning-wrap">
+      <div class="warning-icon-circle">
+        <lightning-icon icon-name="utility:warning" size="medium" class="icon-warn"></lightning-icon>
+      </div>
+
+      <p class="body-text slds-m-top_small">
+        {warningBodyText}
+      </p>
+    </div>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <div class="footer-buttons">
+      <lightning-button
+        variant="neutral"
+        label={labels.confirmEarly}
+        onclick={handleConfirmEarly}
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label={labels.stay}
+        onclick={handleStay}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </div>
+  </lightning-modal-footer>
+</template>

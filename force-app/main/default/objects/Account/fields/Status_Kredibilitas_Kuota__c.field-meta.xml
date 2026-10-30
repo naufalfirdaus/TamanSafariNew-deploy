@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Kredibilitas_Kuota__c</fullName>
+    <description>Status pemenuhan kuota/bucket dari provider yang wajib dihabiskan untuk menjaga kredibilitas distributor.</description>
+    <label>Status Kredibilitas Kuota</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aman</fullName>
+                <default>false</default>
+                <label>Aman</label>
+            </value>
+            <value>
+                <fullName>Warning</fullName>
+                <default>false</default>
+                <label>Warning</label>
+            </value>
+            <value>
+                <fullName>Kritis</fullName>
+                <default>false</default>
+                <label>Kritis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

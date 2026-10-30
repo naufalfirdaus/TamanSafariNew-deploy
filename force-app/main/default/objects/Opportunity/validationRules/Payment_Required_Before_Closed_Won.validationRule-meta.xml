@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Required_Before_Closed_Won</fullName>
+    <active>true</active>
+    <description>Taman Safari deals with a payment plan must be fully paid before Closed Won. Opportunities without Payment Terms (e.g. voucher redemption) are not affected.</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Taman_Safari&quot;,
+  ISPICKVAL(StageName, &quot;Closed Won&quot;),
+  Payment_Terms__c &gt; 0,
+  Total_Paid__c &lt; BLANKVALUE(Amount, 0)
+)</errorConditionFormula>
+    <errorMessage>Opportunity must be fully paid before Closed Won. Mark all Payments as Paid so Total Paid equals Amount.</errorMessage>
+</ValidationRule>

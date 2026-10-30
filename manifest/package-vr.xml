@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.Wajib_PO_Sebelum_Closed_Won</members>
+        <members>Opportunity.Wajib_Loss_Reason_Sebelum_Closed_Lost</members>
+        <members>Opportunity.Wajib_produk_sebelum_quotation</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>67.0</version>
+</Package>

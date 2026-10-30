@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fraud_Flag_Reasons__c</fullName>
+    <label>Fraud Flag Reasons</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Duplicate photo</fullName>
+                <default>false</default>
+                <label>Duplicate photo</label>
+            </value>
+            <value>
+                <fullName>Off-site check-in with short visit</fullName>
+                <default>false</default>
+                <label>Off-site check-in with short visit</label>
+            </value>
+            <value>
+                <fullName>Suspected AI manipulation</fullName>
+                <default>false</default>
+                <label>Suspected AI manipulation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

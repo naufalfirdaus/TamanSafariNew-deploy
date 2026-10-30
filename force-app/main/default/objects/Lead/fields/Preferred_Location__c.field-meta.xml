@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Location__c</fullName>
+    <label>Preferred Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bogor</fullName>
+                <default>false</default>
+                <label>Bogor</label>
+            </value>
+            <value>
+                <fullName>Prigen</fullName>
+                <default>false</default>
+                <label>Prigen</label>
+            </value>
+            <value>
+                <fullName>Bali</fullName>
+                <default>false</default>
+                <label>Bali</label>
+            </value>
+            <value>
+                <fullName>Batang</fullName>
+                <default>false</default>
+                <label>Batang</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

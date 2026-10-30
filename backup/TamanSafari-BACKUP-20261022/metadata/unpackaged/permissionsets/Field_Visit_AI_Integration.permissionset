@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>VisitScoreResource</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Identity n8n uses to deliver AI scores. It can call only the VisitScoreResource endpoint. It has no Visit Form object or field permission, so it cannot edit visits through the REST or SOAP sObject APIs (visit-ai-scoring D7).</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Visit AI Integration</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+</PermissionSet>

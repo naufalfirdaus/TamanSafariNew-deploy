@@ -1,0 +1,103 @@
+<template>
+  <div class="completion-container">
+    <div class="celebration-hero">
+      <div class="hero-icon-circle">
+        <lightning-icon icon-name="utility:success" size="large" class="icon-hero-success"></lightning-icon>
+      </div>
+      <h1 class="hero-title slds-m-top_small">{labels.completeTitle}</h1>
+      <p class="hero-duration">{durationText}</p>
+    </div>
+
+    <!-- Telemetry Score Breakdown Card -->
+    <div class="score-card slds-m-top_medium">
+      <h2 class="card-title">{labels.scoreBreakdownTitle}</h2>
+
+      <div class="score-rows slds-m-top_small">
+        <div class="score-row">
+          <span class="score-name">{labels.scoreLocation}</span>
+          <span class="score-badge">{locationScoreText}</span>
+        </div>
+
+        <div class="score-row">
+          <span class="score-name">{labels.scoreDuration}</span>
+          <span class="score-badge">{durationScoreText}</span>
+        </div>
+
+        <div class="score-row">
+          <span class="score-name">{labels.scoreProof}</span>
+          <span class="score-badge">{proofScoreText}</span>
+        </div>
+
+        <div class="score-divider"></div>
+
+        <div class="score-row score-row--total">
+          <span class="score-name-total">{labels.scoreTotal}</span>
+          <span class="score-badge-total">{totalScoreText}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Address & Location Matching Section -->
+    <template if:true={hasAddressSummary}>
+      <div class="records-card slds-m-top_medium">
+        <div class="section-header-row">
+          <h3 class="card-title">Verifikasi Lokasi Check-In &amp; Check-Out:</h3>
+          <span class={addressMatchBadgeClass}>{addressMatchBadgeText}</span>
+        </div>
+
+        <div class="address-matching-list slds-m-top_small">
+          <div class="address-item">
+            <span class="address-item-label">Alamat Check-In:</span>
+            <p class="address-item-value">{checkInAddressText}</p>
+          </div>
+          <div class="address-item slds-m-top_x-small">
+            <span class="address-item-label">Alamat Check-Out:</span>
+            <p class="address-item-value">{checkOutAddressText}</p>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- Related Records Section -->
+    <template if:true={hasRelatedRecords}>
+      <div class="records-card slds-m-top_medium">
+        <h3 class="card-title">Rekord Terkait Terbentuk:</h3>
+
+        <div class="records-list slds-m-top_small">
+          <template if:true={completionResult.eventId}>
+            <div class="record-item">
+              <lightning-icon icon-name="standard:event" size="small" class="slds-m-right_x-small"></lightning-icon>
+              <a href="javascript:void(0)" data-id={completionResult.eventId} onclick={handleNavigateRecord} class="record-link">
+                Aktivitas Kalender (Event)
+              </a>
+            </div>
+          </template>
+
+          <template if:true={completionResult.opportunityId}>
+            <div class="record-item">
+              <lightning-icon icon-name="standard:opportunity" size="small" class="slds-m-right_x-small"></lightning-icon>
+              <a href="javascript:void(0)" data-id={completionResult.opportunityId} onclick={handleNavigateRecord} class="record-link">
+                Peluang Penjualan (Opportunity)
+              </a>
+            </div>
+          </template>
+
+          <template if:true={completionResult.accountId}>
+            <div class="record-item">
+              <lightning-icon icon-name="standard:account" size="small" class="slds-m-right_x-small"></lightning-icon>
+              <a href="javascript:void(0)" data-id={completionResult.accountId} onclick={handleNavigateRecord} class="record-link">
+                Akun Perusahaan
+              </a>
+            </div>
+          </template>
+        </div>
+      </div>
+    </template>
+
+    <div class="new-visit-wrap slds-m-top_large">
+      <button type="button" class="btn-new-visit" onclick={handleNewVisit}>
+        {labels.btnNewVisit}
+      </button>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,155 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef1"
+      },
+      "LastName": "Naufal Firdaus - Test TS",
+      "FirstName": "Ahmad",
+      "Salutation": "Mr.",
+      "RecordTypeId": "012jV00000050lrQAA",
+      "Title": "Marketing Team",
+      "Company": "Interdesign, PT",
+      "Street": "Jl.Idris no.34, RT.3/RW.11, Kecamatan Kebun Jeruk",
+      "City": "Jakarta Barat",
+      "State": "Jakarta Raya",
+      "PostalCode": "11540",
+      "Country": "ID",
+      "Phone": "085156626140",
+      "Email": "naufalfirdausa@interdesign.com",
+      "LeadSource": "Partner",
+      "Status": "Qualified",
+      "Industry": "Construction",
+      "CurrencyIsoCode": "USD",
+      "NumberOfEmployees": 100,
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": false,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef2"
+      },
+      "LastName": "Emon",
+      "FirstName": "Bintang",
+      "Salutation": "Mr.",
+      "RecordTypeId": "012jV00000050lrQAA",
+      "Title": "SPV IT",
+      "Company": "Code Development Indonesia, PT",
+      "Street": "1-41 Jalan Asia Afrika",
+      "PostalCode": "10270",
+      "Country": "Indonesia",
+      "Phone": "08111207168",
+      "Email": "bintang.emon@code.id",
+      "LeadSource": "Partner",
+      "Status": "New",
+      "Industry": "Consulting",
+      "Rating": "Warm",
+      "CurrencyIsoCode": "USD",
+      "AnnualRevenue": 1000000,
+      "NumberOfEmployees": 300,
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": false,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef3"
+      },
+      "LastName": "Wijaya",
+      "FirstName": "Hendra",
+      "RecordTypeId": "012jV0000001TeHQAU",
+      "Title": "HR Director",
+      "Company": "PT Sumber Makmur",
+      "Phone": "081234600001",
+      "Email": "hendra.wijaya@sumbermakmur.example.com",
+      "Status": "New",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": true,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef4"
+      },
+      "LastName": "Astuti",
+      "FirstName": "Yuli",
+      "RecordTypeId": "012jV0000001TeHQAU",
+      "Title": "Compensation & Benefit Manager",
+      "Company": "Bank Nusantara Sejahtera",
+      "Phone": "081234600002",
+      "Email": "yuli.astuti@nusantarasejahtera.example.com",
+      "Status": "Working",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": true,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef5"
+      },
+      "LastName": "Setiawan",
+      "FirstName": "Fajar",
+      "RecordTypeId": "012jV0000001TeHQAU",
+      "Title": "Guru Koordinator",
+      "Company": "SMPN 5 Batang",
+      "Phone": "081234600003",
+      "Email": "fajar.setiawan@smpn5batang.example.com",
+      "Status": "Qualified",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": true,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef6"
+      },
+      "LastName": "Kirana",
+      "FirstName": "Maya",
+      "RecordTypeId": "012jV0000001TeHQAU",
+      "Title": "Kabid Pariwisata",
+      "Company": "Pemprov Jawa Tengah",
+      "Phone": "081234600004",
+      "Email": "maya.kirana@jatengprov.example.com",
+      "Status": "New",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": true,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    },
+    {
+      "attributes": {
+        "type": "Lead",
+        "referenceId": "LeadRef7"
+      },
+      "LastName": "Prakoso",
+      "FirstName": "Dimas",
+      "RecordTypeId": "012jV0000001TeHQAU",
+      "Title": "Event Manager",
+      "Company": "Kreasi Event Nusantara",
+      "Phone": "081234600005",
+      "Email": "dimas.prakoso@kreasievent.example.com",
+      "Status": "Working",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "IsUnreadByOwner": true,
+      "DoNotCall": false,
+      "HasOptedOutOfFax": false
+    }
+  ]
+}

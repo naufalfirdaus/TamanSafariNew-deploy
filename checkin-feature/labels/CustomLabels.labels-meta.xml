@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>GeoLocation_API_Key</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeoLocation_API_Key</shortDescription>
+        <value>41a37272ac3c4c0b83b23eeb588262f2</value>
+    </labels>
+    <labels>
+        <fullName>Geolocation_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Geolocation_URL</shortDescription>
+        <value>https://api.geoapify.com/v1/geocode/reverse?</value>
+    </labels>
+</CustomLabels>

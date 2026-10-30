@@ -1,0 +1,251 @@
+<template>
+  <section class="history-shell">
+
+    <!-- Compact single-line header -->
+    <header class="history-head">
+      <div class="head-identity">
+        <div class="head-icon-wrap">
+          <lightning-icon
+            icon-name="utility:date_time"
+            size="x-small"
+          ></lightning-icon>
+        </div>
+        <div class="head-title-block">
+          <span class="head-title">Check-In History</span>
+          <span class="head-sep">·</span>
+          <span class="head-sub">Recent visits</span>
+        </div>
+      </div>
+
+      <div class="history-actions">
+        <div class="filters" role="tablist" aria-label="History filter">
+          <template for:each={filterOptions} for:item="f">
+            <button
+              key={f.value}
+              type="button"
+              class={f.className}
+              data-value={f.value}
+              onclick={handleFilterClick}
+              title={f.label}
+            >
+              {f.label}
+            </button>
+          </template>
+        </div>
+
+        <button
+          type="button"
+          class="icon-btn"
+          onclick={handleRefresh}
+          title="Refresh history"
+          aria-label="Refresh history"
+        >
+          <lightning-icon
+            icon-name="utility:refresh"
+            size="x-small"
+          ></lightning-icon>
+        </button>
+      </div>
+    </header>
+
+    <!-- Content body -->
+    <div class="history-body">
+
+      <template if:true={isLoading}>
+        <div class="state-box">
+          <lightning-spinner
+            size="small"
+            alternative-text="Loading"
+          ></lightning-spinner>
+        </div>
+      </template>
+
+      <template if:true={error}>
+        <div class="state-box state-box--error">{error}</div>
+      </template>
+
+      <template if:true={hasRows}>
+        <div class="timeline">
+          <template for:each={rows} for:item="r">
+            <article key={r.rowKey} class="timeline-item">
+              <div class="timeline-rail">
+                <span class="timeline-dot"></span>
+                <span class="timeline-line"></span>
+              </div>
+
+              <div class="timeline-content">
+
+                <!-- Card header: subject + status badges -->
+                <div class="card-header">
+                  <button
+                    type="button"
+                    class="event-link"
+                    data-id={r.eventId}
+                    onclick={openEvent}
+                    title="Open Event"
+                  >
+                    {r.subject}
+                  </button>
+
+                  <div class="badges">
+                    <template if:true={r.hasPhoto}>
+                      <span class="camera-pill" title="Photo attached">
+                        <lightning-icon
+                          icon-name="utility:image"
+                          size="xx-small"
+                        ></lightning-icon>
+                      </span>
+                    </template>
+                    <span class={r.insideClass}>{r.insideLabel}</span>
+                    <template if:true={r.hasCheckOutInsideBadge}>
+                      <span class={r.checkOutInsideClass}
+                        >{r.checkOutInsideLabel}</span
+                      >
+                    </template>
+                    <span class={r.openStateClass}>{r.openStateLabel}</span>
+                  </div>
+                </div>
+
+                <!-- Visit flow: check-in ←duration→ check-out -->
+                <div class="visit-row">
+                  <!-- Check-In point -->
+                  <div class="visit-point">
+                    <div class="vp-icon vp-icon--in">
+                      <lightning-icon
+                        icon-name="utility:checkin"
+                        size="xx-small"
+                      ></lightning-icon>
+                    </div>
+                    <div class="vp-body">
+                      <div class="vp-label">Check-In</div>
+                      <div class="vp-time">
+                        <lightning-formatted-date-time
+                          value={r.checkInAt}
+                          year="numeric"
+                          month="short"
+                          day="2-digit"
+                          hour="2-digit"
+                          minute="2-digit"
+                        ></lightning-formatted-date-time>
+                      </div>
+                      <div class="vp-sub">{r.checkInDistanceText}</div>
+                    </div>
+                  </div>
+
+                  <!-- Middle connector + duration -->
+                  <div class="visit-mid">
+                    <template if:true={r.durationLabel}>
+                      <span class="dur-chip">
+                        <lightning-icon
+                          icon-name="utility:clock"
+                          size="xx-small"
+                        ></lightning-icon>
+                        {r.durationLabel}
+                      </span>
+                    </template>
+                    <div class="visit-arrow"></div>
+                  </div>
+
+                  <!-- Check-Out point -->
+                  <div class="visit-point">
+                    <div class="vp-icon vp-icon--out">
+                      <lightning-icon
+                        icon-name="utility:checkin"
+                        size="xx-small"
+                      ></lightning-icon>
+                    </div>
+                    <div class="vp-body">
+                      <div class="vp-label">Check-Out</div>
+                      <template if:true={r.checkOutAt}>
+                        <div class="vp-time">
+                          <lightning-formatted-date-time
+                            value={r.checkOutAt}
+                            year="numeric"
+                            month="short"
+                            day="2-digit"
+                            hour="2-digit"
+                            minute="2-digit"
+                          ></lightning-formatted-date-time>
+                        </div>
+                        <div class="vp-sub">{r.checkOutDistanceText}</div>
+                      </template>
+                      <template if:false={r.checkOutAt}>
+                        <div class="vp-time vp-time--muted">Still open</div>
+                        <div class="vp-sub">No check-out yet</div>
+                      </template>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Action buttons -->
+                <div class="item-actions">
+                  <template if:true={r.hasCheckInCoords}>
+                    <button
+                      type="button"
+                      class="action-btn"
+                      data-lat={r.checkInLat}
+                      data-lng={r.checkInLng}
+                      data-label="Check-In"
+                      onclick={openMap}
+                      title="Open Check-In in Maps"
+                    >
+                      <lightning-icon
+                        icon-name="utility:location"
+                        size="xx-small"
+                      ></lightning-icon>
+                      <span>Check-In Map</span>
+                    </button>
+                  </template>
+
+                  <template if:true={r.hasCheckOutCoords}>
+                    <button
+                      type="button"
+                      class="action-btn"
+                      data-lat={r.checkOutLat}
+                      data-lng={r.checkOutLng}
+                      data-label="Check-Out"
+                      onclick={openMap}
+                      title="Open Check-Out in Maps"
+                    >
+                      <lightning-icon
+                        icon-name="utility:location"
+                        size="xx-small"
+                      ></lightning-icon>
+                      <span>Check-Out Map</span>
+                    </button>
+                  </template>
+
+                  <button
+                    type="button"
+                    class="action-btn action-btn--ghost"
+                    data-id={r.eventId}
+                    onclick={openEvent}
+                    title="Open Event"
+                  >
+                    <lightning-icon
+                      icon-name="utility:new_window"
+                      size="xx-small"
+                    ></lightning-icon>
+                    <span>Open Event</span>
+                  </button>
+                </div>
+
+              </div>
+            </article>
+          </template>
+        </div>
+      </template>
+
+      <template if:false={isLoading}>
+        <template if:false={hasRows}>
+          <template if:false={error}>
+            <div class="state-box">
+              Belum ada history check-in untuk filter ini.
+            </div>
+          </template>
+        </template>
+      </template>
+
+    </div>
+  </section>
+</template>

@@ -1,0 +1,68 @@
+<template>
+  <lightning-modal-header label="Capture Photo"></lightning-modal-header>
+
+  <lightning-modal-body>
+    <!-- Live camera -->
+    <template if:false={hasSnapshot}>
+      <div class="cam">
+        <video class="cam__video" autoplay playsinline muted></video>
+      </div>
+      <div class="slds-m-top_small slds-text-body_small slds-text-color_weak">
+        If camera is blocked, use file upload below 👇
+      </div>
+      <input
+        class="slds-m-top_x-small"
+        type="file"
+        accept="image/*"
+        capture="environment"
+        onchange={handleFilePick}
+      />
+    </template>
+
+    <!-- Preview (fit/contain) -->
+    <template if:true={hasSnapshot}>
+      <div class="preview-wrap">
+        <img class="preview" src={snapshotUrl} alt="preview" />
+      </div>
+      <div class="slds-m-top_x-small slds-text-body_small slds-text-color_weak">
+        This is a preview. Full image will be saved to Files.
+      </div>
+    </template>
+
+    <!-- Hidden canvas for snapshot -->
+    <canvas class="hide"></canvas>
+
+    <template if:true={error}>
+      <div class="slds-m-top_small slds-text-color_error">{error}</div>
+    </template>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <lightning-button
+      variant="neutral"
+      label="Cancel"
+      onclick={handleCancel}
+    ></lightning-button>
+    <template if:false={hasSnapshot}>
+      <lightning-button
+        variant="brand"
+        label="Snap"
+        onclick={handleSnap}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+    <template if:true={hasSnapshot}>
+      <lightning-button
+        variant="neutral"
+        label="Retake"
+        onclick={handleRetake}
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label="Use Photo"
+        onclick={handleConfirm}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+  </lightning-modal-footer>
+</template>

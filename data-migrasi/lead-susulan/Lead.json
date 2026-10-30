@@ -1,0 +1,41 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef1"
+            },
+            "FirstName": "Ahmad",
+            "LastName": "Naufal Firdaus",
+            "Company": "Maju Jaya, PT",
+            "Status": "New",
+            "Email": "naufal@gmail.com",
+            "Phone": "085621222762",
+            "LeadSource": "Partner",
+            "Industry": "Agriculture",
+            "Street": "Jalan Raya Mentaras",
+            "City": "Gresik",
+            "State": "Jawa Timur",
+            "PostalCode": "61155",
+            "Country": "Indonesia",
+            "Rating": "Warm",
+            "NumberOfEmployees": 10
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "LeadRef2"
+            },
+            "FirstName": "Naufal",
+            "LastName": "Firdaus",
+            "Company": "Garutmerdeka.inc",
+            "Status": "New",
+            "Email": "naufalfirdausa@gmail.com",
+            "Phone": "085156626140",
+            "Title": "Marketing staff",
+            "LeadSource": "Partner",
+            "Industry": "Education",
+            "Rating": "Warm"
+        }
+    ]
+}

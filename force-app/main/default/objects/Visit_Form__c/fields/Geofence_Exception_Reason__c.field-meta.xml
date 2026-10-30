@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geofence_Exception_Reason__c</fullName>
+    <label>Geofence Exception Reason</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weak GPS / Indoor Tower</fullName>
+                <default>false</default>
+                <label>Weak GPS / Indoor Tower</label>
+            </value>
+            <value>
+                <fullName>Met at External Cafe/Restaurant</fullName>
+                <default>false</default>
+                <label>Met at External Cafe/Restaurant</label>
+            </value>
+            <value>
+                <fullName>Different Branch/Building</fullName>
+                <default>false</default>
+                <label>Different Branch/Building</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

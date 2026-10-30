@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types><members>Affiliate_Code__c</members><members>Commission_Statement__c</members><members>Redemption__c</members><name>CustomObject</name></types>
+    <types><members>Affiliate_Code__c-Affiliate Code Layout</members><members>Commission_Statement__c-Commission Statement Layout</members><members>Redemption__c-Redemption Layout</members><name>Layout</name></types>
+    <types><members>Affiliate_Code__c</members><name>CustomTab</name></types>
+    <types><members>affiliateCommissionSummary</members><members>guestRedeemVoucher</members><name>LightningComponentBundle</name></types>
+    <types><members>GuestRedeemVoucher</members><members>QuoteTemplatePDF</members><members>QuoteTemplatePDFPreview</members><name>ApexPage</name></types>
+    <types><members>AffiliateCommissionSummaryController</members><members>GuestRedeemVoucherController</members><members>QuoteTemplatePDFController</members><name>ApexClass</name></types>
+    <types><members>TamanSafariLogoDark</members><name>StaticResource</name></types>
+    <types><members>Redeem_Affiliate_Voucher</members><members>Request_New_Affiliate_Code</members><name>Flow</name></types>
+    <types><members>Taman_Safari_Affiliate_Portal_View</members><members>Taman_Safari_Guest_Redeem_Access</members><name>PermissionSet</name></types>
+    <version>67.0</version>
+</Package>

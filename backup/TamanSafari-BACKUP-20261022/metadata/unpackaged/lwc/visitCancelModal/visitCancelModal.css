@@ -1,0 +1,97 @@
+:host {
+  /* Taman Safari Brand Palette */
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-accent-2: #11532f;
+  --slds-g-color-surface-container-1: #ffffff;
+  --slds-g-color-surface-container-2: #f4f8f5;
+  --slds-g-color-on-surface-1: #11532f;
+  --slds-g-color-on-surface-2: #334139;
+  --slds-g-color-border-1: #d5e0d8;
+  --slds-g-color-error-1: #ea001e;
+  --slds-g-color-error-container-1: #fee8e6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-accent-2: #45c65a;
+    --slds-g-color-surface-container-1: #1b221e;
+    --slds-g-color-surface-container-2: #232c27;
+    --slds-g-color-on-surface-1: #f4f8f5;
+    --slds-g-color-on-surface-2: #c4d1c9;
+    --slds-g-color-border-1: #2e3a33;
+    --slds-g-color-error-1: #fe5c5c;
+    --slds-g-color-error-container-1: #3e1214;
+  }
+}
+
+.cancel-modal-content {
+  padding: 0.5rem 0;
+}
+
+.alert-banner--destructive {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  border-radius: var(--slds-g-radius-border-2, 0.5rem);
+  background-color: var(--slds-g-color-error-container-1, #fee8e6);
+  border: 1px solid var(--slds-g-color-error-1, #ea001e);
+}
+
+.icon-destructive {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-error-1, #ea001e);
+  flex-shrink: 0;
+}
+
+.body-text {
+  font-size: 0.875rem;
+  color: var(--slds-g-color-on-surface-1, #181818);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.section-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--slds-g-color-on-surface-2, #334139);
+  display: block;
+}
+
+.pill-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.touch-pill {
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  border-radius: var(--slds-g-radius-border-2, 0.5rem);
+  border: 1.5px solid var(--slds-g-color-border-1, #d5e0d8);
+  background-color: var(--slds-g-color-surface-container-1, #ffffff);
+  color: var(--slds-g-color-on-surface-1, #11532f);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  transition: all 0.15s ease-in-out;
+}
+
+.touch-pill:hover {
+  background-color: var(--slds-g-color-surface-container-2, #f4f8f5);
+}
+
+.touch-pill--selected {
+  border-color: var(--slds-g-color-error-1, #ea001e);
+  background-color: var(--slds-g-color-error-container-1, #fee8e6);
+  color: var(--slds-g-color-error-1, #ea001e);
+  box-shadow: 0 0 0 1px var(--slds-g-color-error-1, #ea001e);
+}
+
+.pill-check-icon {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-error-1, #ea001e);
+}

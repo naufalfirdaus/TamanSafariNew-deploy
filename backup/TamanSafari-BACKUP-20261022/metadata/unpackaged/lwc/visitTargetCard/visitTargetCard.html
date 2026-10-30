@@ -1,0 +1,87 @@
+<template>
+  <div class="target-card">
+    <div class="target-card__header">
+      <div class="target-type-badge">
+        {targetTypeLabel}
+      </div>
+      <div class={statusBadgeClass}>
+        <span class="status-dot"></span>
+        <span>{statusLabel}</span>
+      </div>
+    </div>
+
+    <!-- Toggle button di bawah Status Lokasi Terverifikasi -->
+    <template if:true={showLockToggle}>
+      <div class="location-lock-bar">
+        <div class="location-lock-toggle-row">
+          <div class="location-lock-info">
+            <lightning-icon
+              icon-name={lockIconName}
+              size="x-small"
+              class={lockIconClass}
+            ></lightning-icon>
+            <span class="location-lock-title">{lockStatusText}</span>
+          </div>
+          <lightning-input
+            type="toggle"
+            variant="label-hidden"
+            label="Kunci Lokasi"
+            checked={isLocationLocked}
+            message-toggle-active="Terkunci"
+            message-toggle-inactive="Terbuka"
+            onchange={handleToggleLock}
+            class="lock-toggle-input"
+          ></lightning-input>
+        </div>
+        <p class="location-lock-hint">{lockHintText}</p>
+      </div>
+    </template>
+
+    <div class="target-card__body">
+      <h2 class="target-name">{targetName}</h2>
+      <template if:true={hasAddress}>
+        <p class="target-address">{effectiveAddress}</p>
+      </template>
+
+      <template if:true={hasMapMarkers}>
+        <div class="target-map-container slds-m-top_small slds-m-bottom_small">
+          <lightning-map
+            map-markers={mapMarkers}
+            zoom-level={zoomLevel}
+            list-view="hidden"
+          ></lightning-map>
+        </div>
+      </template>
+
+      <template if:true={isUnlocated}>
+        <div class="unlocated-alert slds-m-top_small">
+          <p class="unlocated-text">
+            {labels.unlocatedHint}
+          </p>
+          <div class="unlocated-actions slds-m-top_x-small">
+            <button
+              type="button"
+              class="btn-action btn-action--secondary"
+              onclick={handleUpdateAddress}
+            >
+              {labels.actionUpdateAddress}
+            </button>
+            <button
+              type="button"
+              class="btn-action btn-action--primary"
+              onclick={handlePinLocation}
+            >
+              {labels.actionPinLocation}
+            </button>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <template if:true={gpsAccuracy}>
+      <div class="target-card__footer">
+        <span class="accuracy-text">{accuracyText}</span>
+      </div>
+    </template>
+  </div>
+</template>

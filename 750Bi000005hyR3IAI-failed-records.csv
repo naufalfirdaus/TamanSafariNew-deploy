@@ -1,0 +1,443 @@
+"sf__Id","sf__Error",Id
+"01uBi000000zKHxIAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKHx, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKHxIAM"
+"01uBi000000zKHyIAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKHy, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKHyIAM"
+"01uBi000000zKHzIAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKHz, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKHzIAM"
+"01uBi000000zKI0IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI0, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI0IAM"
+"01uBi000000zKI1IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI1, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI1IAM"
+"01uBi000000zKI2IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI2, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI2IAM"
+"01uBi000000zKI3IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI3, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI3IAM"
+"01uBi000000zKI4IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI4, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI4IAM"
+"01uBi000000zKI5IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI5, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI5IAM"
+"01uBi000000zKI6IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI6, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI6IAM"
+"01uBi000000zKI7IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI7, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI7IAM"
+"01uBi000000zKI8IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI8, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI8IAM"
+"01uBi000000zKI9IAM","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKI9, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKI9IAM"
+"01uBi000000zKIAIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIA, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIAIA2"
+"01uBi000000zKIBIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIB, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIBIA2"
+"01uBi000000zKICIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIC, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKICIA2"
+"01uBi000000zKIDIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKID, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIDIA2"
+"01uBi000000zKIEIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIE, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIEIA2"
+"01uBi000000zKIFIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIF, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIFIA2"
+"01uBi000000zKIGIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIG, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIGIA2"
+"01uBi000000zKIHIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIH, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIHIA2"
+"01uBi000000zKIIIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKII, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIIIA2"
+"01uBi000000zKIJIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIJ, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIJIA2"
+"01uBi000000zKIKIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIK, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIKIA2"
+"01uBi000000zKILIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIL, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKILIA2"
+"01uBi000000zKIMIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIM, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIMIA2"
+"01uBi000000zKINIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIN, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKINIA2"
+"01uBi000000zKIOIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIO, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIOIA2"
+"01uBi000000zKIPIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIP, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIPIA2"
+"01uBi000000zKIQIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIQ, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIQIA2"
+"01uBi000000zKIRIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIR, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIRIA2"
+"01uBi000000zKISIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIS, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKISIA2"
+"01uBi000000zKITIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIT, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKITIA2"
+"01uBi000000zKIUIA2","UNKNOWN_EXCEPTION:common.exception.SqlNoDataFoundException: ERROR: query returned no rows
+  Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+
+SQLException while executing plsql statement: {call cAccess.check_entity_access_proc_ncu(?,?,?,?,?,?,gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?),gUtil.gtypes_bool_to_boolean(?))}(EXCLUDED, EXCLUDED, 01uBi000000zKIU, EXCLUDED, true, false, true, false, true, false)
+
+SQLState: P0002
+Where: PL/sdb function dopey.cproductaccess.check_pb_entry_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,integer,character varying,character) line 16 (SFSQL 1020) at SQL statement
+PL/sdb function dopey.caccess.check_entity_access_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 737 (SFSQL 3639) at RETURN
+PL/sdb function dopey.caccess.check_entity_access_proc_ncu(dopey.userinfo,dopey.btsettingsinfo,character varying,numeric,character varying,character varying,boolean,boolean,boolean,boolean) line 8 (SFSQL 3365) at assignment
+File: plsdb_exec.c, Routine: exec_stmt_execsql_body, Line: 4292
+; [conn=STANDARD:1:1:1913254:1:zkEFZijnTQOyXjovMUo8wA:1792121155272:1792121155272]:--","01uBi000000zKIUIA2"

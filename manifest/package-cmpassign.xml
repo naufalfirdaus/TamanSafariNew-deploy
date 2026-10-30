@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types><members>Admin</members><name>Profile</name></types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Account-Account Layout - Partner Taman Safari</members>
+        <members>Account-Account Layout - Taman Safari</members>
+        <members>Account-SDO - Account</members>
+        <members>Account-SDO - Account Community</members>
+        <members>Account-SDO - Partner Account</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.Account_Taman_Safari</members>
+        <members>Account.Account_Pertner_TS</members>
+        <members>Account.Business_Account</members>
+        <members>Account.SDO_Account_Partner</members>
+        <members>Account.SDO_Account_Simple</members>
+        <name>RecordType</name>
+    </types>
+    <version>67.0</version>
+</Package>

@@ -1,0 +1,14 @@
+[
+    {
+        "sobject": "Opportunity",
+        "files": [
+            "TS_Sales-Opportunity.json"
+        ]
+    },
+    {
+        "sobject": "Quote",
+        "files": [
+            "TS_Sales-Quote.json"
+        ]
+    }
+]

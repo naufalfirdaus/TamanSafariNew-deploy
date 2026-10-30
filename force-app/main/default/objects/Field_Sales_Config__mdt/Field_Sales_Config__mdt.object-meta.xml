@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Governance Field Visit. Satu record bernama Default.</description>
+    <label>Field Sales Config</label>
+    <pluralLabel>Field Sales Configs</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

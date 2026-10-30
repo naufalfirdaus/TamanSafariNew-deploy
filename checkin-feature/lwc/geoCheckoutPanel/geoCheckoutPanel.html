@@ -1,0 +1,71 @@
+<template>
+  <section class="checkout-shell">
+
+    <!-- Compact single-line header -->
+    <header class="checkout-head">
+      <div class="head-identity">
+        <div class="head-icon-wrap">
+          <lightning-icon
+            icon-name="utility:checkin"
+            size="x-small"
+          ></lightning-icon>
+        </div>
+        <div class="head-title-block">
+          <span class="head-title">Geo Check-Out</span>
+          <span class="head-sep">·</span>
+          <span class="head-sub">{parentName}</span>
+        </div>
+      </div>
+
+      <div class="head-trail">
+        <span class="stat-inline">{radiusDisplay}m · {distanceDisplay}m</span>
+        <span class={statusPillClass}>{statusText}</span>
+        <lightning-button
+          variant="destructive"
+          label={checkOutLabel}
+          title="Check-Out"
+          onclick={handleCheckOut}
+          disabled={isDisabledCheckOut}
+          class="head-cta"
+        ></lightning-button>
+      </div>
+    </header>
+
+    <!-- Map: full-width hero -->
+    <div class="map-hero">
+      <lightning-map
+        map-markers={mapMarkers}
+        zoom-level="16"
+        list-view="visible"
+        markers-title="Lokasi"
+      ></lightning-map>
+    </div>
+
+    <!-- Error inline, below map -->
+    <template if:true={error}>
+      <div class="inline-alert">{error}</div>
+    </template>
+
+    <!-- Sub-actions strip -->
+    <div class="sub-actions">
+      <div class="sub-actions__left">
+        <button
+          type="button"
+          class="sub-btn"
+          onclick={openDirections}
+          title="Open directions in Maps"
+        >
+          <lightning-icon icon-name="utility:world" size="xx-small"></lightning-icon>
+          <span>Directions</span>
+        </button>
+      </div>
+
+      <div class="sub-actions__right">
+        <template if:true={isChecking}>
+          <span class="processing-tag">Processing...</span>
+        </template>
+      </div>
+    </div>
+
+  </section>
+</template>

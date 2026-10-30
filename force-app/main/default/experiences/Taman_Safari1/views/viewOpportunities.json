@@ -1,0 +1,61 @@
+{
+  "appPageId" : "7157b2a7-1483-4997-a9cb-8cd980892b08",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "e7028a29-ab03-4dbc-b987-6431e7d8df06",
+  "label" : "View Opportunities",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b723cf4f-1fb3-475f-be47-89fbdd829f17",
+          "columns" : [ {
+            "UUID" : "16bfa8f4-39a5-4ade-b2a2-b6479bfeb4a1",
+            "columnKey" : "col1",
+            "columnName" : "Opportunity List Column",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "objectApiName" : "Opportunity",
+                "sfdc:identifier" : "forceCommunity_pipelineinspection_opportunity"
+              },
+              "fqn" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b723cf4f-1fb3-475f-be47-89fbdd829f17",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "objectApiName" : "Opportunity"
+          },
+          "componentName" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer",
+          "id" : "155aa263-3ab8-447a-8d36-eb76efd0c6b0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "16bfa8f4-39a5-4ade-b2a2-b6479bfeb4a1",
+        "regionLabel" : "Opportunity List Column",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dc01b71e-3348-4dca-9a2e-07aa83d72684",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "opportunity-list"
+}

@@ -1,0 +1,13 @@
+{
+  "klien": "tamansafari",
+  "orgs": [
+    "TamanSafari"
+  ],
+  "deck": {
+    "bahasa": "en",
+    "template": "label",
+    "mata_uang": "USD",
+    "bahasa_demo": "en"
+  },
+  "initialized_at": "2026-10-22T11:43:40"
+}

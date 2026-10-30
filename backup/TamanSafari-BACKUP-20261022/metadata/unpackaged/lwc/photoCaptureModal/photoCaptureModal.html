@@ -1,0 +1,69 @@
+<template>
+  <lightning-modal-header label={labels.title}></lightning-modal-header>
+
+  <lightning-modal-body>
+    <!-- Live camera -->
+    <template if:false={hasSnapshot}>
+      <div class="cam">
+        <video class="cam__video" autoplay playsinline muted></video>
+      </div>
+    </template>
+
+    <!-- Preview (fit/contain) -->
+    <template if:true={hasSnapshot}>
+      <div class="preview-wrap">
+        <img class="preview" src={snapshotUrl} alt="preview" />
+      </div>
+      <div class="slds-m-top_x-small slds-text-body_small preview-text">
+        {labels.previewHint}
+      </div>
+    </template>
+
+    <!-- Hidden canvas for snapshot -->
+    <canvas class="hide"></canvas>
+
+    <template if:true={error}>
+      <div class="slds-m-top_small slds-p-around_small slds-text-body_small error-banner">
+        {error}
+      </div>
+    </template>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <lightning-button
+      variant="neutral"
+      label={labels.cancel}
+      onclick={handleCancel}
+    ></lightning-button>
+    <template if:true={error}>
+      <lightning-button
+        variant="brand"
+        label={labels.retryCamera}
+        onclick={handleRetryCamera}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+    <template if:false={hasSnapshot}>
+      <lightning-button
+        variant="brand"
+        label={labels.snap}
+        onclick={handleSnap}
+        disabled={isSnapDisabled}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+    <template if:true={hasSnapshot}>
+      <lightning-button
+        variant="neutral"
+        label={labels.retake}
+        onclick={handleRetake}
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label={labels.save}
+        onclick={handleConfirm}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+  </lightning-modal-footer>
+</template>

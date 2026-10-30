@@ -1,0 +1,224 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef1"
+      },
+      "OpportunityId": "@OpportunityRef2",
+      "PricebookEntryId": "01ujV0000005vIcQAI",
+      "Quantity": 10,
+      "UnitPrice": 350000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef2"
+      },
+      "OpportunityId": "@OpportunityRef2",
+      "PricebookEntryId": "01ujV0000005vIkQAI",
+      "Quantity": 10,
+      "UnitPrice": 1500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef3"
+      },
+      "OpportunityId": "@OpportunityRef3",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef4"
+      },
+      "OpportunityId": "@OpportunityRef4",
+      "PricebookEntryId": "01ujV0000005vIcQAI",
+      "Quantity": 10,
+      "UnitPrice": 350000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef5"
+      },
+      "OpportunityId": "@OpportunityRef4",
+      "PricebookEntryId": "01ujV0000005vIeQAI",
+      "Quantity": 10,
+      "UnitPrice": 75000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef6"
+      },
+      "OpportunityId": "@OpportunityRef5",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef7"
+      },
+      "OpportunityId": "@OpportunityRef5",
+      "PricebookEntryId": "01ujV0000005vIeQAI",
+      "Quantity": 10,
+      "UnitPrice": 75000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef8"
+      },
+      "OpportunityId": "@OpportunityRef6",
+      "PricebookEntryId": "01ujV0000005vIdQAI",
+      "Quantity": 10,
+      "UnitPrice": 950000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef9"
+      },
+      "OpportunityId": "@OpportunityRef6",
+      "PricebookEntryId": "01ujV0000005vIfQAI",
+      "Quantity": 10,
+      "UnitPrice": 2500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef10"
+      },
+      "OpportunityId": "@OpportunityRef7",
+      "PricebookEntryId": "01ujV0000005vIfQAI",
+      "Quantity": 10,
+      "UnitPrice": 2500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef11"
+      },
+      "OpportunityId": "@OpportunityRef7",
+      "PricebookEntryId": "01ujV0000005vIjQAI",
+      "Quantity": 10,
+      "UnitPrice": 180000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef12"
+      },
+      "OpportunityId": "@OpportunityRef8",
+      "PricebookEntryId": "01ujV0000005vIhQAI",
+      "Quantity": 10,
+      "UnitPrice": 400000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef13"
+      },
+      "OpportunityId": "@OpportunityRef8",
+      "PricebookEntryId": "01ujV0000005vIbQAI",
+      "Quantity": 10,
+      "UnitPrice": 500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef14"
+      },
+      "OpportunityId": "@OpportunityRef9",
+      "PricebookEntryId": "01ujV0000005vIiQAI",
+      "Quantity": 10,
+      "UnitPrice": 200000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef15"
+      },
+      "OpportunityId": "@OpportunityRef10",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef16"
+      },
+      "OpportunityId": "@OpportunityRef11",
+      "PricebookEntryId": "01ujV0000005vIdQAI",
+      "Quantity": 10,
+      "UnitPrice": 950000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef17"
+      },
+      "OpportunityId": "@OpportunityRef11",
+      "PricebookEntryId": "01ujV0000005vIbQAI",
+      "Quantity": 10,
+      "UnitPrice": 500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef18"
+      },
+      "OpportunityId": "@OpportunityRef11",
+      "PricebookEntryId": "01ujV0000005vIkQAI",
+      "Quantity": 10,
+      "UnitPrice": 1500000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef19"
+      },
+      "OpportunityId": "@OpportunityRef12",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef20"
+      },
+      "OpportunityId": "@OpportunityRef13",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef21"
+      },
+      "OpportunityId": "@OpportunityRef15",
+      "PricebookEntryId": "01ujV0000005vIiQAI",
+      "Quantity": 2,
+      "UnitPrice": 200000
+    },
+    {
+      "attributes": {
+        "type": "OpportunityLineItem",
+        "referenceId": "OpportunityLineItemRef22"
+      },
+      "OpportunityId": "@OpportunityRef16",
+      "PricebookEntryId": "01ujV0000005vIiQAI",
+      "Quantity": 5,
+      "UnitPrice": 200000
+    }
+  ]
+}

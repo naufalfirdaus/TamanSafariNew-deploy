@@ -1,0 +1,225 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef1"
+      },
+      "Name": "tiket.com",
+      "Type": "Partner",
+      "RecordTypeId": "012jV00000050llQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef2"
+      },
+      "Name": "Cipta Travel, PT",
+      "RecordTypeId": "012jV00000050llQAA",
+      "BillingStreet": "Jalan Villa Bandung Indah",
+      "BillingCity": "Bogor",
+      "BillingState": "Jawa Barat",
+      "BillingCountry": "ID",
+      "Phone": "082123768555",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef3"
+      },
+      "Name": "Warung Info Wisata Batang",
+      "Type": "Partner",
+      "RecordTypeId": "012jV00000050llQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef4"
+      },
+      "Name": "@explorebatang (TikTok Creator)",
+      "Type": "Partner",
+      "RecordTypeId": "012jV00000050llQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef5"
+      },
+      "Name": "Interdesign, PT",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingStreet": "Jl.Idris no.34, RT.3/RW.11, Kecamatan Kebun Jeruk",
+      "BillingCity": "Jakarta Barat",
+      "BillingState": "Jakarta Raya",
+      "BillingPostalCode": "11540",
+      "BillingCountry": "ID",
+      "Phone": "085156626140",
+      "Industry": "Construction",
+      "NumberOfEmployees": 100,
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false,
+      "AccountSource": "Partner"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef6"
+      },
+      "Name": "Nusantara Event Organizer",
+      "Type": "Mid-Market",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingCity": "Semarang",
+      "BillingState": "Jawa Tengah",
+      "Industry": "Media",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef7"
+      },
+      "Name": "SMA Tunas Bangsa",
+      "Type": "Small Business",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingCity": "Bandung",
+      "BillingState": "Jawa Barat",
+      "Industry": "Education",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef8"
+      },
+      "Name": "Interdesign, PT",
+      "Type": "Enterprise",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingCity": "Jakarta",
+      "BillingState": "DKI Jakarta",
+      "Industry": "Manufacturing",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef9"
+      },
+      "Name": "Retail Customer - Voucher Redemption",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef10"
+      },
+      "Name": "Denpasar Adventure Tour",
+      "Type": "Partner",
+      "RecordTypeId": "012jV00000050llQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef11"
+      },
+      "Name": "Bank Cakrawala",
+      "Type": "Enterprise",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingCity": "Jakarta",
+      "BillingState": "DKI Jakarta",
+      "Industry": "Banking",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef12"
+      },
+      "Name": "Rina Travel Bali",
+      "Type": "Partner",
+      "RecordTypeId": "012jV00000050llQAA",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef13"
+      },
+      "Name": "Dinas Pariwisata Kab. Batang",
+      "Type": "Mid-Market",
+      "RecordTypeId": "012jV00000050lmQAA",
+      "BillingCity": "Batang",
+      "BillingState": "Jawa Tengah",
+      "Industry": "Government",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromRealign": false,
+      "IsActive": false,
+      "PersonHasOptedOutOfEmail": false,
+      "PersonHasOptedOutOfFax": false,
+      "PersonDoNotCall": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Park_Location__c</fullName>
+    <label>Preferred Park Location</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Taman Safari Bogor</fullName>
+                <default>false</default>
+                <label>Taman Safari Bogor</label>
+            </value>
+            <value>
+                <fullName>Taman Safari Prigen</fullName>
+                <default>false</default>
+                <label>Taman Safari Prigen</label>
+            </value>
+            <value>
+                <fullName>Taman Safari Bali</fullName>
+                <default>false</default>
+                <label>Taman Safari Bali</label>
+            </value>
+            <value>
+                <fullName>Beach Safari Batang</fullName>
+                <default>false</default>
+                <label>Beach Safari Batang</label>
+            </value>
+            <value>
+                <fullName>Solo Safari</fullName>
+                <default>false</default>
+                <label>Solo Safari</label>
+            </value>
+            <value>
+                <fullName>Multiple / Undecided</fullName>
+                <default>false</default>
+                <label>Multiple / Undecided</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

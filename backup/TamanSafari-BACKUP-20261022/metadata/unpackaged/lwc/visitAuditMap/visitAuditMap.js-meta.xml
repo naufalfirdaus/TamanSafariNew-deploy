@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>68.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Visit Audit Map</masterLabel>
+    <description>Spatial audit map and manager verification panel for field visits</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
+            <objects>
+                <object>Visit_Form__c</object>
+            </objects>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage,lightning__HomePage">
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

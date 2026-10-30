@@ -1,0 +1,75 @@
+<template>
+  <lightning-modal-header label="Buat Kontak Baru"></lightning-modal-header>
+
+  <lightning-modal-body>
+    <div class="contact-form">
+      <lightning-input
+        type="text"
+        label="Nama Lengkap Kontak *"
+        value={name}
+        onchange={handleNameChange}
+        required
+        class="slds-m-bottom_small"
+      ></lightning-input>
+
+      <lightning-input
+        type="tel"
+        label="Nomor HP / WhatsApp *"
+        value={mobile}
+        onchange={handleMobileChange}
+        required
+        class="slds-m-bottom_small"
+      ></lightning-input>
+
+      <lightning-input
+        type="email"
+        label="Email"
+        value={email}
+        onchange={handleEmailChange}
+        class="slds-m-bottom_small"
+      ></lightning-input>
+
+      <lightning-input
+        type="text"
+        label="Departemen"
+        value={department}
+        onchange={handleDepartmentChange}
+        class="slds-m-bottom_small"
+      ></lightning-input>
+
+      <lightning-input
+        type="text"
+        label="Jabatan / Role"
+        value={role}
+        onchange={handleRoleChange}
+        class="slds-m-bottom_small"
+      ></lightning-input>
+
+      <template if:true={error}>
+        <div class="slds-m-top_x-small slds-p-around_x-small error-banner" role="alert">
+          {error}
+        </div>
+      </template>
+
+      <template if:true={isLoading}>
+        <lightning-spinner size="small" alternative-text="Menyimpan..."></lightning-spinner>
+      </template>
+    </div>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <lightning-button
+      variant="neutral"
+      label={labels.cancel}
+      onclick={handleCancel}
+      disabled={isLoading}
+    ></lightning-button>
+    <lightning-button
+      variant="brand"
+      label={labels.save}
+      onclick={handleSave}
+      disabled={isSaveDisabled}
+      class="slds-m-left_small"
+    ></lightning-button>
+  </lightning-modal-footer>
+</template>

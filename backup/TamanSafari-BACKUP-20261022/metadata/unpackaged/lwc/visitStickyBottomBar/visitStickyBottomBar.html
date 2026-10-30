@@ -1,0 +1,34 @@
+<template>
+  <footer class="sticky-footer">
+    <template if:true={hasSaveStatus}>
+      <div class="save-status-container" onclick={handleSaveStatusClick}>
+        <span class={saveStatusClass}>{saveStatusText}</span>
+      </div>
+    </template>
+
+    <div class="actions-grid">
+      <template if:true={showPrevious}>
+        <button
+          type="button"
+          class="btn-footer btn-footer--secondary"
+          onclick={handlePrevious}
+          disabled={effectiveIsNextDisabled}
+        >
+          {displayPrevLabel}
+        </button>
+      </template>
+
+      <button
+        type="button"
+        class={nextButtonClass}
+        onclick={handleNext}
+        disabled={effectiveIsNextDisabled}
+      >
+        <template lwc:if={isLoading}>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </template>
+        {displayNextLabel}
+      </button>
+    </div>
+  </footer>
+</template>

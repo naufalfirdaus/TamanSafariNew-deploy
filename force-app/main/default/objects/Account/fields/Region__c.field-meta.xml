@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <description>Region operasional reseller/partner, dipakai untuk dashboard performa per region.</description>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jabodetabek</fullName>
+                <default>false</default>
+                <label>Jabodetabek</label>
+            </value>
+            <value>
+                <fullName>Jawa Barat</fullName>
+                <default>false</default>
+                <label>Jawa Barat</label>
+            </value>
+            <value>
+                <fullName>Jawa Tengah &amp; DIY</fullName>
+                <default>false</default>
+                <label>Jawa Tengah &amp; DIY</label>
+            </value>
+            <value>
+                <fullName>Jawa Timur</fullName>
+                <default>false</default>
+                <label>Jawa Timur</label>
+            </value>
+            <value>
+                <fullName>Sumatera</fullName>
+                <default>false</default>
+                <label>Sumatera</label>
+            </value>
+            <value>
+                <fullName>Kalimantan</fullName>
+                <default>false</default>
+                <label>Kalimantan</label>
+            </value>
+            <value>
+                <fullName>Sulawesi</fullName>
+                <default>false</default>
+                <label>Sulawesi</label>
+            </value>
+            <value>
+                <fullName>Bali &amp; Nusa Tenggara</fullName>
+                <default>false</default>
+                <label>Bali &amp; Nusa Tenggara</label>
+            </value>
+            <value>
+                <fullName>Indonesia Timur</fullName>
+                <default>false</default>
+                <label>Indonesia Timur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,140 @@
+<template>
+    <lightning-card title={labels.cardTitle} icon-name="standard:location">
+        <div class="card-body-wrapper slds-p-horizontal_small slds-p-bottom_small">
+
+            <!-- Loading State -->
+            <template if:true={isLoading}>
+                <div class="slds-p-around_large slds-align_absolute-center loading-container">
+                    <lightning-spinner alternative-text={labels.loading} size="medium"></lightning-spinner>
+                    <span class="slds-text-body_regular slds-m-top_x-small">{labels.loading}</span>
+                </div>
+            </template>
+
+            <!-- Error State -->
+            <template if:true={hasError}>
+                <div class="slds-notify slds-notify_alert slds-theme_error slds-m-bottom_small" role="alert">
+                    <lightning-icon icon-name="utility:error" variant="inverse" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+                    <h2>{labels.errorTitle}: {errorMessage}</h2>
+                </div>
+            </template>
+
+            <!-- Content Ready State -->
+            <template if:true={isReady}>
+
+                <!-- Anomaly Badges Banner -->
+                <template if:true={hasAnomalies}>
+                    <div class="anomaly-banner slds-m-bottom_small" role="region" aria-label="Anomaly Badges">
+                        <template for:each={badges} for:item="badge">
+                            <span key={badge.id} class={badge.cssClass}>
+                                <lightning-icon icon-name={badge.icon} size="xx-small" class="slds-m-right_xx-small" variant={badge.iconVariant}></lightning-icon>
+                                <span class="badge-label">{badge.label}</span>
+                            </span>
+                        </template>
+                    </div>
+                </template>
+
+                <!-- Responsive Layout Grid -->
+                <div class={layoutGridClass}>
+
+                    <!-- Map Container Column -->
+                    <div class={mapColumnClass}>
+                        <template if:true={hasMarkers}>
+                            <div class="map-wrapper">
+                                <lightning-map
+                                    map-markers={mapMarkers}
+                                    list-view="hidden"
+                                    class="audit-map">
+                                </lightning-map>
+                            </div>
+                        </template>
+                        <template if:false={hasMarkers}>
+                            <div class="no-markers-box slds-align_absolute-center slds-p-around_large">
+                                <lightning-icon icon-name="utility:warning" size="medium" class="slds-m-bottom_x-small"></lightning-icon>
+                                <p class="slds-text-color_weak slds-text-align_center">{labels.noLocations}</p>
+                            </div>
+                        </template>
+                    </div>
+
+                    <!-- Manager Verification Panel Column -->
+                    <template if:true={isManagerView}>
+                        <div class="verification-column slds-p-left_medium-desktop">
+                            <div class="verification-card slds-box slds-box_x-small slds-theme_shade">
+                                
+                                <!-- Panel Header / Tier Badge -->
+                                <div class="verification-header slds-m-bottom_small">
+                                    <div class="slds-text-title_caps slds-text-color_weak slds-m-bottom_xx-small">{labels.verificationTitle}</div>
+                                    <div class={tierBadgeClass}>
+                                        <lightning-icon icon-name={tierBadgeIcon} size="x-small" variant="inverse" class="slds-m-right_x-small"></lightning-icon>
+                                        <span class="tier-label">{tierBadgeLabel}</span>
+                                    </div>
+                                </div>
+
+                                <!-- Score Chips -->
+                                <div class="score-chips-container slds-m-bottom_small">
+                                    <div class="score-chip">
+                                        <span class="score-label">{labels.totalScore}</span>
+                                        <span class="score-value">{formattedTotalScore}</span>
+                                    </div>
+                                    <div class="score-chip">
+                                        <span class="score-label">{labels.telemetryScore}</span>
+                                        <span class="score-value">{formattedTelemetryScore}</span>
+                                    </div>
+                                </div>
+
+                                <!-- Fraud Flag Reasons Tag Cloud -->
+                                <div class="fraud-reasons-section slds-m-bottom_small">
+                                    <div class="section-subtitle slds-m-bottom_xx-small">{labels.fraudReasons}</div>
+                                    <template if:true={hasFraudReasons}>
+                                        <div class="fraud-tags-cloud">
+                                            <template for:each={fraudFlagReasons} for:item="reason">
+                                                <span key={reason} class="fraud-pill">
+                                                    <lightning-icon icon-name="utility:warning" size="xx-small" class="slds-m-right_xx-small"></lightning-icon>
+                                                    {reason}
+                                                </span>
+                                            </template>
+                                        </div>
+                                    </template>
+                                    <template if:false={hasFraudReasons}>
+                                        <span class="slds-text-color_weak slds-text-body_small">{labels.noFraudReasons}</span>
+                                    </template>
+                                </div>
+
+                                <!-- AI Audit Summary Box -->
+                                <div class="ai-summary-section slds-m-bottom_small">
+                                    <div class="section-subtitle slds-m-bottom_xx-small">
+                                        <lightning-icon icon-name="utility:einstein" size="xx-small" class="slds-m-right_xx-small"></lightning-icon>
+                                        {labels.aiSummaryTitle}
+                                    </div>
+                                    <div class="ai-summary-box">
+                                        <template if:true={hasAiSummary}>
+                                            <p class="ai-summary-text">{aiAuditSummary}</p>
+                                        </template>
+                                        <template if:false={hasAiSummary}>
+                                            <p class="slds-text-color_weak slds-text-body_small">{labels.noAiSummary}</p>
+                                        </template>
+                                    </div>
+                                </div>
+
+                                <!-- Investigation Status & Notes -->
+                                <div class="investigation-section">
+                                    <div class="investigation-field slds-m-bottom_x-small">
+                                        <span class="investigation-label">{labels.investigationStatus}: </span>
+                                        <span class="investigation-value">{investigationStatusDisplay}</span>
+                                    </div>
+                                    <div class="investigation-field">
+                                        <span class="investigation-label">{labels.investigationNotes}: </span>
+                                        <span class="investigation-value slds-text-color_weak">{investigationNotesDisplay}</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </template>
+
+                </div>
+
+            </template>
+
+        </div>
+    </lightning-card>
+</template>

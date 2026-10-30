@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>Field_Visit_Auto_Cancelled</customNotifTypeName>
+    <masterLabel>Field Visit Auto-Cancelled</masterLabel>
+    <description>Notifikasi ke sales saat kunjungan yang menggantung dibatalkan otomatis.</description>
+    <desktop>true</desktop>
+    <mobile>true</mobile>
+</CustomNotificationType>

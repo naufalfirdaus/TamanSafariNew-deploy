@@ -1,0 +1,119 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef1"
+      },
+      "WhatId": "006jV000000ApxJQAS",
+      "WhoId": "003jV000000m9tpQAA",
+      "Subject": "Call",
+      "Description": "Discovery Call With Customer",
+      "ActivityDate": "2026-08-04",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef2"
+      },
+      "WhatId": "006jV000000ApxJQAS",
+      "WhoId": "003jV000000m9tpQAA",
+      "Subject": "Email: Greetings from",
+      "Description": "To: naufalfirdausa@interdesign.com\nCC: \nBCC: ahmad.nfirdaus+demo@langitkreasi.com\nAttachment: --none--\n\nSubject: Greetings from\nBody:\nHello Ahmad,\n\nMy name is Ahmad Naufal and I'm with . I wanted to see if you have 5 minutes to connect and discuss your [PRODUCT] needs?\n\nI can be reached at at your convenience. I look forward to speaking with you!\n\nKind regards,",
+      "ActivityDate": "2026-08-04",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef3"
+      },
+      "WhatId": "006jV000000ApxJQAS",
+      "WhoId": "003jV000000m9tpQAA",
+      "Subject": "Catalog Product",
+      "ActivityDate": "2026-08-05",
+      "Status": "Not Started",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef4"
+      },
+      "WhatId": "006jV000000ApxKQAS",
+      "Subject": "Follow up quotation",
+      "ActivityDate": "2026-08-08",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef5"
+      },
+      "WhatId": "006jV000000ApxLQAS",
+      "Subject": "Kirim proposal",
+      "ActivityDate": "2026-08-06",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef6"
+      },
+      "WhatId": "006jV000000ApxMQAS",
+      "Subject": "Diskusi awal",
+      "ActivityDate": "2026-07-22",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef7"
+      },
+      "WhatId": "006jV000000ApxNQAS",
+      "Subject": "Call pertama",
+      "ActivityDate": "2026-07-02",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef8"
+      },
+      "WhatId": "006jV000000ApxOQAS",
+      "Subject": "Kunjungan lapangan",
+      "ActivityDate": "2026-08-09",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef9"
+      },
+      "WhatId": "006jV000000ApxTQAS",
+      "Subject": "Nego harga",
+      "ActivityDate": "2026-07-24",
+      "Status": "Completed",
+      "Priority": "Normal"
+    },
+    {
+      "attributes": {
+        "type": "Task",
+        "referenceId": "TaskRef10"
+      },
+      "WhatId": "006jV000000ApxVQAS",
+      "Subject": "Call pertama, belum ada follow up",
+      "ActivityDate": "2026-06-22",
+      "Status": "Completed",
+      "Priority": "Normal"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<template>
+  <lightning-modal-header label={modalTitle}></lightning-modal-header>
+
+  <lightning-modal-body>
+    <template if:true={isHardBlock}>
+      <div class="hard-block-container">
+        <div class="alert-icon-wrap alert-icon-wrap--error">
+          <lightning-icon icon-name="utility:block_visitor" size="medium" class="icon-error"></lightning-icon>
+        </div>
+        <p class="body-text slds-m-top_small">
+          {blockingBodyText}
+        </p>
+      </div>
+    </template>
+
+    <template if:false={isHardBlock}>
+      <div class="soft-warning-container">
+        <div class="alert-banner alert-banner--warning">
+          <lightning-icon icon-name="utility:warning" size="small" class="icon-warning slds-m-right_x-small"></lightning-icon>
+          <span class="warning-text">{warningBodyText}</span>
+        </div>
+
+        <div class="reason-section slds-m-top_medium">
+          <label class="section-label">
+            Pilih Alasan Check-In di Luar Radius: *
+          </label>
+
+          <div class="pill-group slds-m-top_x-small">
+            <template for:each={reasonOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-value={opt.value}
+                onclick={handleSelectReason}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-check-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+      </div>
+    </template>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <template if:true={isHardBlock}>
+      <lightning-button
+        variant="brand"
+        label={labels.back}
+        onclick={handleCancel}
+      ></lightning-button>
+    </template>
+
+    <template if:false={isHardBlock}>
+      <lightning-button
+        variant="neutral"
+        label={labels.cancel}
+        onclick={handleCancel}
+      ></lightning-button>
+      <lightning-button
+        variant="brand"
+        label={labels.confirmCheckIn}
+        onclick={handleConfirm}
+        disabled={isConfirmDisabled}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </template>
+  </lightning-modal-footer>
+</template>

@@ -1,0 +1,119 @@
+<template>
+  <div class="panel-layout">
+    <!-- LEFT: Main Check-In Panel -->
+    <section class="checkin-shell main-panel">
+
+      <!-- Compact single-line header -->
+      <header class="checkin-head">
+        <div class="head-identity">
+          <div class="head-icon-wrap">
+            <lightning-icon
+              icon-name="utility:checkin"
+              size="x-small"
+            ></lightning-icon>
+          </div>
+          <div class="head-title-block">
+            <span class="head-title">Geo Check-In</span>
+            <span class="head-sep">·</span>
+            <span class="head-sub">{parentName}</span>
+          </div>
+        </div>
+
+        <div class="head-trail">
+          <span class="stat-inline">{radiusDisplay}m · {distanceDisplay}m</span>
+          <span class={statusPillClass}>{statusText}</span>
+          <lightning-button
+            variant="brand"
+            label={checkInLabel}
+            title="Check-In"
+            onclick={handleCheckIn}
+            disabled={isDisabled}
+            class="head-cta"
+          ></lightning-button>
+          <template if:true={openEventId}>
+            <lightning-button
+              variant="success"
+              label="Open Event"
+              title="Open Event"
+              onclick={handleOpenEvent}
+              disabled={isDisabledCheckOut}
+              class="head-cta"
+            ></lightning-button>
+          </template>
+        </div>
+      </header>
+
+      <!-- Map: full-width hero -->
+      <div class="map-hero">
+        <lightning-map
+          map-markers={mapMarkers}
+          zoom-level="16"
+          list-view="visible"
+          markers-title="Lokasi"
+        ></lightning-map>
+      </div>
+
+      <!-- Error inline, below map -->
+      <template if:true={error}>
+        <div class="inline-alert">{error}</div>
+      </template>
+
+      <!-- Sub-actions strip -->
+      <div class="sub-actions">
+        <div class="sub-actions__left">
+          <button
+            type="button"
+            class="sub-btn"
+            onclick={openDirections}
+            title="Open directions in Maps"
+          >
+            <lightning-icon icon-name="utility:world" size="xx-small"></lightning-icon>
+            <span>Directions</span>
+          </button>
+
+          <template if:true={isRemarkerButtonEnabled}>
+            <button
+              type="button"
+              class="sub-btn"
+              onclick={handleRemarkerTarget}
+              title="Set target marker to your current location"
+              disabled={isRemarkerDisabled}
+            >
+              <lightning-icon icon-name="utility:pin" size="xx-small"></lightning-icon>
+              <span>Set Target Here</span>
+            </button>
+          </template>
+        </div>
+
+        <div class="sub-actions__right">
+          <template if:true={hasOpenEvent}>
+            <span class="visit-tag">Open Event Active</span>
+          </template>
+        </div>
+      </div>
+
+      <!-- Override reason: only when outside geofence and no open event -->
+      <template if:true={showOverride}>
+        <div class="override-wrap">
+          <lightning-textarea
+            label="Alasan override"
+            value={overrideReason}
+            onchange={handleReason}
+          ></lightning-textarea>
+        </div>
+      </template>
+
+    </section>
+
+    <!-- RIGHT: Child History Panel -->
+    <template if:true={showCheckinHistory}>
+      <aside class="history-panel">
+        <c-geo-checkin-history
+          record-id={recordId}
+          object-api-name={objectApiName}
+          row-limit={historyRowLimit}
+        ></c-geo-checkin-history>
+      </aside>
+    </template>
+  </div>
+</template>

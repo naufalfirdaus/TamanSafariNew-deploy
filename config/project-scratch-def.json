@@ -1,0 +1,19 @@
+{
+  "orgName": "Taman Safari Demo",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "Communities", "MultiCurrency"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    }
+  }
+}

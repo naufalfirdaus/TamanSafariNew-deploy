@@ -1,0 +1,330 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef1"
+      },
+      "AccountId": "@AccountRef5",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Interdesign, PT - Package Liburan Taman Safari",
+      "StageName": "Closed Lost",
+      "Amount": 125000,
+      "Probability": 0,
+      "TotalOpportunityQuantity": 100,
+      "CloseDate": "2026-09-30",
+      "Type": "New Business",
+      "LeadSource": "Inbound Call",
+      "ForecastCategoryName": "Omitted",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromTerritory2Filter": false,
+      "ContactId": "@ContactRef1",
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef2"
+      },
+      "AccountId": "@AccountRef8",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Interdesign - Corporate Gathering Q3",
+      "StageName": "Negotiation",
+      "Amount": 18500000,
+      "Probability": 90,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-08-31",
+      "ForecastCategoryName": "Commit",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef3"
+      },
+      "AccountId": "@AccountRef11",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Bank Cakrawala - Employee Voucher Batch",
+      "StageName": "Proposal/Quote",
+      "Amount": 1500000,
+      "Probability": 75,
+      "TotalOpportunityQuantity": 10,
+      "CloseDate": "2026-09-10",
+      "ForecastCategoryName": "Best Case",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef4"
+      },
+      "AccountId": "@AccountRef7",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "SMA Tunas Bangsa - Study Tour",
+      "StageName": "Qualification",
+      "Amount": 4250000,
+      "Probability": 20,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-09-25",
+      "ForecastCategoryName": "Pipeline",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef5"
+      },
+      "AccountId": "@AccountRef13",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Dinas Pariwisata Batang - Government Program",
+      "StageName": "Discovery",
+      "Amount": 2250000,
+      "Probability": 35,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-10-10",
+      "ForecastCategoryName": "Best Case",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef6"
+      },
+      "AccountId": "@AccountRef6",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Nusantara EO - MICE Batang",
+      "StageName": "Negotiation",
+      "Amount": 34500000,
+      "Probability": 90,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-08-26",
+      "ForecastCategoryName": "Commit",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef7"
+      },
+      "AccountId": "@AccountRef8",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Interdesign - Team Building Prigen",
+      "StageName": "Closed Won",
+      "Amount": 26800000,
+      "Probability": 100,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-08-01",
+      "ForecastCategoryName": "Closed",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef8"
+      },
+      "AccountId": "@AccountRef11",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Bank Cakrawala - Family Gathering Bali",
+      "StageName": "Closed Won",
+      "Amount": 9000000,
+      "Probability": 100,
+      "TotalOpportunityQuantity": 20,
+      "CloseDate": "2026-07-12",
+      "ForecastCategoryName": "Closed",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef9"
+      },
+      "AccountId": "@AccountRef7",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "SMA Tunas Bangsa - Field Trip Bogor",
+      "StageName": "Closed Lost",
+      "Amount": 2000000,
+      "Probability": 0,
+      "TotalOpportunityQuantity": 10,
+      "CloseDate": "2026-07-27",
+      "ForecastCategoryName": "Omitted",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef10"
+      },
+      "AccountId": "@AccountRef13",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Dinas Pariwisata Batang - Farewell Trip",
+      "StageName": "Closed Lost",
+      "Amount": 1500000,
+      "Probability": 0,
+      "TotalOpportunityQuantity": 10,
+      "CloseDate": "2026-08-06",
+      "ForecastCategoryName": "Omitted",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef11"
+      },
+      "AccountId": "@AccountRef6",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Nusantara EO - Corporate Retreat 2000 Voucher",
+      "StageName": "Negotiation",
+      "Amount": 29500000,
+      "Probability": 90,
+      "TotalOpportunityQuantity": 30,
+      "CloseDate": "2026-09-05",
+      "ForecastCategoryName": "Commit",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef12"
+      },
+      "AccountId": "@AccountRef8",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Interdesign - Prospek Baru (belum follow up)",
+      "StageName": "Qualification",
+      "Amount": 1500000,
+      "Probability": 20,
+      "TotalOpportunityQuantity": 10,
+      "CloseDate": "2026-11-09",
+      "ForecastCategoryName": "Pipeline",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef13"
+      },
+      "AccountId": "@AccountRef11",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Bank Cakrawala - Prospek Stagnan",
+      "StageName": "Discovery",
+      "Amount": 1500000,
+      "Probability": 35,
+      "TotalOpportunityQuantity": 10,
+      "CloseDate": "2026-11-09",
+      "ForecastCategoryName": "Best Case",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef14"
+      },
+      "AccountId": "@AccountRef9",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Redeem - CIPTAPROMO - 2026-08-11",
+      "StageName": "Qualification",
+      "Amount": 400000,
+      "Probability": 20,
+      "CloseDate": "2026-08-11",
+      "LeadSource": "Partner",
+      "ForecastCategoryName": "Pipeline",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef15"
+      },
+      "AccountId": "@AccountRef9",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Redeem - CIPTAPROMO - 2026-08-11",
+      "StageName": "Qualification",
+      "Amount": 400000,
+      "Probability": 20,
+      "TotalOpportunityQuantity": 2,
+      "CloseDate": "2026-08-11",
+      "LeadSource": "Partner",
+      "ForecastCategoryName": "Pipeline",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef16"
+      },
+      "AccountId": "@AccountRef9",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Redeem - CIPTAPROMO - 2026-08-11",
+      "StageName": "Closed Won",
+      "Amount": 1000000,
+      "Probability": 100,
+      "TotalOpportunityQuantity": 5,
+      "CloseDate": "2026-08-11",
+      "LeadSource": "Partner",
+      "ForecastCategoryName": "Closed",
+      "CurrencyIsoCode": "IDR",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef17"
+      },
+      "AccountId": "@AccountRef5",
+      "RecordTypeId": "012jV00000050lsQAA",
+      "IsPrivate": false,
+      "Name": "Interdesign Opportunity",
+      "StageName": "Qualification",
+      "Probability": 20,
+      "CloseDate": "2026-10-31",
+      "ForecastCategoryName": "Pipeline",
+      "CurrencyIsoCode": "USD",
+      "IsExcludedFromTerritory2Filter": false,
+      "Pricebook2Id": "01sjV0000002C57QAE"
+    }
+  ]
+}

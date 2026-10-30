@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Event",
+        "referenceId": "EventRef1"
+      },
+      "WhatId": "006jV000000ApxJQAS",
+      "WhoId": "003jV000000m9tpQAA",
+      "Subject": "Discovery Meeting",
+      "Description": "After Discovery Call, Iam Create Discovery Meeting to Sure the All Discovery",
+      "ActivityDate": "2026-08-04",
+      "StartDateTime": "2026-08-04T20:00:00.000+0000",
+      "EndDateTime": "2026-08-04T21:00:00.000+0000",
+      "DurationInMinutes": 60,
+      "IsAllDayEvent": false,
+      "ShowAs": "Busy"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh000000048TKAQ"
+        },
+        "Id": "0J9Bh000000048TKAQ",
+        "QuotaAmount": 500000000,
+        "StartDate": "2026-10-01",
+        "QuotaOwnerId": "005Bh000006LFYbIAO",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      },
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh000000048UKAQ"
+        },
+        "Id": "0J9Bh000000048UKAQ",
+        "QuotaAmount": 500000000,
+        "StartDate": "2026-11-01",
+        "QuotaOwnerId": "005Bh000006LFYbIAO",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      },
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh000000048VKAQ"
+        },
+        "Id": "0J9Bh000000048VKAQ",
+        "QuotaAmount": 500000000,
+        "StartDate": "2026-12-01",
+        "QuotaOwnerId": "005Bh000006LFYbIAO",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      },
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh00000004A5KAI"
+        },
+        "Id": "0J9Bh00000004A5KAI",
+        "QuotaAmount": 1000000000,
+        "StartDate": "2026-10-01",
+        "QuotaOwnerId": "005Bh000006MpN0IAK",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      },
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh00000004BhKAI"
+        },
+        "Id": "0J9Bh00000004BhKAI",
+        "QuotaAmount": 1000000000,
+        "StartDate": "2026-11-01",
+        "QuotaOwnerId": "005Bh000006MpN0IAK",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      },
+      {
+        "attributes": {
+          "type": "ForecastingQuota",
+          "url": "/services/data/v68.0/sobjects/ForecastingQuota/0J9Bh00000004DJKAY"
+        },
+        "Id": "0J9Bh00000004DJKAY",
+        "QuotaAmount": 1000000000,
+        "StartDate": "2026-12-01",
+        "QuotaOwnerId": "005Bh000006MpN0IAK",
+        "ForecastingTypeId": "0DbBh000002RZTZKA4"
+      }
+    ],
+    "totalSize": 6,
+    "done": true
+  }
+}

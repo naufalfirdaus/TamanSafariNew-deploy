@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pipeline_Action__c</fullName>
+    <label>Pipeline Action</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Convert Lead</fullName>
+                <default>false</default>
+                <label>Convert Lead</label>
+            </value>
+            <value>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+                <label>Create Opportunity</label>
+            </value>
+            <value>
+                <fullName>Update Opportunity</fullName>
+                <default>false</default>
+                <label>Update Opportunity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

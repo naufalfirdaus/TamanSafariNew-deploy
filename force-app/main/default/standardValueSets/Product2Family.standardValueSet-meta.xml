@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Batteries</fullName>
+        <default>false</default>
+        <label>Batteries</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Turbines</fullName>
+        <default>false</default>
+        <label>Turbines</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Battery Tools</fullName>
+        <default>false</default>
+        <label>Battery Tools</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kits</fullName>
+        <default>false</default>
+        <label>Kits</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Software Licenses</fullName>
+        <default>false</default>
+        <label>Software Licenses</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solar Panels</fullName>
+        <default>false</default>
+        <label>Solar Panels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ticket &amp; Voucher</fullName>
+        <default>false</default>
+        <label>Ticket &amp; Voucher</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accommodation</fullName>
+        <default>false</default>
+        <label>Accommodation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Team Building</fullName>
+        <default>false</default>
+        <label>Team Building</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transport</fullName>
+        <default>false</default>
+        <label>Transport</label>
+    </standardValue>
+    <standardValue>
+        <fullName>F&amp;B</fullName>
+        <default>false</default>
+        <label>F&amp;B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ads &amp; Media Placement</fullName>
+        <default>false</default>
+        <label>Ads &amp; Media Placement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bundled Package</fullName>
+        <default>false</default>
+        <label>Bundled Package</label>
+    </standardValue>
+</StandardValueSet>

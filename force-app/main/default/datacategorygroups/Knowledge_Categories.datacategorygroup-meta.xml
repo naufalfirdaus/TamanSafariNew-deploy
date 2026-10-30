@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <label>All</label>
+        <name>All</name>
+        <dataCategory>
+            <label>Sales Operations</label>
+            <name>Sales_Operations</name>
+            <dataCategory>
+                <label>Field Sales Playbook</label>
+                <name>Field_Sales_Playbook</name>
+            </dataCategory>
+        </dataCategory>
+    </dataCategory>
+    <description>Kategori artikel Knowledge: Sales Operations &gt; Field Sales Playbook.</description>
+    <label>Knowledge Categories</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

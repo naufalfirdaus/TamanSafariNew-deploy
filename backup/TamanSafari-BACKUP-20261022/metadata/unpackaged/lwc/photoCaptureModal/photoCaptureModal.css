@@ -1,0 +1,71 @@
+:host {
+  /* Taman Safari Brand Palette & Button Overrides */
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-accent-2: #11532f;
+  --slds-g-color-border-1: #d5e0d8;
+  --slds-g-color-error-1: #ea001e;
+  --slds-g-color-error-container-1: #fee8e6;
+
+  --slds-c-button-brand-color-background: #82bb3a;
+  --slds-c-button-brand-color-background-hover: #6ea72e;
+  --slds-c-button-brand-color-border: #82bb3a;
+  --slds-c-button-brand-text-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-accent-2: #45c65a;
+    --slds-g-color-border-1: #2e3a33;
+    --slds-g-color-error-1: #fe5c5c;
+    --slds-g-color-error-container-1: #3e1214;
+
+    --slds-c-button-brand-color-background: #96d649;
+    --slds-c-button-brand-color-background-hover: #82bb3a;
+    --slds-c-button-brand-color-border: #96d649;
+    --slds-c-button-brand-text-color: #082010;
+  }
+}
+
+.hide {
+  display: none;
+}
+.cam {
+  width: 100%;
+  max-height: 60vh;
+  overflow: hidden;
+  border-radius: var(--slds-g-radius-border-2, 0.75rem);
+  background-color: var(--slds-g-color-surface-container-2, #000);
+}
+.cam__video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.preview-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-color: var(--slds-g-color-surface-container-2, #000);
+  display: grid;
+  place-items: center;
+  border-radius: var(--slds-g-radius-border-2, 0.75rem);
+  overflow: hidden;
+  border: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+}
+.preview {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.preview-text {
+  color: var(--slds-g-color-on-surface-3, #66786e);
+}
+.error-banner {
+  border-radius: var(--slds-g-radius-border-1, 0.25rem);
+  color: var(--slds-g-color-error-1, #ea001e);
+  background-color: var(--slds-g-color-error-container-1, #fee8e6);
+  border: 1px solid var(--slds-g-color-error-1, #ea001e);
+}

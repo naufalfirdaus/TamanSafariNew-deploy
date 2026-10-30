@@ -1,0 +1,191 @@
+<template>
+  <section class="slds-p-around_medium slds-card nb-section {busyClass}">
+    <header class="slds-m-bottom_medium">
+      <div class="slds-grid slds-grid_align-spread slds-wrap">
+        <div class="slds-text-heading_small">
+          {label}<!-- Handwriting Wizard (AWS Textract) -->
+        </div>
+
+        <!-- 2-step path -->
+        <div class="slds-path" style="max-width: 420px">
+          <div class="slds-grid slds-path__track">
+            <div class="slds-path__scroller_container">
+              <div class="slds-path__scroller">
+                <div
+                  class="slds-path__nav"
+                  role="listbox"
+                  aria-orientation="horizontal"
+                >
+                  <a class={step1Class} role="option">
+                    <span class="slds-path__title">1. Capture</span>
+                  </a>
+                  <a class={step2Class} role="option">
+                    <span class="slds-path__title">2. Map &amp; Save</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- global small busy indicator -->
+      <template if:true={busy}>
+        <div class="slds-m-top_small">
+          <lightning-spinner
+            alternative-text="Processing..."
+            size="small"
+          ></lightning-spinner>
+        </div>
+      </template>
+    </header>
+
+    <!-- STEP 1: CAPTURE -->
+    <template if:true={isStep1}>
+      <div class="slds-p-around_small panel">
+        <div class="slds-grid slds-wrap slds-gutters">
+          <!-- Camera / Preview -->
+          <div class="slds-size_1-of-1 slds-large-size_1-of-1">
+            <div class="slds-m-bottom_x-small slds-text-title">
+              Camera / Preview
+            </div>
+
+            <div class="slds-m-bottom_small preview-frame">
+              <video
+                autoplay
+                playsinline
+                muted
+                class="preview-el slds-hide"
+                lwc:dom="manual"
+              ></video>
+              <canvas class="preview-el slds-hide"></canvas>
+
+              <div
+                if:true={showPlaceholder}
+                class="slds-text-color_weak placeholder"
+              >
+                No image yet
+              </div>
+            </div>
+
+            <div class="slds-button_group" role="group">
+              <lightning-button
+                label="Start Camera"
+                onclick={startCamera}
+              ></lightning-button>
+              <lightning-button
+                label="Capture"
+                variant="brand"
+                onclick={capture}
+                disabled={disableCapture}
+              ></lightning-button>
+              <lightning-button
+                label="Retake"
+                onclick={retake}
+                disabled={disableRetake}
+              ></lightning-button>
+            </div>
+
+            <div
+              class="slds-m-top_x-small slds-text-body_small slds-text-color_weak"
+            >
+              (Fallback) Choose image:
+              <input
+                type="file"
+                accept="image/*"
+                capture="environment"
+                onchange={onPick}
+              />
+            </div>
+          </div>
+
+          <!-- (No Analyze buttons here anymore) -->
+        </div>
+
+        <div class="slds-m-top_medium slds-grid slds-grid_align-end wizard-nav">
+          <lightning-button
+            variant="brand-outline"
+            label="Cancel"
+            onclick={closeModal}
+          ></lightning-button>
+          <lightning-button
+            variant="brand"
+            label="Next"
+            onclick={goStep2}
+            disabled={disableNextFrom1}
+          ></lightning-button>
+        </div>
+      </div>
+    </template>
+
+    <!-- STEP 2: MAP + SAVE (no preview/result) -->
+    <template if:true={isStep2}>
+      <div class="slds-p-around_small panel">
+        <div class="slds-m-bottom_x-small slds-text-title">Map to Form</div>
+
+        <div class="slds-grid slds-wrap slds-gutters">
+          <div class="slds-size_1-of-1 slds-large-size_1-of-2">
+            <lightning-textarea
+              label="Meeting Notes"
+              value={formDraft.meetingNotes}
+              onchange={onChangeNotes}
+            ></lightning-textarea>
+
+            <lightning-textarea
+              class="slds-m-top_medium"
+              label="Matter Discussed"
+              value={formDraft.matterDiscussed}
+              onchange={onChangeMatter}
+            ></lightning-textarea>
+          </div>
+
+          <div class="slds-size_1-of-1 slds-large-size_1-of-2">
+            <div class="slds-m-bottom_small">
+              <label class="slds-form-element__label"
+                >Was The Call Requested</label
+              >
+              <lightning-input
+                type="toggle"
+                message-toggle-active="Yes"
+                message-toggle-inactive="No"
+                checked={formDraft.wasCallRequested}
+                onchange={onChangeRequested}
+              ></lightning-input>
+            </div>
+
+            <lightning-textarea
+              class="slds-m-top_medium"
+              label="Follow Up Action Detail"
+              value={formDraft.followUpDetail}
+              onchange={onChangeFollowUp}
+            ></lightning-textarea>
+          </div>
+        </div>
+
+        <div class="slds-m-top_medium slds-text-color_weak">
+          <lightning-formatted-text
+            value="Auto-mapping based on KV keys & common synonyms. You can edit before saving."
+          ></lightning-formatted-text>
+        </div>
+
+        <div
+          class="slds-m-top_medium slds-grid slds-grid_align-spread wizard-nav"
+        >
+          <lightning-button label="Back" onclick={goStep1}></lightning-button>
+          <lightning-button
+            variant="brand"
+            label="Save"
+            onclick={save}
+            disabled={busy}
+          ></lightning-button>
+        </div>
+      </div>
+    </template>
+    <div class="busy-overlay">
+      <lightning-spinner
+        alternative-text="Processing..."
+        size="medium"
+      ></lightning-spinner>
+    </div>
+  </section>
+</template>

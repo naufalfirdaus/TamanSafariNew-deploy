@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PIC_Department__c</fullName>
+    <label>PIC Department</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HR (Human Resources)</fullName>
+                <default>false</default>
+                <label>HR (Human Resources)</label>
+            </value>
+            <value>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+                <label>Procurement</label>
+            </value>
+            <value>
+                <fullName>GA (General Affairs)</fullName>
+                <default>false</default>
+                <label>GA (General Affairs)</label>
+            </value>
+            <value>
+                <fullName>Executive / Board</fullName>
+                <default>false</default>
+                <label>Executive / Board</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

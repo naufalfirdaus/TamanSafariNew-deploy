@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UU_PDP_Consent__c</fullName>
+    <label>UU PDP Consent</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+</CustomField>

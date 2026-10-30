@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Action_Detail__c</fullName>
+    <label>Follow Up Action Detail</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

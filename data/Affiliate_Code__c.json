@@ -1,0 +1,160 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef1"
+      },
+      "Code__c": "RINABALI02",
+      "Channel__c": "Campaign",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-06-11",
+      "Valid_To__c": "2026-12-11",
+      "Afiliator__c": "@AccountRef1"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef2"
+      },
+      "Code__c": "RINABALI01",
+      "Channel__c": "Offline Store",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-02-11",
+      "Valid_To__c": "2027-02-11",
+      "Afiliator__c": "@AccountRef1"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef3"
+      },
+      "Code__c": "DENPASAROLD",
+      "Channel__c": "Campaign",
+      "Status__c": "Expired",
+      "Valid_From__c": "2025-08-11",
+      "Valid_To__c": "2026-07-11",
+      "Afiliator__c": "@AccountRef2"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef4"
+      },
+      "Code__c": "DENPASAR01",
+      "Channel__c": "Offline Store",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-04-11",
+      "Valid_To__c": "2027-04-11",
+      "Afiliator__c": "@AccountRef2"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef5"
+      },
+      "Code__c": "EXPLOREIG",
+      "Channel__c": "Instagram",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-05-11",
+      "Valid_To__c": "2027-05-11",
+      "Afiliator__c": "@AccountRef3"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef6"
+      },
+      "Code__c": "EXPLOREBTG",
+      "Channel__c": "TikTok",
+      "Status__c": "Active",
+      "Valid_From__c": "2025-12-11",
+      "Valid_To__c": "2027-08-11",
+      "Afiliator__c": "@AccountRef3"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef7"
+      },
+      "Code__c": "TIKETCOM01",
+      "Channel__c": "OTA",
+      "Status__c": "Active",
+      "Valid_From__c": "2025-08-11",
+      "Valid_To__c": "2027-08-11",
+      "Afiliator__c": "@AccountRef4"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef8"
+      },
+      "Code__c": "WARUNGBTG1",
+      "Channel__c": "Offline Store",
+      "Status__c": "Suspended",
+      "Valid_From__c": "2026-08-01",
+      "Valid_To__c": "2027-02-11",
+      "Afiliator__c": "@AccountRef5"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef9"
+      },
+      "Code__c": "TEST7912",
+      "Channel__c": "TikTok",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-08-11",
+      "Valid_To__c": "2027-08-11",
+      "Afiliator__c": "@AccountRef6"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef10"
+      },
+      "Code__c": "CIPT80054",
+      "Channel__c": "TikTok",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-08-11",
+      "Valid_To__c": "2027-08-11",
+      "Afiliator__c": "@AccountRef6"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef11"
+      },
+      "Code__c": "CIPTAPROMO",
+      "Channel__c": "Campaign",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-08-01",
+      "Valid_To__c": "2026-11-11",
+      "Afiliator__c": "@AccountRef6"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef12"
+      },
+      "Code__c": "CIPTAOTA01",
+      "Channel__c": "OTA",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-06-11",
+      "Valid_To__c": "2027-06-11",
+      "Afiliator__c": "@AccountRef6"
+    },
+    {
+      "attributes": {
+        "type": "Affiliate_Code__c",
+        "referenceId": "Affiliate_Code__cRef13"
+      },
+      "Code__c": "CIPTABALI01",
+      "Channel__c": "Offline Store",
+      "Status__c": "Active",
+      "Valid_From__c": "2026-05-11",
+      "Valid_To__c": "2027-05-11",
+      "Afiliator__c": "@AccountRef6"
+    }
+  ]
+}

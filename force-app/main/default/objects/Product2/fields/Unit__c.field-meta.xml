@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit__c</fullName>
+    <label>Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>per Pax</fullName>
+                <default>false</default>
+                <label>per Pax</label>
+            </value>
+            <value>
+                <fullName>per Room/Night</fullName>
+                <default>false</default>
+                <label>per Room/Night</label>
+            </value>
+            <value>
+                <fullName>per Bus</fullName>
+                <default>false</default>
+                <label>per Bus</label>
+            </value>
+            <value>
+                <fullName>per Batch</fullName>
+                <default>false</default>
+                <label>per Batch</label>
+            </value>
+            <value>
+                <fullName>per Slot</fullName>
+                <default>false</default>
+                <label>per Slot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

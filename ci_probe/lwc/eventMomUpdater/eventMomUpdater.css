@@ -1,0 +1,159 @@
+/* TAMPILAN KARTU AWAL */
+.card-content {
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+}
+.instruction-text {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #475569;
+}
+
+/* 🔥 DESAIN MODAL (POP-UP) FLAT ENTERPRISE 🔥 */
+.custom-modal .slds-modal__container {
+  width: 85% !important;
+  max-width: 1000px !important;
+}
+.custom-backdrop {
+  backdrop-filter: blur(4px);
+  background: rgba(15, 23, 42, 0.6);
+}
+
+/* HEADER MODAL */
+.clean-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1.25rem 1.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+.header-layout {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.header-icon-wrapper {
+  background: #f0f8ff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #dbeafe;
+}
+.header-titles h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+.header-titles p {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.15rem;
+}
+
+/* TOMBOL X STANDAR SALESFORCE */
+.close-x-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  --sds-c-icon-color-foreground-default: #64748b;
+}
+.close-x-btn:hover {
+  --sds-c-icon-color-foreground-default: #ef4444;
+}
+
+/* BODY MODAL */
+.clean-body {
+  background-color: #f8fafc; /* Abu-abu kertas sangat lembut */
+  padding: 1.5rem 2rem;
+}
+
+/* INDIKATOR FILE (DOCUMENT LOADED) */
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #cbd5e1;
+}
+.preview-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.success-capsule {
+  background: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  padding: 0.2rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* AI RESULTS AREA */
+.ai-results {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+.result-banner {
+  display: flex;
+  align-items: center;
+  background: #0176d3;
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.35rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 2px 4px rgba(1, 118, 211, 0.2);
+}
+.custom-grid-spacing > div {
+  margin-bottom: 0.75rem;
+}
+
+/* FOOTER MODAL */
+.clean-footer {
+  background-color: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  padding: 1rem 1.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-hint {
+  color: #64748b;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.submit-btn {
+  --sds-c-button-brand-color-background: #0176d3;
+  --sds-c-button-brand-color-border: #0176d3;
+}
+
+/* ANIMATIONS */
+.fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

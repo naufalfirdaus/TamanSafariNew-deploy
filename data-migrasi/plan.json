@@ -1,0 +1,12 @@
+[
+  { "sobject": "Account",                 "files": ["Account.json"] },
+  { "sobject": "Contact",                 "files": ["Contact.json"] },
+  { "sobject": "Lead",                    "files": ["Lead.json"] },
+  { "sobject": "Opportunity",             "files": ["Opportunity.json"] },
+  { "sobject": "OpportunityLineItem",     "files": ["OpportunityLineItem.json"] },
+  { "sobject": "Quote",                   "files": ["Quote.json"] },
+  { "sobject": "QuoteLineItem",           "files": ["QuoteLineItem.json"] },
+  { "sobject": "Affiliate_Code__c",       "files": ["Affiliate_Code__c.json"] },
+  { "sobject": "Commission_Statement__c", "files": ["Commission_Statement__c.json"] },
+  { "sobject": "Redemption__c",           "files": ["Redemption__c.json"] }
+]

@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>FV_Action_Cancel_Visit</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Action Cancel Visit</shortDescription>
+        <value>Batalkan Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Action_Pin_Location</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Action Pin Location</shortDescription>
+        <value>Pin Lokasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_Action_Update_Address</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Action Update Address</shortDescription>
+        <value>Perbarui Alamat</value>
+    </labels>
+    <labels>
+        <fullName>FV_App_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV App Title</shortDescription>
+        <value>Kunjungan Lapangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Accuracy</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Accuracy</shortDescription>
+        <value>Akurasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Address</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Address</shortDescription>
+        <value>Alamat</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_AiSummaryTitle</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap AiSummaryTitle</shortDescription>
+        <value>Ringkasan Audit AI</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_CardTitle</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap CardTitle</shortDescription>
+        <value>Peta Audit Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_CheckIn</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap CheckIn</shortDescription>
+        <value>Check-In</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_CheckOut</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap CheckOut</shortDescription>
+        <value>Check-Out</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Distance</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Distance</shortDescription>
+        <value>Jarak dari target</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Duration</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Duration</shortDescription>
+        <value>Durasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_ErrorTitle</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap ErrorTitle</shortDescription>
+        <value>Peta tidak dapat dimuat</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_FraudReasons</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap FraudReasons</shortDescription>
+        <value>Alasan Penandaan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_InvestigationNotes</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap InvestigationNotes</shortDescription>
+        <value>Catatan Investigasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_InvestigationStatus</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap InvestigationStatus</shortDescription>
+        <value>Status Investigasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Loading</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Loading</shortDescription>
+        <value>Memuat peta...</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_LocationSource</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap LocationSource</shortDescription>
+        <value>Sumber lokasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_NoAiSummary</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap NoAiSummary</shortDescription>
+        <value>Ringkasan AI belum tersedia.</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_NoFraudReasons</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap NoFraudReasons</shortDescription>
+        <value>Tidak ada penandaan.</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_NoInvestigationNotes</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap NoInvestigationNotes</shortDescription>
+        <value>Belum ada catatan.</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_NoLocations</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap NoLocations</shortDescription>
+        <value>Belum ada koordinat untuk ditampilkan.</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Photo</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Photo</shortDescription>
+        <value>Foto Bukti</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Signature</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Signature</shortDescription>
+        <value>Tanda Tangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Signer</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Signer</shortDescription>
+        <value>Penandatangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Target</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Target</shortDescription>
+        <value>Target</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_TelemetryScore</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap TelemetryScore</shortDescription>
+        <value>Skor Telemetri</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Tier_Coaching</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Tier Coaching</shortDescription>
+        <value>Perlu Pembinaan</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Tier_Flagged</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Tier Flagged</shortDescription>
+        <value>Ditandai untuk Investigasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Tier_Verified</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Tier Verified</shortDescription>
+        <value>Terverifikasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_Time</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap Time</shortDescription>
+        <value>Waktu</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_TotalScore</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap TotalScore</shortDescription>
+        <value>Skor Total</value>
+    </labels>
+    <labels>
+        <fullName>FV_AuditMap_VerificationTitle</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV AuditMap VerificationTitle</shortDescription>
+        <value>Verifikasi Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Budget_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Budget Label</shortDescription>
+        <value>Anggaran</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Date_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Date Label</shortDescription>
+        <value>Tanggal Acara</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_EventType_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT EventType Label</shortDescription>
+        <value>Jenis Acara</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Packages_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Packages Label</shortDescription>
+        <value>Paket yang Diminati</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Park_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Park Label</shortDescription>
+        <value>Lokasi Taman</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Pax_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Pax Label</shortDescription>
+        <value>Jumlah Peserta</value>
+    </labels>
+    <labels>
+        <fullName>FV_BANT_Summary_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV BANT Summary Label</shortDescription>
+        <value>Ringkasan Pertemuan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Badge_AiInjection</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Badge AiInjection</shortDescription>
+        <value>Indikasi manipulasi AI</value>
+    </labels>
+    <labels>
+        <fullName>FV_Badge_DuplicatePhoto</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Badge DuplicatePhoto</shortDescription>
+        <value>Foto duplikat</value>
+    </labels>
+    <labels>
+        <fullName>FV_Badge_MissingCheckOut</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Badge MissingCheckOut</shortDescription>
+        <value>Lokasi check-out tidak tersedia</value>
+    </labels>
+    <labels>
+        <fullName>FV_Badge_OutsideGeofence</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Badge OutsideGeofence</shortDescription>
+        <value>Di luar geofence</value>
+    </labels>
+    <labels>
+        <fullName>FV_Badge_ShortVisit</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Badge ShortVisit</shortDescription>
+        <value>Kunjungan singkat</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Back</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Back</shortDescription>
+        <value>Kembali</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Cancel</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Cancel</shortDescription>
+        <value>Batal</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_CheckIn</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn CheckIn</shortDescription>
+        <value>Check-In</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Checkout</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Checkout</shortDescription>
+        <value>Check-Out</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Confirm_CheckIn</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Confirm CheckIn</shortDescription>
+        <value>Konfirmasi Check-In</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Confirm_Early_Exit</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Confirm Early Exit</shortDescription>
+        <value>Ya, Akhiri Sekarang</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Decline_Sign</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Decline Sign</shortDescription>
+        <value>Klien Tidak Bisa Tanda Tangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_New_Visit</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn New Visit</shortDescription>
+        <value>Kunjungan Baru</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Next</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Next</shortDescription>
+        <value>Lanjut</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Quick_Create_Contact</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Quick Create Contact</shortDescription>
+        <value>Buat Kontak Baru</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Retake_Photo</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Retake Photo</shortDescription>
+        <value>Ambil Ulang</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Save</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Save</shortDescription>
+        <value>Simpan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Sign</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Sign</shortDescription>
+        <value>Simpan Tanda Tangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Stay</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Stay</shortDescription>
+        <value>Lanjutkan Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Btn_Take_Photo</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Btn Take Photo</shortDescription>
+        <value>Ambil Foto</value>
+    </labels>
+    <labels>
+        <fullName>FV_Camera_Error</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Camera Error</shortDescription>
+        <value>Kamera tidak dapat diakses. Izinkan akses kamera lalu coba lagi.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Cancel_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Cancel Body</shortDescription>
+        <value>Pilih alasan pembatalan kunjungan ini.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Cancel_Reason_NoShow</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Cancel Reason NoShow</shortDescription>
+        <value>Klien Tidak Ada di Tempat</value>
+    </labels>
+    <labels>
+        <fullName>FV_Cancel_Reason_Rescheduled</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Cancel Reason Rescheduled</shortDescription>
+        <value>Dijadwalkan Ulang</value>
+    </labels>
+    <labels>
+        <fullName>FV_Cancel_Reason_WrongTarget</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Cancel Reason WrongTarget</shortDescription>
+        <value>Salah Memilih Target</value>
+    </labels>
+    <labels>
+        <fullName>FV_Cancel_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Cancel Title</shortDescription>
+        <value>Batalkan Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Contact</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Contact</shortDescription>
+        <value>Kontak (PIC)</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Photo</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Photo</shortDescription>
+        <value>Foto bukti</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Purpose</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Purpose</shortDescription>
+        <value>Tujuan kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Signature</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Signature</shortDescription>
+        <value>Tanda tangan klien</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Summary</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Summary</shortDescription>
+        <value>Ringkasan pertemuan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Checklist_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Checklist Title</shortDescription>
+        <value>Kelengkapan sebelum check-out</value>
+    </labels>
+    <labels>
+        <fullName>FV_Complete_Duration</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Complete Duration</shortDescription>
+        <value>Durasi kunjungan: {0} mnt</value>
+    </labels>
+    <labels>
+        <fullName>FV_Complete_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Complete Title</shortDescription>
+        <value>Kunjungan Selesai</value>
+    </labels>
+    <labels>
+        <fullName>FV_Consent_PDP</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Consent PDP</shortDescription>
+        <value>Klien menyetujui pengolahan data pribadi sesuai UU PDP.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Contact_Picker_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Contact Picker Label</shortDescription>
+        <value>Kontak (PIC)</value>
+    </labels>
+    <labels>
+        <fullName>FV_Draft_Failed</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Draft Failed</shortDescription>
+        <value>Draf gagal disimpan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Draft_Saved</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Draft Saved</shortDescription>
+        <value>Draf tersimpan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Draft_Saving</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Draft Saving</shortDescription>
+        <value>Menyimpan draf...</value>
+    </labels>
+    <labels>
+        <fullName>FV_GPS_Accuracy</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV GPS Accuracy</shortDescription>
+        <value>Akurasi GPS ±{0} m</value>
+    </labels>
+    <labels>
+        <fullName>FV_GPS_Acquiring</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV GPS Acquiring</shortDescription>
+        <value>Mencari sinyal GPS...</value>
+    </labels>
+    <labels>
+        <fullName>FV_Geofence_Blocking_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Geofence Blocking Body</shortDescription>
+        <value>Anda berada {0} m dari target (batas {1} m). Check-in di luar area tidak diizinkan.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Geofence_Blocking_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Geofence Blocking Title</shortDescription>
+        <value>Di Luar Area Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Geofence_Warning_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Geofence Warning Body</shortDescription>
+        <value>Anda berada {0} m dari target (batas {1} m). Pilih alasan untuk melanjutkan check-in.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Geofence_Warning_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Geofence Warning Title</shortDescription>
+        <value>Anda Berada di Luar Area Target</value>
+    </labels>
+    <labels>
+        <fullName>FV_Opp_Picker_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Opp Picker Label</shortDescription>
+        <value>Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>FV_Photo_Section_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Photo Section Title</shortDescription>
+        <value>Foto Bukti Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Pipeline_Convert_Lead</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Pipeline Convert Lead</shortDescription>
+        <value>Konversi Lead</value>
+    </labels>
+    <labels>
+        <fullName>FV_Pipeline_Create_Opp</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Pipeline Create Opp</shortDescription>
+        <value>Buat Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>FV_Pipeline_Update_Opp</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Pipeline Update Opp</shortDescription>
+        <value>Perbarui Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>FV_Prefill_Hint</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Prefill Hint</shortDescription>
+        <value>Diisi otomatis dari data sebelumnya</value>
+    </labels>
+    <labels>
+        <fullName>FV_Purpose_Final</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Purpose Final</shortDescription>
+        <value>Konfirmasi Akhir / Kontrak</value>
+    </labels>
+    <labels>
+        <fullName>FV_Purpose_FollowUp</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Purpose FollowUp</shortDescription>
+        <value>Tindak Lanjut / Review Proposal</value>
+    </labels>
+    <labels>
+        <fullName>FV_Purpose_Initial</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Purpose Initial</shortDescription>
+        <value>Kanvasing Awal / Penjajakan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Purpose_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Purpose Label</shortDescription>
+        <value>Tujuan Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Reason_Different_Branch</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Reason Different Branch</shortDescription>
+        <value>Cabang / Gedung Berbeda</value>
+    </labels>
+    <labels>
+        <fullName>FV_Reason_External_Meeting</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Reason External Meeting</shortDescription>
+        <value>Bertemu di Kafe / Restoran</value>
+    </labels>
+    <labels>
+        <fullName>FV_Reason_Weak_GPS</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Reason Weak GPS</shortDescription>
+        <value>GPS Lemah / Dalam Gedung</value>
+    </labels>
+    <labels>
+        <fullName>FV_Score_Breakdown_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Score Breakdown Title</shortDescription>
+        <value>Rincian Skor</value>
+    </labels>
+    <labels>
+        <fullName>FV_Score_Duration</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Score Duration</shortDescription>
+        <value>Durasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_Score_Location</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Score Location</shortDescription>
+        <value>Lokasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_Score_Proof</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Score Proof</shortDescription>
+        <value>Bukti</value>
+    </labels>
+    <labels>
+        <fullName>FV_Score_Total</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Score Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>FV_Search_Target</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Search Target</shortDescription>
+        <value>Cari Account atau Lead...</value>
+    </labels>
+    <labels>
+        <fullName>FV_Short_Visit_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Short Visit Body</shortDescription>
+        <value>Kunjungan baru berlangsung {0} mnt, di bawah minimum {1} mnt. Akhiri sekarang?</value>
+    </labels>
+    <labels>
+        <fullName>FV_Short_Visit_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Short Visit Title</shortDescription>
+        <value>Kunjungan Terlalu Singkat</value>
+    </labels>
+    <labels>
+        <fullName>FV_Sign_Declined_Reason</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Sign Declined Reason</shortDescription>
+        <value>Alasan tidak ada tanda tangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Sign_Reason_Other</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Sign Reason Other</shortDescription>
+        <value>Lainnya</value>
+    </labels>
+    <labels>
+        <fullName>FV_Sign_Reason_Refused</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Sign Reason Refused</shortDescription>
+        <value>Klien Menolak Tanda Tangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Sign_Reason_Unavailable</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Sign Reason Unavailable</shortDescription>
+        <value>Penandatangan Tidak Ada</value>
+    </labels>
+    <labels>
+        <fullName>FV_Signature_Empty_Error</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Signature Empty Error</shortDescription>
+        <value>Tanda tangan masih kosong.</value>
+    </labels>
+    <labels>
+        <fullName>FV_Signer_Name_Label</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Signer Name Label</shortDescription>
+        <value>Nama Penandatangan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Status_Located</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Status Located</shortDescription>
+        <value>Lokasi tersedia</value>
+    </labels>
+    <labels>
+        <fullName>FV_Status_No_Location</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Status No Location</shortDescription>
+        <value>Lokasi belum tersedia</value>
+    </labels>
+    <labels>
+        <fullName>FV_Status_Rep_Pinned</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Status Rep Pinned</shortDescription>
+        <value>Lokasi dipin oleh sales</value>
+    </labels>
+    <labels>
+        <fullName>FV_Step_BANT</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Step BANT</shortDescription>
+        <value>Kualifikasi</value>
+    </labels>
+    <labels>
+        <fullName>FV_Step_Checkout</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Step Checkout</shortDescription>
+        <value>Check-Out</value>
+    </labels>
+    <labels>
+        <fullName>FV_Step_Info</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Step Info</shortDescription>
+        <value>Informasi Kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>FV_Target_Account</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Target Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>FV_Target_Lead</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Target Lead</shortDescription>
+        <value>Lead</value>
+    </labels>
+    <labels>
+        <fullName>FV_Telemetry_OffSite</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Telemetry OffSite</shortDescription>
+        <value>Check-in {0} m dari target</value>
+    </labels>
+    <labels>
+        <fullName>FV_Telemetry_Verified</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FV Telemetry Verified</shortDescription>
+        <value>Terverifikasi di lokasi ({0} m)</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Audit_Pending</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Audit Pending</shortDescription>
+        <value>Audit AI masih berjalan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Email_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Email Body</shortDescription>
+        <value>Sebuah kunjungan lapangan ditandai untuk investigasi. Buka kunjungan tersebut di Salesforce untuk meninjau bukti dan memberi keputusan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Email_Subject</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Email Subject</shortDescription>
+        <value>Kunjungan ditandai: {0}</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Notif_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Notif Body</shortDescription>
+        <value>Kunjungan {0} perlu ditinjau.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Notif_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Notif Title</shortDescription>
+        <value>Kunjungan Ditandai</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Reasons_None</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Reasons None</shortDescription>
+        <value>Tidak ada alasan tercatat</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Task_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Task Body</shortDescription>
+        <value>Sales: {0}
+Target: {1}
+Alasan: {2}
+Audit AI: {3}</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Alert_Task_Subject</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Alert Task Subject</shortDescription>
+        <value>Tinjau kunjungan: {0}</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Account_Not_Owner</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Account Not Owner</shortDescription>
+        <value>Anda bukan pemilik Account ini.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Budget_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Budget Invalid</shortDescription>
+        <value>Anggaran tidak boleh negatif.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Cancel_Reason_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Cancel Reason Invalid</shortDescription>
+        <value>Alasan pembatalan tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Checkout_Missing</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Checkout Missing</shortDescription>
+        <value>Lengkapi dulu sebelum check-out: {0}.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Contact_Other_Account</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Contact Other Account</shortDescription>
+        <value>Kontak tersebut milik Account lain.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Contact_Required</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Contact Required</shortDescription>
+        <value>Pilih kontak (PIC) untuk kunjungan ini.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Decline_Reason_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Decline Reason Invalid</shortDescription>
+        <value>Alasan tidak ada tanda tangan tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Draft_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Draft Invalid</shortDescription>
+        <value>Data draf tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Event_Date_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Event Date Invalid</shortDescription>
+        <value>Tanggal acara tidak boleh sebelum tanggal kunjungan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Event_Date_Required</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Event Date Required</shortDescription>
+        <value>Tanggal acara wajib diisi.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Exception_Reason_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Exception Reason Invalid</shortDescription>
+        <value>Alasan pengecualian tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Exception_Reason_Required</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Exception Reason Required</shortDescription>
+        <value>Pilih alasan karena Anda berada di luar area target.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Image_Too_Large</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Image Too Large</shortDescription>
+        <value>Ukuran gambar terlalu besar.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Investigation_Status</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Investigation Status</shortDescription>
+        <value>Status investigasi tidak dapat diubah dari status ini.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Lead_Status_Missing</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Lead Status Missing</shortDescription>
+        <value>Status konversi Lead tidak ditemukan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Location_Required</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Location Required</shortDescription>
+        <value>Lokasi perangkat wajib tersedia.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Locked</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Locked</shortDescription>
+        <value>Kunjungan yang sudah selesai atau dibatalkan tidak dapat diubah.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Not_In_Progress</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Not In Progress</shortDescription>
+        <value>Kunjungan ini tidak sedang berlangsung.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Not_Owner</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Not Owner</shortDescription>
+        <value>Anda bukan pemilik kunjungan ini.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Open_Visit_Exists</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Open Visit Exists</shortDescription>
+        <value>Masih ada kunjungan yang berlangsung. Selesaikan atau batalkan dulu.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Outside_Blocked</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Outside Blocked</shortDescription>
+        <value>Check-in di luar area target tidak diizinkan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Pax_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Pax Invalid</shortDescription>
+        <value>Jumlah peserta harus bilangan bulat lebih dari 0.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Photo_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Photo Invalid</shortDescription>
+        <value>Foto tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Pipeline_Already_Linked</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Pipeline Already Linked</shortDescription>
+        <value>Kunjungan ini sudah terhubung ke Opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Pipeline_Convert_Needs_Lead</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Pipeline Convert Needs Lead</shortDescription>
+        <value>Konversi hanya untuk Lead yang belum dikonversi.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Pipeline_Create_Needs_Account</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Pipeline Create Needs Account</shortDescription>
+        <value>Membuat Opportunity memerlukan target Account.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Pipeline_Update_Needs_Opp</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Pipeline Update Needs Opp</shortDescription>
+        <value>Pilih Opportunity yang akan diperbarui.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Proof_Delete_Locked</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Proof Delete Locked</shortDescription>
+        <value>Bukti kunjungan tidak dapat dihapus.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Retry_Admin_Only</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Retry Admin Only</shortDescription>
+        <value>Hanya administrator yang dapat mengulang penilaian AI.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Retry_Not_Failed</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Retry Not Failed</shortDescription>
+        <value>Penilaian AI hanya dapat diulang jika berstatus Failed.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Signature_Blank</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Signature Blank</shortDescription>
+        <value>Tanda tangan masih kosong.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Signature_Invalid</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Signature Invalid</shortDescription>
+        <value>Tanda tangan tidak valid.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Signer_Name_Required</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Signer Name Required</shortDescription>
+        <value>Nama penandatangan wajib diisi.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Target_Already_Located</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Target Already Located</shortDescription>
+        <value>Lokasi target sudah terkunci.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Target_No_Location</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Target No Location</shortDescription>
+        <value>Target belum memiliki lokasi. Pin lokasi terlebih dahulu.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Target_Not_Found</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Target Not Found</shortDescription>
+        <value>Target kunjungan tidak ditemukan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Err_Visit_Not_Found</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Err Visit Not Found</shortDescription>
+        <value>Kunjungan tidak ditemukan.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Item_Contact</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Item Contact</shortDescription>
+        <value>kontak (PIC)</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Item_Photo</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Item Photo</shortDescription>
+        <value>foto bukti</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Item_Purpose</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Item Purpose</shortDescription>
+        <value>tujuan kunjungan</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Item_Signature</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Item Signature</shortDescription>
+        <value>tanda tangan klien</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Item_Summary</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Item Summary</shortDescription>
+        <value>ringkasan pertemuan</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Notif_Auto_Cancel_Body</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Notif Auto Cancel Body</shortDescription>
+        <value>Kunjungan Anda dibatalkan otomatis karena tidak diselesaikan tepat waktu.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Notif_Auto_Cancel_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Notif Auto Cancel Title</shortDescription>
+        <value>Kunjungan Dibatalkan Otomatis</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Retry_AI_Success</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Retry AI Success</shortDescription>
+        <value>Penilaian AI dijadwalkan ulang.</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Retry_AI_Title</fullName>
+        <categories>FieldVisit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Retry AI Title</shortDescription>
+        <value>Ulangi Penilaian AI</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,54 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Rina Travel Bali",
+            "Type": "Partner"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Denpasar Adventure Tour",
+            "Type": "Partner"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "@explorebatang (TikTok Creator)",
+            "Type": "Partner"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "tiket.com",
+            "Type": "Partner"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "Warung Info Wisata Batang",
+            "Type": "Partner"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "Cipta Travel, PT",
+            "BillingCity": "Bogor",
+            "BillingCountry": "ID",
+            "Phone": "082123768555"
+        }
+    ]
+}

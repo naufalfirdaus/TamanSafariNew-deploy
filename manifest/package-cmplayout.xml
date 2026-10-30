@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account-Account Layout - Partner Taman Safari</members>
+        <members>Account-Account Layout - Taman Safari</members>
+        <members>Contact-SDO - Contact - Taman Safari</members>
+        <members>Lead-Lead Layout - Taman Safari</members>
+        <members>Opportunity-Opportunity Layout - Taman Safari</members>
+        <name>Layout</name>
+    </types>
+    <version>67.0</version>
+</Package>

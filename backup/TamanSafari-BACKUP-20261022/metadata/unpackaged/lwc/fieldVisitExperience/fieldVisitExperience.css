@@ -1,0 +1,205 @@
+:host {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  width: 100%;
+
+  /* Taman Safari Indonesia SLDS2 Brand Palette Override */
+  --slds-g-color-surface-1: #f8faf9;
+  --slds-g-color-surface-container-1: #ffffff;
+  --slds-g-color-surface-container-2: #ffffff;
+  --slds-g-color-on-surface-1: #11532f;
+  --slds-g-color-on-surface-2: #334139;
+  --slds-g-color-on-surface-3: #66786e;
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-accent-2: #11532f;
+  --slds-g-color-accent-3: #d26e4b;
+  --slds-g-color-border-1: #d5e0d8;
+  --slds-g-color-success-1: #2e844a;
+  --slds-g-color-success-container-1: #ebf7ee;
+  --slds-g-color-warning-1: #dd7a01;
+  --slds-g-color-warning-container-1: #fff3e0;
+  --slds-g-color-error-1: #ea001e;
+  --slds-g-color-error-container-1: #fee8e6;
+
+  /* Salesforce Base Component Overrides */
+  --slds-c-button-brand-color-background: #82bb3a;
+  --slds-c-button-brand-color-background-hover: #6ea72e;
+  --slds-c-button-brand-color-background-active: #5c9124;
+  --slds-c-button-brand-color-border: #82bb3a;
+  --slds-c-button-brand-color-border-hover: #6ea72e;
+  --slds-c-button-brand-text-color: #ffffff;
+  --slds-c-button-brand-text-color-hover: #ffffff;
+  --slds-c-button-neutral-color-background: #ffffff;
+  --slds-c-button-neutral-color-border: #d5e0d8;
+  --slds-c-button-neutral-text-color: #11532f;
+
+  background-color: var(--slds-g-color-surface-1);
+  color: var(--slds-g-color-on-surface-1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-surface-1: #121614;
+    --slds-g-color-surface-container-1: #1b221e;
+    --slds-g-color-surface-container-2: #232c27;
+    --slds-g-color-on-surface-1: #f4f8f5;
+    --slds-g-color-on-surface-2: #c4d1c9;
+    --slds-g-color-on-surface-3: #8ca094;
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-accent-2: #45c65a;
+    --slds-g-color-accent-3: #e58564;
+    --slds-g-color-border-1: #2e3a33;
+    --slds-g-color-success-1: #45c65a;
+    --slds-g-color-success-container-1: #153320;
+    --slds-g-color-warning-1: #ffa238;
+    --slds-g-color-warning-container-1: #3d260a;
+    --slds-g-color-error-1: #fe5c5c;
+    --slds-g-color-error-container-1: #3e1214;
+
+    --slds-c-button-brand-color-background: #96d649;
+    --slds-c-button-brand-color-background-hover: #82bb3a;
+    --slds-c-button-brand-color-border: #96d649;
+    --slds-c-button-brand-text-color: #082010;
+    --slds-c-button-brand-text-color-hover: #082010;
+    --slds-c-button-neutral-color-background: #1b221e;
+    --slds-c-button-neutral-color-border: #2e3a33;
+    --slds-c-button-neutral-text-color: #f4f8f5;
+  }
+}
+
+.field-visit-app {
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-canvas {
+  flex: 1;
+  padding: 1rem 1rem 6rem 1rem;
+  scroll-padding-bottom: 96px;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid var(--slds-g-color-accent-1, #82bb3a);
+}
+
+.brand-subtitle {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--slds-g-color-accent-2, #11532f);
+  display: block;
+}
+
+.brand-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--slds-g-color-on-surface-1, #11532f);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.target-selector-card {
+  background-color: var(--slds-g-color-surface-container-1, #ffffff);
+  border: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+  border-radius: var(--slds-g-radius-border-3, 0.75rem);
+  padding: 1rem;
+}
+
+.section-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--slds-g-color-on-surface-2, #334139);
+  display: block;
+}
+
+.target-toggle-row {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.toggle-btn {
+  flex: 1;
+  min-height: 44px;
+  padding: 0.625rem 0.75rem;
+  border-radius: var(--slds-g-radius-border-2, 0.5rem);
+  border: 1.5px solid var(--slds-g-color-border-1, #d5e0d8);
+  background-color: var(--slds-g-color-surface-container-1, #ffffff);
+  color: var(--slds-g-color-on-surface-2, #334139);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-btn--active {
+  background-color: var(--slds-g-color-surface-container-2, #ebf7ee);
+  border-color: var(--slds-g-color-accent-1, #82bb3a);
+  color: var(--slds-g-color-accent-2, #11532f);
+  box-shadow: 0 0 0 1px var(--slds-g-color-accent-1, #82bb3a);
+}
+
+.no-target-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  background-color: var(--slds-g-color-surface-container-1, #ffffff);
+  border: 1px dashed var(--slds-g-color-border-1, #d5e0d8);
+  border-radius: var(--slds-g-radius-border-3, 0.75rem);
+  color: var(--slds-g-color-on-surface-3, #66786e);
+  text-align: center;
+}
+
+.icon-search-muted {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-on-surface-3, #66786e);
+}
+
+.server-error-banner {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-radius: var(--slds-g-radius-border-2, 0.5rem);
+  background-color: var(--slds-g-color-error-container-1, #fee8e6);
+  border: 1px solid var(--slds-g-color-error-1, #ea001e);
+  color: var(--slds-g-color-error-1, #ea001e);
+}
+
+.icon-err {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-error-1, #ea001e);
+  flex-shrink: 0;
+}
+
+.error-text {
+  flex: 1;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.btn-close-error {
+  background: none;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--slds-g-color-error-1, #ea001e);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  min-height: 44px;
+}

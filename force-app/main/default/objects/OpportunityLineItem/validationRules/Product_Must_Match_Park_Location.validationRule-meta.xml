@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Must_Match_Park_Location</fullName>
+    <active>true</active>
+    <description>Blocks products from a different park than Opportunity.Preferred_Park_Location__c. Skipped for All Locations products, blank locations, and Multiple / Undecided.</description>
+    <errorConditionFormula>AND(
+  Opportunity.RecordType.DeveloperName = &quot;Taman_Safari&quot;,
+  NOT(ISBLANK(TEXT(Product2.Park_Location__c))),
+  TEXT(Product2.Park_Location__c) &lt;&gt; &quot;All Locations&quot;,
+  NOT(ISBLANK(TEXT(Opportunity.Preferred_Park_Location__c))),
+  TEXT(Opportunity.Preferred_Park_Location__c) &lt;&gt; &quot;Multiple / Undecided&quot;,
+  TEXT(Product2.Park_Location__c) &lt;&gt; TEXT(Opportunity.Preferred_Park_Location__c)
+)</errorConditionFormula>
+    <errorMessage>This product belongs to a different park than the Opportunity&apos;s Preferred Park Location. Choose a product for the same park, an All Locations product, or set the location to Multiple / Undecided.</errorMessage>
+</ValidationRule>

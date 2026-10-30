@@ -1,0 +1,378 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXjMAI"
+        },
+        "Id": "00TBh0000088tXjMAI",
+        "Subject": "Follow Up Konfirmasi Pembayaran Down Payment (DP) Termin 1 - SCM - Production Team Retreat Taman Safari Bogor",
+        "Status": "Not Started",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-25",
+        "WhatId": "006Bh00000GyeRIIAZ",
+        "WhoId": "003Bh00000KoJIcIAN",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal SCM - Production Team Retreat Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXcMAI"
+        },
+        "Id": "00TBh0000088tXcMAI",
+        "Subject": "Review Permohonan Diskon Korporat Khusus dengan Sales Manager - Astra - Annual Leadership Outing Taman Safari Bogor",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-25",
+        "WhatId": "006Bh00000GyeRBIAZ",
+        "WhoId": "003Bh00000KoJIVIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Astra - Annual Leadership Outing Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXiMAI"
+        },
+        "Id": "00TBh0000088tXiMAI",
+        "Subject": "Kirim Proposal Penawaran Paket & Rundown Acara Lengkap - BPD Bali - HUT & Family Gathering Taman Safari Bali",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-24",
+        "WhatId": "006Bh00000GyeRHIAZ",
+        "WhoId": "003Bh00000KoJIbIAN",
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal BPD Bali - HUT & Family Gathering Taman Safari Bali. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXbMAI"
+        },
+        "Id": "00TBh0000088tXbMAI",
+        "Subject": "Pengiriman Dokumen Invoice Pelunasan H-7 Pelaksanaan Kegiatan - Sinarmas Land - VIP Customer Gathering Bali Safari",
+        "Status": "Not Started",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-24",
+        "WhatId": "006Bh00000GyeRKIAZ",
+        "WhoId": "003Bh00000KoJIeIAN",
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Sinarmas Land - VIP Customer Gathering Bali Safari. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXaMAI"
+        },
+        "Id": "00TBh0000088tXaMAI",
+        "Subject": "Telepon Konfirmasi PIC Jumlah Peserta Final & Menu Makanan Khusus - Bank Mandiri - Corporate Gathering Taman Safari Prigen - Nov 2026",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-23",
+        "WhatId": "006Bh00000GydF0IAJ",
+        "WhoId": "003Bh00000KoJITIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Bank Mandiri - Corporate Gathering Taman Safari Prigen - Nov 2026. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXhMAI"
+        },
+        "Id": "00TBh0000088tXhMAI",
+        "Subject": "Follow Up Validasi Tanggal Kunjungan Study Tour Sekolah - Gudang Garam - Kediri Staff Tour Taman Safari Prigen",
+        "Status": "Not Started",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-23",
+        "WhatId": "006Bh00000GyeRGIAZ",
+        "WhoId": "003Bh00000KoJIaIAN",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Gudang Garam - Kediri Staff Tour Taman Safari Prigen. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXnMAI"
+        },
+        "Id": "00TBh0000088tXnMAI",
+        "Subject": "Pengiriman Dokumen Invoice Pelunasan H-7 Pelaksanaan Kegiatan - Kopdes Inc - Youth Leadership Camp Safari Beach Batang",
+        "Status": "In Progress",
+        "Priority": "High",
+        "ActivityDate": "2026-10-22",
+        "WhatId": "006Bh00000GyZTJIA3",
+        "WhoId": "003Bh00000KmefbIAB",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Kopdes Inc - Youth Leadership Camp Safari Beach Batang. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXZMAY"
+        },
+        "Id": "00TBh0000088tXZMAY",
+        "Subject": "Kirim Draft Surat Perjanjian Kerjasama (PKS) Gathering - Telkomsel - Annual Outing Taman Safari Bogor - Oct 2026",
+        "Status": "In Progress",
+        "Priority": "High",
+        "ActivityDate": "2026-10-22",
+        "WhatId": "006Bh00000GydEzIAJ",
+        "WhoId": "003Bh00000KoJIUIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Telkomsel - Annual Outing Taman Safari Bogor - Oct 2026. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXgMAI"
+        },
+        "Id": "00TBh0000088tXgMAI",
+        "Subject": "Kirim Kuesioner Evaluasi Kepuasan Klien Pasca Kunjungan - Semen Indonesia - Gathering Mitra Distributor Prigen",
+        "Status": "In Progress",
+        "Priority": "High",
+        "ActivityDate": "2026-10-22",
+        "WhatId": "006Bh00000GyeRFIAZ",
+        "WhoId": "003Bh00000KoJIZIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Semen Indonesia - Gathering Mitra Distributor Prigen. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXmMAI"
+        },
+        "Id": "00TBh0000088tXmMAI",
+        "Subject": "Telepon Konfirmasi PIC Jumlah Peserta Final & Menu Makanan Khusus - Pertamina - Regional III Annual Outing Taman Safari Bogor",
+        "Status": "Completed",
+        "Priority": "High",
+        "ActivityDate": "2026-10-21",
+        "WhatId": "006Bh00000GyZTIIA3",
+        "WhoId": "003Bh00000KoJIiIAN",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Pertamina - Regional III Annual Outing Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088SqZMAU"
+        },
+        "Id": "00TBh0000088SqZMAU",
+        "Subject": "Kunjungan perlu diperiksa \u2013 Sales User (Kopi Kamu Wijaya)",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-21",
+        "WhatId": "a03Bh00000KoNOMIA3",
+        "WhoId": null,
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Kunjungan oleh Sales User ke Kopi Kamu Wijaya ditandai untuk diselidiki.\nAlasan: Skor di bawah ambang batas.\nRingkasan audit AI: Paket, jumlah peserta, dan anggaran konsisten: Rp50 juta untuk 50 orang setara Rp1 juta per orang. Namun tanggal 27 November 2026 jatuh pada Jumat, bertentangan dengan preferensi Senin\u2013Kamis. Ringkasan hanya menyebut anggaran tiket dan hotel, tanpa menggali kebutuhan, rencana acara, tanggal, atau proses keputusan; data peran pengambil keputusan juga belum sepenuhnya jelas.\n\nRed flags:\n- Tanggal acara jatuh pada Jumat, bukan hari yang dipilih.\n- Ringkasan terlalu singkat untuk tahap discovery.\n- Pengambil keputusan akhir belum teridentifikasi meski peran tercatat sebagai Decision Maker.",
+        "CreatedDate": "2026-10-21T11:07:36.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXfMAI"
+        },
+        "Id": "00TBh0000088tXfMAI",
+        "Subject": "Kirim E-Voucher Tiket Barcode & Akses Gate Masuk ke PIC Klien - Kalbe Farma - Employee Wellness Camp Taman Safari Bogor",
+        "Status": "Completed",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-21",
+        "WhatId": "006Bh00000GyeREIAZ",
+        "WhoId": "003Bh00000KoJIYIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Kalbe Farma - Employee Wellness Camp Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088G6FMAU"
+        },
+        "Id": "00TBh0000088G6FMAU",
+        "Subject": "Kunjungan perlu diperiksa \u2013 Sales User (Hopi Kopi)",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-21",
+        "WhatId": "a03Bh00000KoG1HIAV",
+        "WhoId": null,
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Kunjungan oleh Sales User ke Hopi Kopi ditandai untuk diselidiki.\nAlasan: Off-site check-in with short visit\nRingkasan audit AI: Belum tersedia (penilaian AI masih berjalan).",
+        "CreatedDate": "2026-10-21T05:53:12.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXYMAY"
+        },
+        "Id": "00TBh0000088tXYMAY",
+        "Subject": "Koordinasi Alokasi Unit Bus Pariwisata & Akses Jalur Khusus - Kopi Kamu Wijaya",
+        "Status": "Completed",
+        "Priority": "High",
+        "ActivityDate": "2026-10-21",
+        "WhatId": "006Bh00000Gy4HJIAZ",
+        "WhoId": "003Bh00000KoKEuIAN",
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Kopi Kamu Wijaya. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXlMAI"
+        },
+        "Id": "00TBh0000088tXlMAI",
+        "Subject": "Kirim Draft Surat Perjanjian Kerjasama (PKS) Gathering - Unilever - Brand Activation & Gathering Taman Safari Bogor",
+        "Status": "Completed",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-20",
+        "WhatId": "006Bh00000GyZTFIA3",
+        "WhoId": "003Bh00000KoJIfIAN",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Unilever - Brand Activation & Gathering Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXXMAY"
+        },
+        "Id": "00TBh0000088tXXMAY",
+        "Subject": "Follow Up Konfirmasi Pembayaran Down Payment (DP) Termin 1 - Kopdes Inc. - Corporate Meeting - Taman Safari Bogor - Oct 2026",
+        "Status": "Completed",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-20",
+        "WhatId": "006Bh00000GxCghIAF",
+        "WhoId": "003Bh00000KmefbIAB",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Kopdes Inc. - Corporate Meeting - Taman Safari Bogor - Oct 2026. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh000008835nMAA"
+        },
+        "Id": "00TBh000008835nMAA",
+        "Subject": "Kunjungan perlu diperiksa \u2013 Sales User (Sakarep Been)",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-20",
+        "WhatId": "a03Bh00000KnkKlIAJ",
+        "WhoId": null,
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Kunjungan oleh Sales User ke Sakarep Been ditandai untuk diselidiki.\nAlasan: Off-site check-in with short visit\nRingkasan audit AI: Belum tersedia (penilaian AI masih berjalan).",
+        "CreatedDate": "2026-10-20T16:27:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXeMAI"
+        },
+        "Id": "00TBh0000088tXeMAI",
+        "Subject": "Penyusunan Rundown Acara Detail & Briefing Fasilitator Outbound - Indofood - National Sales Conference Taman Safari Prigen",
+        "Status": "Completed",
+        "Priority": "High",
+        "ActivityDate": "2026-10-20",
+        "WhatId": "006Bh00000GyeRDIAZ",
+        "WhoId": "003Bh00000KoJIXIA3",
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Indofood - National Sales Conference Taman Safari Prigen. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXWMAY"
+        },
+        "Id": "00TBh0000088tXWMAY",
+        "Subject": "Kirim Proposal Penawaran Paket & Rundown Acara Lengkap - Angin Riboet, PT - Team Building - Taman Safari Bogor - Oct 2026",
+        "Status": "Completed",
+        "Priority": "High",
+        "ActivityDate": "2026-10-19",
+        "WhatId": "006Bh00000Gx33xIAB",
+        "WhoId": "003Bh00000KmfrqIAB",
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Angin Riboet, PT - Team Building - Taman Safari Bogor - Oct 2026. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXkMAI"
+        },
+        "Id": "00TBh0000088tXkMAI",
+        "Subject": "Koordinasi Alokasi Unit Bus Pariwisata & Akses Jalur Khusus - Pupuk Indonesia - CSR Edukasi Safari Beach Batang",
+        "Status": "Completed",
+        "Priority": "High",
+        "ActivityDate": "2026-10-19",
+        "WhatId": "006Bh00000GyeRJIAZ",
+        "WhoId": "003Bh00000KoJIdIAN",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal Pupuk Indonesia - CSR Edukasi Safari Beach Batang. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000088tXdMAI"
+        },
+        "Id": "00TBh0000088tXdMAI",
+        "Subject": "Follow Up Penerbitan Purchase Order (PO) Resmi dari Procurement - BCA - Kanwil II Family Day Taman Safari Bogor",
+        "Status": "Completed",
+        "Priority": "Normal",
+        "ActivityDate": "2026-10-19",
+        "WhatId": "006Bh00000GyeRCIAZ",
+        "WhoId": "003Bh00000KoJIWIA3",
+        "OwnerId": "005Bh000006LFYbIAO",
+        "Description": "Tindak lanjut operasional penjualan B2B Taman Safari untuk deal BCA - Kanwil II Family Day Taman Safari Bogor. PIC bertanggung jawab memastikan seluruh persyaratan administratif dan operasional terpenuhi.",
+        "CreatedDate": "2026-10-22T08:42:37.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000086PFGMA2"
+        },
+        "Id": "00TBh0000086PFGMA2",
+        "Subject": "Review Discovery Flagged by AI - User User",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-17",
+        "WhatId": null,
+        "WhoId": null,
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Discovery dari kunjungan User User ditandai AI karena dinilai tidak masuk akal.\n\nAlasan AI: Catatan discovery berisi deskripsi fiktif dan tidak masuk akal (badak unggu main gitar, singa terbang, dll.) yang sama sekali tidak relevan dengan kebutuhan bisnis atau proses penjualan nyata.\n\nBudget: 1000000.00\nAuthority: Single Decision Maker\nTimeline: This Month\nNeed: badak unggu suka main gitar di kolam renang bersama singa terbang yang bernyanyi lagu dangdut sambil memakan es krim rasa pelangi ajaib di bulan purnama ketujuh",
+        "CreatedDate": "2026-10-16T21:15:13.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "Task",
+          "url": "/services/data/v68.0/sobjects/Task/00TBh0000086OmDMAU"
+        },
+        "Id": "00TBh0000086OmDMAU",
+        "Subject": "Review Discovery Flagged by AI - User User",
+        "Status": "Not Started",
+        "Priority": "High",
+        "ActivityDate": "2026-10-17",
+        "WhatId": null,
+        "WhoId": null,
+        "OwnerId": "005Bh000006MpN0IAK",
+        "Description": "Discovery dari kunjungan User User ditandai AI karena dinilai tidak masuk akal.\n\nAlasan AI: Catatan discovery berisi karakter acak dan pernyataan tidak masuk akal yang tidak ada hubungannya dengan kebutuhan bisnis atau kunjungan sales.\n\nBudget: 500000.00\nAuthority: Single Decision Maker\nTimeline: This Quarter\nNeed: asdjkl qweqwe zxcvzxcv warna langit hijau kucing bisa terbang naik sepeda motor ke bulan rasanya enak sekali banget pokoknya",
+        "CreatedDate": "2026-10-16T20:07:46.000+0000"
+      }
+    ],
+    "totalSize": 23,
+    "done": true
+  },
+  "warnings": []
+}

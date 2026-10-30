@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sf org display *)",
+      "Bash(sf org list *)",
+      "Bash(sf sobject *)",
+      "Bash(sf data query *)",
+      "Bash(sf --version)"
+    ],
+    "deny": [
+      "Bash(sf org delete *)",
+      "Bash(sf project delete *)",
+      "Bash(sf org create sandbox *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_sf_org.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

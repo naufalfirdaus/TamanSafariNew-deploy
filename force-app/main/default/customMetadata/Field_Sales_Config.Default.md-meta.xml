@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Max_Geofence_Radius_Meters__c</field>
+        <value xsi:type="xsd:double">300</value>
+    </values>
+    <values>
+        <field>Min_Visit_Duration_Minutes__c</field>
+        <value xsi:type="xsd:double">10</value>
+    </values>
+    <values>
+        <field>Drive_By_Distance_Meters__c</field>
+        <value xsi:type="xsd:double">1000</value>
+    </values>
+    <values>
+        <field>Stale_Visit_Hours__c</field>
+        <value xsi:type="xsd:double">12</value>
+    </values>
+    <values>
+        <field>AI_Alert_Score_Threshold__c</field>
+        <value xsi:type="xsd:double">55</value>
+    </values>
+    <values>
+        <field>Verified_Score_Threshold__c</field>
+        <value xsi:type="xsd:double">75</value>
+    </values>
+    <values>
+        <field>AI_Callback_Timeout_Minutes__c</field>
+        <value xsi:type="xsd:double">30</value>
+    </values>
+    <values>
+        <field>AI_Max_Attempts__c</field>
+        <value xsi:type="xsd:double">3</value>
+    </values>
+    <values>
+        <field>Allow_Outside_Geofence_CheckIn__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

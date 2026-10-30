@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Booking_Urgency__c</fullName>
+    <label>Booking Urgency</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>This Month</fullName>
+                <default>false</default>
+                <label>This Month</label>
+            </value>
+            <value>
+                <fullName>This Quarter</fullName>
+                <default>false</default>
+                <label>This Quarter</label>
+            </value>
+            <value>
+                <fullName>Next Quarter</fullName>
+                <default>false</default>
+                <label>Next Quarter</label>
+            </value>
+            <value>
+                <fullName>Next Year</fullName>
+                <default>false</default>
+                <label>Next Year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

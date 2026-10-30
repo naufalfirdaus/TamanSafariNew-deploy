@@ -1,0 +1,111 @@
+<apex:page standardController="Quote" extensions="QuoteTemplatePDFController" showHeader="true" sidebar="false">
+<style>
+    .qtp-toolbar {
+        padding: 14px 20px;
+        background-color: #114729;
+        border-radius: 4px 4px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .qtp-title {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .qtp-frame-wrap {
+        border: 1px solid #DDDDDD;
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        overflow: hidden;
+    }
+    input.qtp-btn {
+        background-color: #82BB3A !important;
+        color: #114729 !important;
+        border: 1px solid #82BB3A !important;
+        padding: 9px 18px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+    input.qtp-btn-secondary {
+        background-color: #FFFFFF !important;
+        color: #114729 !important;
+        border: 1px solid #FFFFFF !important;
+    }
+    .qtp-message {
+        margin: 12px 0;
+        padding: 10px 14px;
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    .qtp-message-success {
+        background-color: #EAF6E3;
+        color: #114729;
+        border: 1px solid #82BB3A;
+    }
+    .qtp-message-error {
+        background-color: #FBEAEA;
+        color: #B20000;
+        border: 1px solid #E7A6A6;
+    }
+</style>
+
+<div style="max-width: 950px; margin: 20px auto;">
+
+    <apex:form >
+        <div class="qtp-toolbar">
+            <span class="qtp-title">Preview Quotation - {!Quote.Name}</span>
+            <span>
+                <!-- Sengaja TANPA reRender: getContentAsPDF() di controller tidak didukung
+                     Salesforce di dalam request AJAX, jadi tombol ini harus full-page postback. -->
+                <apex:commandButton value="Simpan Quotation" action="{!saveToFiles}" styleClass="qtp-btn qtp-btn-secondary" />
+                <apex:commandButton value="Kirim Quotation via Email" action="{!sendAndSave}" styleClass="qtp-btn" />
+            </span>
+        </div>
+
+        <apex:outputPanel rendered="{!NOT(ISBLANK(statusMessage))}">
+            <div class="qtp-message {!IF(hasError, 'qtp-message-error', 'qtp-message-success')}">
+                <apex:outputText value="{!statusMessage}" />
+            </div>
+        </apex:outputPanel>
+    </apex:form>
+
+    <div class="qtp-frame-wrap">
+        <iframe src="/apex/QuoteTemplatePDF?id={!Quote.Id}" width="100%" height="900" style="border: none; display: block;" />
+    </div>
+
+    <!-- Blok tersembunyi ini SENGAJA ada -- bukan dekorasi.
+         Halaman ini dan QuoteTemplatePDF berbagi satu standard controller Quote
+         dalam request yang sama saat getContentAsPDF() dipanggil dari Apex.
+         Referensi field di sini memaksa Standard Controller Preview ikut meng-query
+         semua field yang dibutuhkan QuoteTemplatePDF, supaya tidak "kurus" field
+         saat dipakai ulang dan menyebabkan error SObject row was retrieved without
+         querying the requested field. -->
+    <apex:outputPanel style="display:none">
+        <apex:outputField value="{!Quote.Status}" />
+        <apex:outputField value="{!Quote.ExpirationDate}" />
+        <apex:outputText value="{!Quote.Owner.Name}" />
+        <apex:outputText value="{!Quote.Account.Name}" />
+        <apex:outputText value="{!Quote.Contact.Name}" />
+        <apex:outputField value="{!Quote.Email}" />
+        <apex:outputField value="{!Quote.Phone}" />
+        <apex:outputField value="{!Quote.Subtotal}" />
+        <apex:outputField value="{!Quote.Discount}" />
+        <apex:outputField value="{!Quote.Tax}" />
+        <apex:outputField value="{!Quote.GrandTotal}" />
+        <apex:repeat value="{!Quote.QuoteLineItems}" var="hiddenItem">
+            <apex:outputText value="{!hiddenItem.Product2.Name}" />
+            <apex:outputField value="{!hiddenItem.Quantity}" />
+            <apex:outputField value="{!hiddenItem.UnitPrice}" />
+            <apex:outputField value="{!hiddenItem.Discount}" />
+            <apex:outputField value="{!hiddenItem.TotalPrice}" />
+        </apex:repeat>
+    </apex:outputPanel>
+
+</div>
+</apex:page>

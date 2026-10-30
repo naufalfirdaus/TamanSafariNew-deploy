@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Status__c</fullName>
+    <label>Investigation Status</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>true</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Pending Manager Review</fullName>
+                <default>false</default>
+                <label>Pending Manager Review</label>
+            </value>
+            <value>
+                <fullName>Excused / Valid</fullName>
+                <default>false</default>
+                <label>Excused / Valid</label>
+            </value>
+            <value>
+                <fullName>Rejected / Fake Visit</fullName>
+                <default>false</default>
+                <label>Rejected / Fake Visit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

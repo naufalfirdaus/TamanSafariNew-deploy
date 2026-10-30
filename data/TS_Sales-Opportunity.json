@@ -1,0 +1,102 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef1"
+            },
+            "Name": "Larry Baxter - Add-On Business - 6K",
+            "StageName": "Proposal/Quote",
+            "CloseDate": "2026-08-06",
+            "Amount": 6499,
+            "Type": "Add-On Business",
+            "LeadSource": "Data.com",
+            "Description": "Larry also owns his own company, could be a cross sell opportunity."
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef2"
+            },
+            "Name": "Big Sky & Sons - Add-On Business - 20K",
+            "StageName": "Proposal/Quote",
+            "CloseDate": "2026-10-04",
+            "Amount": 20000,
+            "Type": "Add-On Business",
+            "LeadSource": "Marketing Event",
+            "Description": "Great customer and this deal is looking good"
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef3"
+            },
+            "Name": "Omega, Inc. - New Business - 40K",
+            "StageName": "Discovery",
+            "CloseDate": "2025-12-25",
+            "Amount": 40000
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef4"
+            },
+            "Name": "Advanced Communications - New Business - 31K",
+            "StageName": "Closed Won",
+            "CloseDate": "2026-02-23",
+            "Amount": 31000
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef5"
+            },
+            "Name": "Omega, Inc. - Add-On Business - 44K",
+            "StageName": "Discovery",
+            "CloseDate": "2026-08-24",
+            "Amount": 44016.67
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef6"
+            },
+            "Name": "Interdesign, PT - Package Liburan Taman Safari",
+            "StageName": "Closed Lost",
+            "CloseDate": "2026-09-30",
+            "Amount": 125000,
+            "Type": "New Business",
+            "LeadSource": "Inbound Call"
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef7"
+            },
+            "Name": "Interdesign - Corporate Gathering Q3",
+            "StageName": "Negotiation",
+            "CloseDate": "2026-08-31",
+            "Amount": 18500000
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef8"
+            },
+            "Name": "Bank Cakrawala - Employee Voucher Batch",
+            "StageName": "Proposal/Quote",
+            "CloseDate": "2026-09-10",
+            "Amount": 1500000
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "OpportunityRef9"
+            },
+            "Name": "Nusantara EO - MICE Batang",
+            "StageName": "Negotiation",
+            "CloseDate": "2026-08-26",
+            "Amount": 34500000
+        }
+    ]
+}

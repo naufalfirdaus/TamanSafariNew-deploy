@@ -1,0 +1,30 @@
+<template>
+  <header class="telemetry-bar">
+    <div class="telemetry-bar__top">
+      <div class="telemetry-bar__timer-pill">
+        <lightning-icon icon-name="utility:clock" size="xx-small" class="timer-icon"></lightning-icon>
+        <span class="timer-text">{formattedTime}</span>
+      </div>
+
+      <div class={gpsPillClass}>
+        <span class="gps-dot"></span>
+        <span class="gps-label">{gpsLabel}</span>
+      </div>
+
+      <div class="telemetry-bar__actions">
+        <button type="button" class="cancel-link" onclick={handleCancelClick}>
+          {labels.cancelVisit}
+        </button>
+      </div>
+    </div>
+
+    <div class="telemetry-bar__bottom">
+      <div class="target-title slds-truncate" title={targetName}>
+        {targetName}
+      </div>
+      <template if:true={isSaving}>
+        <span class="saving-indicator">{labels.saving}</span>
+      </template>
+    </div>
+  </header>
+</template>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Day_Type__c</fullName>
+    <label>Preferred Day Type</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weekday (Mon-Thu)</fullName>
+                <default>false</default>
+                <label>Weekday (Mon-Thu)</label>
+            </value>
+            <value>
+                <fullName>Weekend (Fri-Sun)</fullName>
+                <default>false</default>
+                <label>Weekend (Fri-Sun)</label>
+            </value>
+            <value>
+                <fullName>No Preference</fullName>
+                <default>false</default>
+                <label>No Preference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

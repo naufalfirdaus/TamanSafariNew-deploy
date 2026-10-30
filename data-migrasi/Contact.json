@@ -1,0 +1,166 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef1"
+      },
+      "AccountId": "@AccountRef5",
+      "LastName": "Naufal Firdaus - Test TS",
+      "FirstName": "Ahmad",
+      "Salutation": "Mr.",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "MailingStreet": "Jl.Idris no.34, RT.3/RW.11, Kecamatan Kebun Jeruk",
+      "MailingCity": "Jakarta Barat",
+      "MailingState": "Jakarta Raya",
+      "MailingPostalCode": "11540",
+      "MailingCountry": "ID",
+      "Phone": "085156626140",
+      "Email": "naufalfirdausa@interdesign.com",
+      "Title": "Marketing Team",
+      "Department": "Marketing",
+      "LeadSource": "Partner",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef2"
+      },
+      "AccountId": "@AccountRef8",
+      "LastName": "Santoso",
+      "FirstName": "Budi",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "Phone": "081234500001",
+      "Email": "budi.santoso@interdesign.example.com",
+      "Title": "HR Manager",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef3"
+      },
+      "AccountId": "@AccountRef11",
+      "LastName": "Wahyuni",
+      "FirstName": "Sri",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "Phone": "081234500002",
+      "Email": "sri.wahyuni@cakrawala.example.com",
+      "Title": "Employee Benefit Lead",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef4"
+      },
+      "AccountId": "@AccountRef7",
+      "LastName": "Prasetyo",
+      "FirstName": "Agus",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "Phone": "081234500003",
+      "Email": "agus.prasetyo@tunasbangsa.example.com",
+      "Title": "Wakil Kepala Sekolah",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef5"
+      },
+      "AccountId": "@AccountRef13",
+      "LastName": "Anggraini",
+      "FirstName": "Dewi",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "Phone": "081234500004",
+      "Email": "dewi.anggraini@batangkab.example.com",
+      "Title": "Kepala Bidang",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef6"
+      },
+      "AccountId": "@AccountRef6",
+      "LastName": "Hidayat",
+      "FirstName": "Rian",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "Phone": "081234500005",
+      "Email": "rian.hidayat@nusantaraevent.example.com",
+      "Title": "Event Producer",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef7"
+      },
+      "AccountId": "@AccountRef2",
+      "LastName": "Sururi",
+      "FirstName": "Fuad",
+      "Salutation": "Mr.",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "MailingStreet": "Jalan Villa Bandung Indah",
+      "MailingCity": "Bogor",
+      "MailingState": "Jawa Barat",
+      "MailingCountry": "ID",
+      "Phone": "082123768555",
+      "MobilePhone": "082123768555",
+      "Email": "fuadsururi@cipta.com",
+      "Title": "Sales Team",
+      "Department": "Sales",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef8"
+      },
+      "AccountId": "@AccountRef2",
+      "LastName": "Abidin",
+      "FirstName": "Zainal",
+      "Salutation": "Mr.",
+      "RecordTypeId": "012jV00000050lqQAA",
+      "MailingStreet": "32a Jalan Usaha",
+      "MailingPostalCode": "13630",
+      "MailingCountry": "Indonesia",
+      "Phone": "082123768555",
+      "Email": "ahmad.nfirdaus+zainal@langitkreasi.com",
+      "CurrencyIsoCode": "USD",
+      "HasOptedOutOfEmail": false,
+      "HasOptedOutOfFax": false,
+      "DoNotCall": false,
+      "CanAllowPortalSelfReg": false
+    }
+  ]
+}

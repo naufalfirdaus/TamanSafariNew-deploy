@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity__c</fullName>
+    <label>Opportunity</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Visit Forms</relationshipLabel>
+    <relationshipName>Visit_Forms</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+</CustomField>

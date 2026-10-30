@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account</members>
+        <members>Affiliate_Code__c</members>
+        <members>Commission_Statement__c</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>Product2</members>
+        <members>Quote</members>
+        <members>QuoteLineItem</members>
+        <members>Redemption__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Account-Account Layout - Partner Taman Safari</members>
+        <members>Account-Account Layout - Taman Safari</members>
+        <members>Affiliate_Code__c-Affiliate Code Layout</members>
+        <members>Commission_Statement__c-Commission Statement Layout</members>
+        <members>Contact-SDO - Contact - Taman Safari</members>
+        <members>Lead-Lead Layout - Taman Safari</members>
+        <members>Opportunity-Opportunity Layout - Taman Safari</members>
+        <members>Product2-Product Layout</members>
+        <members>Product2-SDO - Product</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>Redemption__c-Redemption Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Lead_Taman_Safari</members>
+        <members>Opportunity_Taman_Safari</members>
+        <members>Taman_Safari_UtilityBar</members>
+        <members>Contact_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Taman_Safari</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Affiliate_Code__c</members>
+        <members>Commission_Statement__c</members>
+        <members>Redemption__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>AffiliateCommissionSummaryController</members>
+        <members>GuestRedeemVoucherController</members>
+        <members>QuoteTemplatePDFController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>GuestRedeemVoucher</members>
+        <members>QuoteTemplatePDF</members>
+        <members>QuoteTemplatePDFPreview</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>affiliateCommissionSummary</members>
+        <members>guestRedeemVoucher</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Redeem_Affiliate_Voucher</members>
+        <members>Request_New_Affiliate_Code</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Quote.Quote_Discount_Approval</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Taman_Safari_Affiliate_Portal_View</members>
+        <members>Taman_Safari_Guest_Redeem_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Quote</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Taman Safari Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>TamanSafariLogoDark</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Taman_Safari_Reports</members>
+        <members>Taman_Safari_Reports/Hall_of_Fame_Sales</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Taman_Safari_Dashboards</members>
+        <members>Taman_Safari_Dashboards/Hall_of_Fame_Sales_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>SDO_Images_Logos_Buttons</members>
+        <members>SDO_Images_Logos_Buttons/TamanSafariLogo</members>
+        <members>SDO_Images_Logos_Buttons/CompanyLogo</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>Product2Family</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>SDO_PRM_PartnerApproval</members>
+        <members>SDO_Sales_General_Lead</members>
+        <name>Queue</name>
+    </types>
+    <types><members>images_2</members><name>ContentAsset</name></types>
+    <version>67.0</version>
+</Package>

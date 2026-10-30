@@ -1,0 +1,69 @@
+<template>
+  <lightning-modal-header label={modalTitle}></lightning-modal-header>
+
+  <lightning-modal-body>
+    <div class="slds-m-bottom_medium">
+      <lightning-input
+        type="text"
+        label={labels.signerName}
+        value={signerName}
+        onchange={handleSignerNameChange}
+        required
+        class="signer-name-input"
+      ></lightning-input>
+    </div>
+
+    <div class="slds-m-bottom_x-small modal-description">
+      {description}
+    </div>
+
+    <div class="pad-container">
+      <canvas
+        class="signature-pad"
+        onmousedown={handleDrawStart}
+        onmousemove={handleDrawing}
+        onmouseup={handleDrawEnd}
+        onmouseout={handleDrawEnd}
+        ontouchstart={handleDrawStart}
+        ontouchmove={handleDrawing}
+        ontouchend={handleDrawEnd}
+      >
+      </canvas>
+    </div>
+
+    <template if:true={errorMessage}>
+      <div class="slds-m-top_small slds-p-around_x-small error-message" role="alert">
+        {errorMessage}
+      </div>
+    </template>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <div class="footer-actions">
+      <!-- Left side action -->
+      <lightning-button
+        label={labels.clear}
+        icon-name="utility:delete"
+        onclick={handleClear}
+        variant="destructive-text"
+      >
+      </lightning-button>
+
+      <!-- Right side actions -->
+      <div class="right-actions">
+        <lightning-button
+          label={labels.cancel}
+          onclick={handleCancel}
+          class="slds-m-right_x-small"
+        >
+        </lightning-button>
+        <lightning-button
+          label={labels.save}
+          variant="brand"
+          onclick={handleSave}
+        >
+        </lightning-button>
+      </div>
+    </div>
+  </lightning-modal-footer>
+</template>

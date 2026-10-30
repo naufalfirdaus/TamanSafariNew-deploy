@@ -1,0 +1,62 @@
+:host {
+  /* Taman Safari Brand Palette & Button Overrides */
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-warning-1: #dd7a01;
+  --slds-g-color-warning-container-1: #fff3e0;
+  --slds-g-color-on-surface-1: #181818;
+
+  --slds-c-button-brand-color-background: #82bb3a;
+  --slds-c-button-brand-color-background-hover: #6ea72e;
+  --slds-c-button-brand-color-border: #82bb3a;
+  --slds-c-button-brand-text-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-warning-1: #ffa238;
+    --slds-g-color-warning-container-1: #3d260a;
+    --slds-g-color-on-surface-1: #f4f8f5;
+
+    --slds-c-button-brand-color-background: #96d649;
+    --slds-c-button-brand-color-background-hover: #82bb3a;
+    --slds-c-button-brand-color-border: #96d649;
+    --slds-c-button-brand-text-color: #082010;
+  }
+}
+
+.warning-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.warning-icon-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--slds-g-color-warning-container-1, #fff3e0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-warn {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-warning-1, #dd7a01);
+}
+
+.body-text {
+  font-size: 0.9375rem;
+  color: var(--slds-g-color-on-surface-1, #181818);
+  line-height: 1.45;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

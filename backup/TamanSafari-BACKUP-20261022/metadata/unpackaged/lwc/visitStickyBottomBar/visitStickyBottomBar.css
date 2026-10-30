@@ -1,0 +1,140 @@
+:host {
+  display: block;
+  position: sticky;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+
+  /* Taman Safari Brand Palette */
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-accent-2: #11532f;
+  --slds-g-color-accent-3: #d26e4b;
+  --slds-g-color-surface-container-1: #f8faf9;
+  --slds-g-color-surface-container-2: #ffffff;
+  --slds-g-color-on-surface-1: #11532f;
+  --slds-g-color-border-1: #d5e0d8;
+  --slds-g-color-success-1: #2e844a;
+  --slds-g-color-error-1: #ea001e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-accent-2: #45c65a;
+    --slds-g-color-accent-3: #e58564;
+    --slds-g-color-surface-container-1: #1b221e;
+    --slds-g-color-surface-container-2: #232c27;
+    --slds-g-color-on-surface-1: #f4f8f5;
+    --slds-g-color-border-1: #2e3a33;
+    --slds-g-color-success-1: #45c65a;
+    --slds-g-color-error-1: #fe5c5c;
+  }
+}
+
+.sticky-footer {
+  background-color: var(--slds-g-color-surface-container-2, #ffffff);
+  border-top: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+  box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.08);
+  padding: 0.75rem 1rem env(safe-area-inset-bottom, 0.75rem);
+}
+
+.save-status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.save-status-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--slds-g-radius-border-pill, 9999px);
+}
+
+.save-status-text--saving {
+  color: var(--slds-g-color-accent-3, #d26e4b);
+}
+
+.save-status-text--saved {
+  color: var(--slds-g-color-success-1, #2e844a);
+}
+
+.save-status-text--failed {
+  color: var(--slds-g-color-error-1, #ea001e);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.actions-grid {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.btn-footer {
+  min-height: 48px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-radius: var(--slds-g-radius-border-2, 0.5rem);
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
+  flex: 1;
+  text-align: center;
+}
+
+.btn-footer--full {
+  width: 100%;
+  flex: 1 1 100%;
+}
+
+.btn-footer--primary {
+  background-color: var(--slds-g-color-accent-1, #82bb3a);
+  color: var(--slds-g-color-on-accent-1, #ffffff);
+  border-color: var(--slds-g-color-accent-1, #82bb3a);
+}
+
+.btn-footer--primary:hover:not(:disabled) {
+  background-color: #6ea72e;
+}
+
+.btn-footer--primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-footer--secondary {
+  background-color: var(--slds-g-color-surface-container-1, #f8faf9);
+  color: var(--slds-g-color-on-surface-1, #11532f);
+  border: 1.5px solid var(--slds-g-color-border-1, #d5e0d8);
+  flex: 0 0 35%;
+}
+
+.btn-footer--secondary:hover:not(:disabled) {
+  background-color: var(--slds-g-color-surface-container-2, #ebf3ee);
+}
+
+.btn-spinner {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

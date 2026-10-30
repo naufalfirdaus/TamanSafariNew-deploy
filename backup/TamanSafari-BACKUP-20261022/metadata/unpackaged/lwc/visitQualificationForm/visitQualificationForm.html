@@ -1,0 +1,354 @@
+<template>
+  <div class="qualification-container">
+    <div class="step-badge-wrap slds-m-bottom_medium">
+      <span class="step-pill">{labels.stepInfo}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill step-pill--active">{labels.stepBANT}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill">{labels.stepCheckout}</span>
+    </div>
+
+    <!-- 1. Preferred Park (Pilihan Unit Taman Safari) -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.parkLabel} *</label>
+      <div class="pill-chip-grid slds-m-top_xx-small">
+        <template for:each={parkOptions} for:item="opt">
+          <button
+            key={opt.value}
+            type="button"
+            class={opt.cssClass}
+            data-field="preferredPark"
+            data-value={opt.value}
+            onclick={handleSinglePillClick}
+          >
+            <template if:true={opt.isSelected}>
+              <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+            </template>
+            <span>{opt.label}</span>
+          </button>
+        </template>
+      </div>
+    </div>
+
+    <!-- 2. Event Type (Tipe Acara) -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.eventTypeLabel} *</label>
+      <div class="pill-chip-grid slds-m-top_xx-small">
+        <template for:each={eventTypeOptions} for:item="opt">
+          <button
+            key={opt.value}
+            type="button"
+            class={opt.cssClass}
+            data-field="eventType"
+            data-value={opt.value}
+            onclick={handleSinglePillClick}
+          >
+            <template if:true={opt.isSelected}>
+              <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+            </template>
+            <span>{opt.label}</span>
+          </button>
+        </template>
+      </div>
+    </div>
+
+    <!-- 3. Interested Packages (Paket Diminati - Multi Select) -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.packagesLabel} * <span class="label-hint">(Bisa pilih > 1)</span></label>
+      <div class="pill-chip-grid slds-m-top_xx-small">
+        <template for:each={packageOptions} for:item="opt">
+          <button
+            key={opt.value}
+            type="button"
+            class={opt.cssClass}
+            data-value={opt.value}
+            onclick={handlePackageToggle}
+          >
+            <template if:true={opt.isSelected}>
+              <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+            </template>
+            <span>{opt.label}</span>
+          </button>
+        </template>
+      </div>
+    </div>
+
+    <!-- 4. Estimated Pax (Estimasi Jumlah Peserta) -->
+    <div class="form-section slds-m-bottom_medium">
+      <lightning-input
+        type="number"
+        pattern="[0-9]*"
+        label={labels.paxLabel}
+        value={paxValue}
+        onchange={handlePaxChange}
+        min="1"
+        message-when-range-underflow="Jumlah peserta harus lebih dari 0."
+        required
+      ></lightning-input>
+    </div>
+
+    <!-- 5. Budget Section -->
+    <div class="form-section slds-m-bottom_medium">
+      <lightning-input
+        type="text"
+        label={labels.budgetLabel}
+        value={formattedBudgetValue}
+        onchange={handleBudgetChange}
+        placeholder="Rp 0"
+      ></lightning-input>
+
+      <template if:false={isFinalConfirmation}>
+        <div class="sub-field slds-m-top_small">
+          <label class="sub-label">Anggaran per Peserta (Budget / Pax):</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={budgetPerPaxOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-field="budgetPerPax"
+                data-value={opt.value}
+                onclick={handleSinglePillClick}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+
+        <div class="sub-field slds-m-top_small">
+          <label class="sub-label">Status Anggaran:</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={budgetStatusOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-field="budgetStatus"
+                data-value={opt.value}
+                onclick={handleSinglePillClick}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <!-- 6. Authority (Otoritas) - Hidden on Final Confirmation -->
+    <template if:false={isFinalConfirmation}>
+      <div class="form-section slds-m-bottom_medium">
+        <label class="section-label">Otoritas Pengambil Keputusan</label>
+
+        <div class="sub-field slds-m-top_xx-small">
+          <label class="sub-label">Departemen PIC:</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={deptOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-field="picDepartment"
+                data-value={opt.value}
+                onclick={handleSinglePillClick}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+
+        <div class="sub-field slds-m-top_small">
+          <label class="sub-label">Peran dalam Keputusan (Role):</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={decisionRoleOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-field="decisionRole"
+                data-value={opt.value}
+                onclick={handleSinglePillClick}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+
+        <div class="slds-m-top_small">
+          <lightning-input
+            type="checkbox"
+            data-field="finalApprover"
+            label="Pengambil Keputusan Akhir Teridentifikasi (Final Approver)"
+            checked={finalApproverIdentified}
+            onchange={handleFinalApproverChange}
+          ></lightning-input>
+        </div>
+      </div>
+    </template>
+
+    <!-- 7. Timeline (Waktu & Urgensi) -->
+    <div class="form-section slds-m-bottom_medium">
+      <lightning-input
+        type="date"
+        label={labels.dateLabel}
+        value={targetEventDate}
+        onchange={handleDateChange}
+        required
+      ></lightning-input>
+
+      <div class="sub-field slds-m-top_small">
+        <label class="sub-label">Tipe Hari Acara:</label>
+        <div class="pill-chip-row slds-m-top_xx-small">
+          <template for:each={dayTypeOptions} for:item="opt">
+            <button
+              key={opt.value}
+              type="button"
+              class={opt.cssClass}
+              data-field="preferredDayType"
+              data-value={opt.value}
+              onclick={handleSinglePillClick}
+            >
+              <template if:true={opt.isSelected}>
+                <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+              </template>
+              <span>{opt.label}</span>
+            </button>
+          </template>
+        </div>
+      </div>
+
+      <template if:false={isFinalConfirmation}>
+        <div class="sub-field slds-m-top_small">
+          <label class="sub-label">Urgensi Booking:</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={urgencyOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class={opt.cssClass}
+                data-field="bookingUrgency"
+                data-value={opt.value}
+                onclick={handleSinglePillClick}
+              >
+                <template if:true={opt.isSelected}>
+                  <lightning-icon icon-name="utility:check" size="xx-small" class="pill-icon slds-m-right_xx-small"></lightning-icon>
+                </template>
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <!-- 8. Meeting Summary (Ringkasan Pertemuan) -->
+    <div class="form-section slds-m-bottom_medium">
+      <lightning-textarea
+        label={labels.summaryLabel}
+        value={meetingSummary}
+        onchange={handleSummaryChange}
+        placeholder="Tuliskan poin pembahasan, kebutuhan khusus klien, dan rencana tindak lanjut..."
+        required
+        class="summary-textarea"
+      ></lightning-textarea>
+    </div>
+
+    <!-- 9. UU PDP Consent Checkbox -->
+    <div class="consent-card slds-m-bottom_medium">
+      <lightning-input
+        type="checkbox"
+        label={labels.consentPDP}
+        checked={uuPdpConsent}
+        onchange={handlePdpConsentChange}
+        class="pdp-checkbox"
+      ></lightning-input>
+    </div>
+
+    <!-- 10. Client Signature / Decline -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">Tanda Tangan Klien *</label>
+
+      <template if:true={hasSignature}>
+        <div class="signature-confirmed-badge slds-m-top_x-small">
+          <lightning-icon icon-name="utility:success" size="small" class="icon-success slds-m-right_x-small"></lightning-icon>
+          <div class="sig-info">
+            <span class="sig-title">Tanda Tangan Tersimpan</span>
+            <span class="sig-sub">Penandatangan: {signedByName}</span>
+          </div>
+          <button type="button" class="btn-change-sig" onclick={handleOpenSignature}>
+            Ubah
+          </button>
+        </div>
+      </template>
+
+      <template if:true={isDeclined}>
+        <div class="signature-declined-badge slds-m-top_x-small">
+          <lightning-icon icon-name="utility:warning" size="small" class="icon-warn slds-m-right_x-small"></lightning-icon>
+          <div class="sig-info">
+            <span class="sig-title">Tanda Tangan Ditolak / Ditiadakan</span>
+            <span class="sig-sub">Alasan: {displayDeclinedReason}</span>
+          </div>
+          <button type="button" class="btn-change-sig" onclick={handleOpenSignature}>
+            Tanda Tangan Ulang
+          </button>
+        </div>
+      </template>
+
+      <template if:false={hasSignatureOrDeclined}>
+        <div class="sig-cta-row slds-m-top_x-small">
+          <button
+            type="button"
+            class="btn-sig-primary"
+            onclick={handleOpenSignature}
+          >
+            <lightning-icon icon-name="utility:signature" size="small" class="slds-m-right_x-small"></lightning-icon>
+            <span>{labels.btnSign}</span>
+          </button>
+
+          <button
+            type="button"
+            class="btn-sig-decline"
+            onclick={handleDeclineSignatureClick}
+          >
+            {labels.btnDeclineSign}
+          </button>
+        </div>
+      </template>
+
+      <!-- Decline reason drawer -->
+      <template if:true={showDeclinePicker}>
+        <div class="decline-picker slds-m-top_small">
+          <label class="sub-label">{labels.signDeclinedReason}:</label>
+          <div class="pill-chip-row slds-m-top_xx-small">
+            <template for:each={declineReasonOptions} for:item="opt">
+              <button
+                key={opt.value}
+                type="button"
+                class="touch-chip"
+                data-value={opt.value}
+                onclick={handleSelectDeclineReason}
+              >
+                <span>{opt.label}</span>
+              </button>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+</template>

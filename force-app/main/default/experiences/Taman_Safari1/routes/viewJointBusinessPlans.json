@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "4906efeb-0f07-453c-b6ca-b64d2b82d20d",
+  "appPageId" : "7157b2a7-1483-4997-a9cb-8cd980892b08",
+  "configurationTags" : [ ],
+  "devName" : "View_Joint_Business_Plan_List",
+  "id" : "30241b07-14e4-4862-80d3-afe7d40279c7",
+  "label" : "View Joint Business Plans",
+  "routeType" : "jointbusinessplan-list",
+  "type" : "route",
+  "urlPrefix" : "jointbusinessplan-list"
+}

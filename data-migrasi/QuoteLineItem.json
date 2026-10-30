@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "QuoteLineItem",
+        "referenceId": "QuoteLineItemRef1"
+      },
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "QuoteId": "@QuoteRef1",
+      "PricebookEntryId": "01ujV0000005vIcQAI",
+      "Quantity": 10,
+      "UnitPrice": 350000,
+      "Discount": 0
+    },
+    {
+      "attributes": {
+        "type": "QuoteLineItem",
+        "referenceId": "QuoteLineItemRef2"
+      },
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "QuoteId": "@QuoteRef2",
+      "PricebookEntryId": "01ujV0000005vIgQAI",
+      "Quantity": 10,
+      "UnitPrice": 150000,
+      "Discount": 25
+    },
+    {
+      "attributes": {
+        "type": "QuoteLineItem",
+        "referenceId": "QuoteLineItemRef3"
+      },
+      "CreatedDate": "2026-08-11T16:09:45.000+0000",
+      "LastModifiedDate": "2026-08-11T16:09:45.000+0000",
+      "QuoteId": "@QuoteRef3",
+      "PricebookEntryId": "01ujV0000005vIdQAI",
+      "Quantity": 10,
+      "UnitPrice": 950000,
+      "Discount": 10
+    }
+  ]
+}

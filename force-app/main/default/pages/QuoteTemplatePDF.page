@@ -1,0 +1,327 @@
+<apex:page standardController="Quote" renderAs="pdf" showHeader="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+<html>
+<head>
+<style>
+    @page {
+        size: A4;
+        margin: 28px 36px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        line-height: 1.5;
+        color: #2b2b2b;
+    }
+    .header-table {
+        width: 100%;
+        border-bottom: 3px solid #82BB3A;
+        padding-bottom: 14px;
+        margin-bottom: 22px;
+    }
+    .header-tagline {
+        font-size: 9px;
+        letter-spacing: 1px;
+        color: #666666;
+        text-transform: uppercase;
+        margin-top: 4px;
+    }
+    .quote-title {
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #114729;
+        text-align: right;
+    }
+    .quote-status-wrap {
+        text-align: right;
+        margin-top: 8px;
+    }
+    .quote-status {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #114729;
+        padding: 4px 12px;
+        border-radius: 10px;
+    }
+    .section-title {
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #114729;
+        border-bottom: 1.5px solid #82BB3A;
+        padding-bottom: 5px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+    .info-table {
+        width: 100%;
+        line-height: 1.6;
+    }
+    .info-table td {
+        padding: 3px 8px 3px 0;
+        vertical-align: top;
+    }
+    .info-label {
+        color: #777777;
+        width: 130px;
+    }
+    .info-value {
+        color: #222222;
+        font-weight: bold;
+    }
+    .line-item-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8px;
+    }
+    .line-item-table th {
+        background-color: #114729;
+        color: #FFFFFF;
+        padding: 9px 10px;
+        text-align: left;
+        font-size: 10px;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+    .line-item-table td {
+        padding: 9px 10px;
+        border-bottom: 1px solid #E8E8E8;
+        font-size: 10.5px;
+    }
+    .line-item-table tr:nth-child(even) td {
+        background-color: #F6FAF0;
+    }
+    .totals-table {
+        width: 280px;
+        margin-top: 16px;
+        margin-left: auto;
+        line-height: 1.7;
+    }
+    .totals-table td {
+        padding: 4px 8px;
+    }
+    .totals-label {
+        text-align: left;
+        color: #777777;
+    }
+    .totals-value {
+        text-align: right;
+    }
+    .grand-total-row td {
+        font-size: 15px;
+        font-weight: bold;
+        color: #114729;
+        border-top: 2px solid #114729;
+        padding-top: 10px;
+    }
+    .terms {
+        margin-top: 28px;
+        font-size: 9px;
+        line-height: 1.6;
+        color: #666666;
+        border-top: 1px solid #E8E8E8;
+        padding-top: 12px;
+    }
+    .terms ol {
+        margin: 6px 0 0 0;
+        padding-left: 16px;
+    }
+    .footer {
+        margin-top: 36px;
+        text-align: center;
+        font-size: 9px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #114729;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .signature-table {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .signature-table td {
+        width: 50%;
+        vertical-align: top;
+        padding-right: 30px;
+    }
+    .signature-role {
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #777777;
+        margin-bottom: 45px;
+    }
+    .signature-line {
+        border-top: 1px solid #222222;
+        padding-top: 4px;
+        font-size: 10px;
+    }
+    .signature-caption {
+        font-size: 9px;
+        color: #777777;
+        margin-top: 2px;
+    }
+    .not-approved-wrap {
+        text-align: center;
+        margin-top: 160px;
+    }
+    .not-approved-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #B20000;
+        margin-bottom: 10px;
+    }
+    .not-approved-desc {
+        font-size: 11px;
+        color: #555555;
+    }
+</style>
+</head>
+<body>
+
+<apex:outputPanel rendered="{!Quote.Status != 'Approved'}">
+    <table class="header-table">
+        <tr>
+            <td style="width: 55%;">
+                <apex:image value="{!$Resource.TamanSafariLogoDark}" width="130" />
+            </td>
+            <td style="width: 45%;"></td>
+        </tr>
+    </table>
+    <div class="not-approved-wrap">
+        <div class="not-approved-title">PDF Belum Bisa Dibuat</div>
+        <div class="not-approved-desc">
+            Quotation "<apex:outputText value="{!Quote.Name}" />" berstatus
+            "<apex:outputText value="{!Quote.Status}" />".<br/>
+            PDF resmi hanya bisa dibuat setelah Quotation berstatus <strong>Approved</strong>.<br/>
+            Silakan submit Quotation ini untuk approval terlebih dahulu.
+        </div>
+    </div>
+</apex:outputPanel>
+
+<apex:outputPanel rendered="{!Quote.Status == 'Approved'}">
+
+    <!-- Header: Logo + Judul -->
+    <table class="header-table">
+        <tr>
+            <td style="width: 55%;">
+                <apex:image value="{!$Resource.TamanSafariLogoDark}" width="130" />
+            </td>
+            <td style="width: 45%;">
+                <div class="quote-title">QUOTATION</div>
+                <div class="quote-status-wrap">
+                    <apex:outputText value="{!Quote.Status}" styleClass="quote-status" />
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Info Quotation & Klien -->
+    <table style="width: 100%;">
+        <tr>
+            <td style="width: 50%; vertical-align: top;">
+                <div class="section-title">Info Quotation</div>
+                <table class="info-table">
+                    <tr><td class="info-label">Nomor Quote</td><td class="info-value"><apex:outputText value="{!Quote.Name}" /></td></tr>
+                    <tr><td class="info-label">Berlaku Sampai</td><td class="info-value"><apex:outputField value="{!Quote.ExpirationDate}" /></td></tr>
+                    <tr><td class="info-label">Dibuat Oleh</td><td class="info-value"><apex:outputText value="{!Quote.Owner.Name}" /></td></tr>
+                </table>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+                <div class="section-title">Info Klien</div>
+                <table class="info-table">
+                    <tr><td class="info-label">Perusahaan</td><td class="info-value"><apex:outputText value="{!Quote.Account.Name}" /></td></tr>
+                    <tr><td class="info-label">Contact Person</td><td class="info-value"><apex:outputText value="{!Quote.Contact.Name}" /></td></tr>
+                    <tr><td class="info-label">Email</td><td class="info-value"><apex:outputText value="{!Quote.Email}" /></td></tr>
+                    <tr><td class="info-label">Telepon</td><td class="info-value"><apex:outputText value="{!Quote.Phone}" /></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Line Items -->
+    <div class="section-title">Rincian Paket</div>
+    <table class="line-item-table">
+        <tr>
+            <th>Produk / Paket</th>
+            <th style="text-align: right;">Qty</th>
+            <th style="text-align: right;">Harga Satuan</th>
+            <th style="text-align: right;">Diskon</th>
+            <th style="text-align: right;">Total</th>
+        </tr>
+        <apex:repeat value="{!Quote.QuoteLineItems}" var="item">
+            <tr>
+                <td><apex:outputText value="{!item.Product2.Name}" /></td>
+                <td style="text-align: right;"><apex:outputField value="{!item.Quantity}" /></td>
+                <td style="text-align: right;"><apex:outputField value="{!item.UnitPrice}" /></td>
+                <td style="text-align: right;"><apex:outputField value="{!item.Discount}" /></td>
+                <td style="text-align: right;"><apex:outputField value="{!item.TotalPrice}" /></td>
+            </tr>
+        </apex:repeat>
+    </table>
+
+    <!-- Ringkasan Total -->
+    <table class="totals-table">
+        <tr>
+            <td class="totals-label">Subtotal</td>
+            <td class="totals-value"><apex:outputField value="{!Quote.Subtotal}" /></td>
+        </tr>
+        <tr>
+            <td class="totals-label">Diskon Quote</td>
+            <td class="totals-value"><apex:outputField value="{!Quote.Discount}" /></td>
+        </tr>
+        <tr>
+            <td class="totals-label">Pajak</td>
+            <td class="totals-value"><apex:outputField value="{!Quote.Tax}" /></td>
+        </tr>
+        <tr class="grand-total-row">
+            <td class="totals-label">Grand Total</td>
+            <td class="totals-value"><apex:outputField value="{!Quote.GrandTotal}" /></td>
+        </tr>
+    </table>
+
+    <!-- Syarat & Ketentuan -->
+    <div class="terms">
+        <strong>Syarat &amp; Ketentuan:</strong>
+        <ol>
+            <li>Quotation berlaku sesuai tanggal berlaku sampai di atas.</li>
+            <li>Diskon di luar kewenangan memerlukan approval internal sebelum dikirim ke klien.</li>
+            <li>Pembayaran dan jadwal kunjungan dikonfirmasi terpisah oleh tim Sales Beach Safari Batang.</li>
+        </ol>
+    </div>
+
+    <!-- Tanda Tangan -->
+    <table class="signature-table">
+        <tr>
+            <td>
+                <div class="signature-role">Disetujui Oleh (Sales)</div>
+                <div class="signature-line">
+                    <apex:outputText value="{!Quote.Owner.Name}" />
+                </div>
+                <div class="signature-caption">Nama &amp; Tanda Tangan Sales Executive</div>
+            </td>
+            <td>
+                <div class="signature-role">Diterima Oleh (Customer)</div>
+                <div class="signature-line">&#160;</div>
+                <div class="signature-caption">Nama, Tanda Tangan &amp; Cap Perusahaan</div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Taman Safari Indonesia -- Beach Safari Batang
+    </div>
+
+</apex:outputPanel>
+
+</body>
+</html>
+</apex:page>

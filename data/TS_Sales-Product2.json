@@ -1,0 +1,116 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "Cirrus Hoodie",
+            "ProductCode": "D-1100",
+            "Description": "Introducing the Cirrus Hoodie, your new go-to for ultimate comfort and style. Crafted with meticulous attention to detail, this hoodie is designed to keep you warm, cozy, and effortlessly stylish in any season.",
+            "Family": "Merchandise",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "Cirrus Crewneck T-Shirt",
+            "ProductCode": "D-1000",
+            "Description": "Elevate your everyday style with our Women's Classic Crewneck T-Shirt. This versatile wardrobe staple offers a perfect blend of comfort, quality, and timeless fashion. Whether you're dressing up or keeping it casual, this t-shirt is a must-have addition to your collection.",
+            "Family": "Merchandise",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "Tiket Masuk Beach Safari Batang",
+            "Family": "Ticket & Voucher",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "Paket Corporate Gathering 1 Hari",
+            "Family": "Bundled Package",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref5"
+            },
+            "Name": "Paket Full Journey 2H1M",
+            "Family": "Bundled Package",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref6"
+            },
+            "Name": "Akomodasi Resort - Standard Room",
+            "Family": "Accommodation",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref7"
+            },
+            "Name": "Sesi Team Building",
+            "Family": "Team Building",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref8"
+            },
+            "Name": "Transport Bus Antar Jemput",
+            "Family": "Transport",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref9"
+            },
+            "Name": "Paket Makan Siang Group",
+            "Family": "F&B",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref10"
+            },
+            "Name": "Tiket Masuk Taman Safari Bogor",
+            "Family": "Ticket & Voucher",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref11"
+            },
+            "Name": "Tiket Masuk Taman Safari Prigen",
+            "Family": "Ticket & Voucher",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref12"
+            },
+            "Name": "Tiket Masuk Taman Safari Bali",
+            "Family": "Ticket & Voucher",
+            "IsActive": true
+        }
+    ]
+}

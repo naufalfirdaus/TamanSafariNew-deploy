@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wajib_PO_Sebelum_Closed_Won</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Taman_Safari&quot;,
+  ISPICKVAL(StageName, &quot;Closed Won&quot;),
+  ISBLANK(PO_Number__c)
+)</errorConditionFormula>
+    <errorDisplayField>PO_Number__c</errorDisplayField>
+    <errorMessage>Nomor PO wajib diisi sebelum Opportunity ditutup sebagai Closed Won.</errorMessage>
+</ValidationRule>

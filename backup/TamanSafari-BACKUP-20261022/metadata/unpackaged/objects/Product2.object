@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Product_Information</fullName>
+        <description>Used in the B2B LE Product Comparison</description>
+        <displayedFields>
+            <field>Image_URL__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>StockKeepingUnit</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Family</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ProductCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Product Information</label>
+    </fieldSets>
+    <fields>
+        <fullName>Approval_Threshold__c</fullName>
+        <defaultValue>0.15</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum discount allowed by sales rep before manager approval is required.</inlineHelpText>
+        <label>Approval Threshold</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Approvals__c</fullName>
+        <externalId>false</externalId>
+        <label>Approvals</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>ETL</fullName>
+                    <default>false</default>
+                    <label>ETL</label>
+                </value>
+                <value>
+                    <fullName>UL</fullName>
+                    <default>false</default>
+                    <label>UL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Attribute_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Conferencing</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Conference Room-in-a-Box</fullName>
+                    <default>false</default>
+                    <label>Conference Room-in-a-Box</label>
+                </value>
+                <value>
+                    <fullName>Projectors</fullName>
+                    <default>false</default>
+                    <label>Projectors</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attribute_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Portable Audio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Headphones</fullName>
+                    <default>false</default>
+                    <label>Headphones</label>
+                </value>
+                <value>
+                    <fullName>Desktop Audio</fullName>
+                    <default>false</default>
+                    <label>Desktop Audio</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attribute_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Audio</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Speakers</fullName>
+                    <default>false</default>
+                    <label>Speakers</label>
+                </value>
+                <value>
+                    <fullName>Multi-Room Audio</fullName>
+                    <default>false</default>
+                    <label>Multi-Room Audio</label>
+                </value>
+                <value>
+                    <fullName>Home Theatre</fullName>
+                    <default>false</default>
+                    <label>Home Theatre</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attribute_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Color</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+                <value>
+                    <fullName>Silver</fullName>
+                    <default>false</default>
+                    <label>Silver</label>
+                </value>
+                <value>
+                    <fullName>Gray</fullName>
+                    <default>false</default>
+                    <label>Gray</label>
+                </value>
+                <value>
+                    <fullName>White</fullName>
+                    <default>false</default>
+                    <label>White</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attribute_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Service</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Protection Plans</fullName>
+                    <default>false</default>
+                    <label>Protection Plans</label>
+                </value>
+                <value>
+                    <fullName>Tech Support</fullName>
+                    <default>false</default>
+                    <label>Tech Support</label>
+                </value>
+                <value>
+                    <fullName>Installation Services</fullName>
+                    <default>false</default>
+                    <label>Installation Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Available_to_Guest_Users__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Available to Guest Users</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Badge1_Label__c</fullName>
+        <description>Add a label to your badge when your badge type is Generic, Free shipping or quantity</description>
+        <externalId>false</externalId>
+        <label>Badge1_Label</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badge1_Type__c</fullName>
+        <description>Promotional badge for Product</description>
+        <externalId>false</externalId>
+        <label>Badge1_Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Generic Badge</fullName>
+                    <default>false</default>
+                    <label>Generic Badge</label>
+                </value>
+                <value>
+                    <fullName>Price Discount Badge</fullName>
+                    <default>false</default>
+                    <label>Price Discount Badge</label>
+                </value>
+                <value>
+                    <fullName>Free Shipping Badge</fullName>
+                    <default>false</default>
+                    <label>Free Shipping Badge</label>
+                </value>
+                <value>
+                    <fullName>Product Quantity Badge</fullName>
+                    <default>false</default>
+                    <label>Product Quantity Badge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Badge2_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Badge2_Label</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Badge2_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Badge2_Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Generic Badge</fullName>
+                    <default>false</default>
+                    <label>Generic Badge</label>
+                </value>
+                <value>
+                    <fullName>Price Discount Badge</fullName>
+                    <default>false</default>
+                    <label>Price Discount Badge</label>
+                </value>
+                <value>
+                    <fullName>Free Shipping Badge</fullName>
+                    <default>false</default>
+                    <label>Free Shipping Badge</label>
+                </value>
+                <value>
+                    <fullName>Product Quantity Badge</fullName>
+                    <default>false</default>
+                    <label>Product Quantity Badge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Segment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Enterprise</fullName>
+                    <default>false</default>
+                    <label>Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Middle Market</fullName>
+                    <default>false</default>
+                    <label>Middle Market</label>
+                </value>
+                <value>
+                    <fullName>SMB</fullName>
+                    <default>false</default>
+                    <label>SMB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CPQImage__c</fullName>
+        <description>IF(CONTAINS(Image_URL__c,&quot;.&quot;), 
+
+IF(ISBLANK(Image_URL__c), ProductImageRelatedList__c, 
+
+(IF(ISBLANK(Image_URL__c),  ProductImageRelatedList__c ,IMAGE(&quot;/servlet/servlet.ImageServer?id=&quot; + Product_Picture_ID_URL__c + &quot;&amp;oid=&quot; + $Organization.Id , &quot;&quot;, 100, 100)))),ProductImageRelatedList__c)</description>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Image_URL__c,&quot;.&quot;)
+,
+IMAGE(Image_URL__c,&quot;&quot;,100,100)
+,
+	IF(ISBLANK(Image_URL__c)
+	,
+		 ProductImageRelatedList__c 
+	,
+		IMAGE(&quot;/servlet/servlet.ImageServer?id=&quot; + Product_Picture_ID_URL__c + &quot;&amp;oid=&quot; + $Organization.Id , &quot;&quot;, 100, 100)
+	)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>-</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Detail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ETA__c</fullName>
+        <externalId>false</externalId>
+        <label>ETA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>End_Date_Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ExpectedLifespanUOM__c</fullName>
+        <externalId>false</externalId>
+        <label>ExpectedLifespanUOM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpectedLifespan__c</fullName>
+        <externalId>false</externalId>
+        <label>ExpectedLifespan</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpectedLifetimeUsageUOM__c</fullName>
+        <externalId>false</externalId>
+        <label>ExpectedLifetimeUsageUOM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpectedLifetimeUsage__c</fullName>
+        <externalId>false</externalId>
+        <label>ExpectedLifetimeUsage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This is used to consistently import data to a version of the SDO and translate data into other languages.</description>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>GFCI_Safety_Circuit__c</fullName>
+        <externalId>false</externalId>
+        <label>GFCI Safety Circuit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Guided_Selling__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Field used to filter products for Guided Selling.</inlineHelpText>
+        <label>Guided Selling</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Kits</fullName>
+                    <default>false</default>
+                    <label>Kits</label>
+                </value>
+                <value>
+                    <fullName>Turbines</fullName>
+                    <default>false</default>
+                    <label>Turbines</label>
+                </value>
+                <value>
+                    <fullName>Batteries</fullName>
+                    <default>false</default>
+                    <label>Batteries</label>
+                </value>
+                <value>
+                    <fullName>Battery Tools</fullName>
+                    <default>false</default>
+                    <label>Battery Tools</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Software Licenses</fullName>
+                    <default>false</default>
+                    <label>Software Licenses</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Image_Height__c</fullName>
+        <externalId>false</externalId>
+        <label>Image Height</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image_Width__c</fullName>
+        <externalId>false</externalId>
+        <label>Image Width</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Post an image (200px wide, transparent .PNG recommended) in the &quot;Product Images&quot; folder of Documents.  Copy the Record ID (in the URL) of the new document and paste it here.</inlineHelpText>
+        <label>Image ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Inventory_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Inventory Level</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsFreeShippingBadge__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this while selecting Free shipping badge</description>
+        <externalId>false</externalId>
+        <label>IsFreeShippingBadge</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsSerialized</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Item_Features__c</fullName>
+        <description>Used in the custom Catalog UI found in the Order Console.</description>
+        <externalId>false</externalId>
+        <label>Features</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Item_MSRP__c</fullName>
+        <externalId>false</externalId>
+        <label>Item MSRP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Item_Specifications__c</fullName>
+        <description>Used in the custom Catalog UI found in the Order Console.</description>
+        <externalId>false</externalId>
+        <label>Specifications</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bogor</fullName>
+                    <default>false</default>
+                    <label>Bogor</label>
+                </value>
+                <value>
+                    <fullName>Prigen</fullName>
+                    <default>false</default>
+                    <label>Prigen</label>
+                </value>
+                <value>
+                    <fullName>Bali</fullName>
+                    <default>false</default>
+                    <label>Bali</label>
+                </value>
+                <value>
+                    <fullName>Batang</fullName>
+                    <default>false</default>
+                    <label>Batang</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Min_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Min Quantity</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Model</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Nominal__c</fullName>
+        <description>Nilai nominal pulsa/paket data (harga pokok dari provider, sebelum markup harga jual).</description>
+        <externalId>false</externalId>
+        <label>Nominal</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Park_Location__c</fullName>
+        <description>Park this product belongs to. &quot;All Locations&quot; = valid for any park. Must match Opportunity.Preferred_Park_Location__c.</description>
+        <externalId>false</externalId>
+        <label>Park Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Taman Safari Bogor</fullName>
+                    <default>false</default>
+                    <label>Taman Safari Bogor</label>
+                </value>
+                <value>
+                    <fullName>Taman Safari Prigen</fullName>
+                    <default>false</default>
+                    <label>Taman Safari Prigen</label>
+                </value>
+                <value>
+                    <fullName>Taman Safari Bali</fullName>
+                    <default>false</default>
+                    <label>Taman Safari Bali</label>
+                </value>
+                <value>
+                    <fullName>Beach Safari Batang</fullName>
+                    <default>false</default>
+                    <label>Beach Safari Batang</label>
+                </value>
+                <value>
+                    <fullName>Solo Safari</fullName>
+                    <default>false</default>
+                    <label>Solo Safari</label>
+                </value>
+                <value>
+                    <fullName>All Locations</fullName>
+                    <default>false</default>
+                    <label>All Locations</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Power_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Power Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Electric</fullName>
+                    <default>false</default>
+                    <label>Electric</label>
+                </value>
+                <value>
+                    <fullName>Solar</fullName>
+                    <default>false</default>
+                    <label>Solar</label>
+                </value>
+                <value>
+                    <fullName>Wind</fullName>
+                    <default>false</default>
+                    <label>Wind</label>
+                </value>
+                <value>
+                    <fullName>Water</fullName>
+                    <default>false</default>
+                    <label>Water</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProductImageRelatedList__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(purl__c, &quot;No Image&quot;, 50, 50 )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Catalog__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Basic</fullName>
+                    <default>false</default>
+                    <label>Basic</label>
+                </value>
+                <value>
+                    <fullName>Premium</fullName>
+                    <default>false</default>
+                    <label>Premium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Image__c</fullName>
+        <description>Used by the Org Customizer (Heroku) to display photos of products.</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(purl__c , &quot;No Image&quot;, 300, 512)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Picture_ID_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>CPQ Demo Image URL</inlineHelpText>
+        <label>Product Picture ID URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Type_Gift_Card__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checked when the product type is eGift card</description>
+        <externalId>false</externalId>
+        <label>Product_Type_Gift_Card</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Provider__c</fullName>
+        <description>Provider telco untuk produk pulsa/paket data ini.</description>
+        <externalId>false</externalId>
+        <label>Provider</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Telkomsel</fullName>
+                    <default>false</default>
+                    <label>Telkomsel</label>
+                </value>
+                <value>
+                    <fullName>Indosat</fullName>
+                    <default>false</default>
+                    <label>Indosat</label>
+                </value>
+                <value>
+                    <fullName>XL</fullName>
+                    <default>false</default>
+                    <label>XL</label>
+                </value>
+                <value>
+                    <fullName>Tri</fullName>
+                    <default>false</default>
+                    <label>Tri</label>
+                </value>
+                <value>
+                    <fullName>Smartfren</fullName>
+                    <default>false</default>
+                    <label>Smartfren</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RT_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>RT Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SDO_B2B_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Commerce Product Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Review</fullName>
+                    <default>false</default>
+                    <label>In Review</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Published to Website</fullName>
+                    <default>false</default>
+                    <label>Published to Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SDO_OMS_Fulfillment_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Bill Macaulay Oct 2022
+Used to split Order Summaries onto fulfillment Orders</description>
+        <externalId>false</externalId>
+        <label>Fulfillment Location</label>
+        <referenceTo>Location</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SDO_SCOM_Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SunFusion</fullName>
+                    <default>false</default>
+                    <label>SunFusion</label>
+                </value>
+                <value>
+                    <fullName>SolarWave</fullName>
+                    <default>false</default>
+                    <label>SolarWave</label>
+                </value>
+                <value>
+                    <fullName>PhotonPower</fullName>
+                    <default>false</default>
+                    <label>PhotonPower</label>
+                </value>
+                <value>
+                    <fullName>LuminaSol</fullName>
+                    <default>false</default>
+                    <label>LuminaSol</label>
+                </value>
+                <value>
+                    <fullName>StarVolt</fullName>
+                    <default>false</default>
+                    <label>StarVolt</label>
+                </value>
+                <value>
+                    <fullName>SunSavvy</fullName>
+                    <default>false</default>
+                    <label>SunSavvy</label>
+                </value>
+                <value>
+                    <fullName>Cirrus</fullName>
+                    <default>false</default>
+                    <label>Cirrus</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SDO_SCOM_OOA_Allowed_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>B2B Allowed Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_B2B_Shipping_Cubic_Size__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>This field will be used to determine the fullness of the truck</description>
+        <externalId>false</externalId>
+        <label>B2B Commerce Shipping Size Cubic Feet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_Badge1_Label__c</fullName>
+        <description>Add a label to your badge when your badge type is Generic, Free shipping or quantity</description>
+        <externalId>false</externalId>
+        <label>Badge1_Label</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_Badge1_Type__c</fullName>
+        <description>Promotional badge for Product</description>
+        <externalId>false</externalId>
+        <label>Badge1_Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Generic Badge</fullName>
+                    <default>false</default>
+                    <label>Generic Badge</label>
+                </value>
+                <value>
+                    <fullName>Price Discount Badge</fullName>
+                    <default>false</default>
+                    <label>Price Discount Badge</label>
+                </value>
+                <value>
+                    <fullName>Free Shipping Badge</fullName>
+                    <default>false</default>
+                    <label>Free Shipping Badge</label>
+                </value>
+                <value>
+                    <fullName>Product Quantity Badge</fullName>
+                    <default>false</default>
+                    <label>Product Quantity Badge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_Badge2_Label__c</fullName>
+        <externalId>false</externalId>
+        <label>Badge2_Label</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_Badge2_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Badge2_Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Generic Badge</fullName>
+                    <default>false</default>
+                    <label>Generic Badge</label>
+                </value>
+                <value>
+                    <fullName>Price Discount Badge</fullName>
+                    <default>false</default>
+                    <label>Price Discount Badge</label>
+                </value>
+                <value>
+                    <fullName>Free Shipping Badge</fullName>
+                    <default>false</default>
+                    <label>Free Shipping Badge</label>
+                </value>
+                <value>
+                    <fullName>Product Quantity Badge</fullName>
+                    <default>false</default>
+                    <label>Product Quantity Badge</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sdo_Scom_IsFreeShippingBadge__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this while selecting Free shipping badge</description>
+        <externalId>false</externalId>
+        <label>IsFreeShippingBadge</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SellerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Short_Description__c</fullName>
+        <description>B2B Commerce field used on PLP</description>
+        <externalId>false</externalId>
+        <label>Short Description</label>
+        <length>102</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SourceProductId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Start_Date_Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TransferRecordMode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>per Pax</fullName>
+                    <default>false</default>
+                    <label>per Pax</label>
+                </value>
+                <value>
+                    <fullName>per Room/Night</fullName>
+                    <default>false</default>
+                    <label>per Room/Night</label>
+                </value>
+                <value>
+                    <fullName>per Bus</fullName>
+                    <default>false</default>
+                    <label>per Bus</label>
+                </value>
+                <value>
+                    <fullName>per Batch</fullName>
+                    <default>false</default>
+                    <label>per Batch</label>
+                </value>
+                <value>
+                    <fullName>per Slot</fullName>
+                    <default>false</default>
+                    <label>per Slot</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Warranty__c</fullName>
+        <externalId>false</externalId>
+        <label>Warranty</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Available</fullName>
+                    <default>true</default>
+                    <label>Not Available</label>
+                </value>
+                <value>
+                    <fullName>1 Year</fullName>
+                    <default>false</default>
+                    <label>1 Year</label>
+                </value>
+                <value>
+                    <fullName>2 Years</fullName>
+                    <default>false</default>
+                    <label>2 Years</label>
+                </value>
+                <value>
+                    <fullName>3 Years</fullName>
+                    <default>false</default>
+                    <label>3 Years</label>
+                </value>
+                <value>
+                    <fullName>4 Years</fullName>
+                    <default>false</default>
+                    <label>4 Years</label>
+                </value>
+                <value>
+                    <fullName>5 Years</fullName>
+                    <default>false</default>
+                    <label>5 Years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>analyticsdemo_batch_id__c</fullName>
+        <description>What: Used by the Analytics Demo Data Tool. Do Not Remove.</description>
+        <externalId>false</externalId>
+        <label>analyticsdemo_batch_id__c</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>purl__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Image__c != &quot;&quot;, LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &apos;servlet/servlet.FileDownload?file=&apos; + Image__c,IF( (Image_URL__c != &quot;&quot; &amp;&amp; Image__c == &quot;&quot;), Image_URL__c,&apos;https://s3.amazonaws.com/rcgidoimages/CG/noImage.png&apos;))</formula>
+        <label>purl</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>B2B_Commerce_Solar_Product</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>Image_URL__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.SKU</field>
+            <operation>equals</operation>
+            <value>S-100-ADC</value>
+        </filters>
+        <label>B2B Commerce Solar Product</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Master</fullName>
+        <active>true</active>
+        <label>Master</label>
+        <picklistValues>
+            <picklist>Approvals__c</picklist>
+            <values>
+                <fullName>ETL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attribute_1__c</picklist>
+            <values>
+                <fullName>Conference Room-in-a-Box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Projectors</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attribute_2__c</picklist>
+            <values>
+                <fullName>Desktop Audio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Headphones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attribute_3__c</picklist>
+            <values>
+                <fullName>Home Theatre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Room Audio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Speakers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attribute_4__c</picklist>
+            <values>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Attribute_5__c</picklist>
+            <values>
+                <fullName>Installation Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Protection Plans</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Badge1_Type__c</picklist>
+            <values>
+                <fullName>Free Shipping Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generic Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Discount Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Quantity Badge</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Badge2_Type__c</picklist>
+            <values>
+                <fullName>Free Shipping Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generic Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Discount Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Quantity Badge</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Segment__c</picklist>
+            <values>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Middle Market</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Family</picklist>
+            <values>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ads %26 Media Placement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Batteries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Battery Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bundled Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F%26B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kits</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software Licenses</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solar Panels</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Building</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticket %26 Voucher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>GFCI_Safety_Circuit__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Guided_Selling__c</picklist>
+            <values>
+                <fullName>Batteries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Battery Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kits</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software Licenses</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turbines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Location__c</picklist>
+            <values>
+                <fullName>Bali</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Batang</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bogor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prigen</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Park_Location__c</picklist>
+            <values>
+                <fullName>All Locations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beach Safari Batang</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solo Safari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Taman Safari Bali</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Taman Safari Bogor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Taman Safari Prigen</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Power_Source__c</picklist>
+            <values>
+                <fullName>Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wind</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Catalog__c</picklist>
+            <values>
+                <fullName>Basic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Premium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Provider__c</picklist>
+            <values>
+                <fullName>Indosat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Smartfren</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telkomsel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>QuantityUnitOfMeasure</picklist>
+            <values>
+                <fullName>Each</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SDO_B2B_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Published to Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SDO_SCOM_Brand__c</picklist>
+            <values>
+                <fullName>Cirrus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LuminaSol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PhotonPower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolarWave</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>StarVolt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunFusion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunSavvy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sdo_Scom_Badge1_Type__c</picklist>
+            <values>
+                <fullName>Free Shipping Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generic Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Discount Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Quantity Badge</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sdo_Scom_Badge2_Type__c</picklist>
+            <values>
+                <fullName>Free Shipping Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generic Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Discount Badge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Quantity Badge</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unit__c</picklist>
+            <values>
+                <fullName>per Batch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>per Bus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>per Pax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>per Room%2FNight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>per Slot</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Warranty__c</picklist>
+            <values>
+                <fullName>1 Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Available</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.FAMILY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

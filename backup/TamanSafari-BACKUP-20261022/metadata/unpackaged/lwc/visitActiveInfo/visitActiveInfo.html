@@ -1,0 +1,128 @@
+<template>
+  <div class="active-info-container">
+    <div class="step-badge-wrap slds-m-bottom_medium">
+      <span class="step-pill step-pill--active">{labels.stepInfo}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill">{labels.stepBANT}</span>
+      <span class="step-connector"></span>
+      <span class="step-pill">{labels.stepCheckout}</span>
+    </div>
+
+    <!-- PIC Section -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.contactLabel} *</label>
+
+      <template if:true={isAccount}>
+        <div class="contact-picker-row slds-m-top_xx-small">
+          <lightning-combobox
+            label={labels.contactLabel}
+            variant="label-hidden"
+            value={selectedContactId}
+            options={contactOptions}
+            placeholder="Pilih Kontak PIC..."
+            onchange={handleContactChange}
+            class="contact-combo"
+          ></lightning-combobox>
+
+          <button
+            type="button"
+            class="btn-quick-create"
+            onclick={handleQuickCreateContact}
+          >
+            {labels.quickCreateContact}
+          </button>
+        </div>
+      </template>
+
+      <template if:false={isAccount}>
+        <div class="lead-pic-badge slds-m-top_xx-small">
+          <lightning-icon icon-name="standard:lead" size="small" class="slds-m-right_x-small"></lightning-icon>
+          <span class="lead-name-text">{displayLeadName}</span>
+        </div>
+      </template>
+    </div>
+
+    <!-- Purpose Section -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.purposeLabel} *</label>
+
+      <div class="purpose-pill-group slds-m-top_xx-small">
+        <template for:each={purposeOptions} for:item="opt">
+          <button
+            key={opt.value}
+            type="button"
+            class={opt.cssClass}
+            data-value={opt.value}
+            onclick={handlePurposeClick}
+          >
+            <template if:true={opt.isSelected}>
+              <lightning-icon icon-name="utility:check" size="xx-small" class="pill-check-icon slds-m-right_xx-small"></lightning-icon>
+            </template>
+            <span>{opt.label}</span>
+          </button>
+        </template>
+      </div>
+    </div>
+
+    <!-- Opportunity Selector (When Follow-Up or Final Confirmation) -->
+    <template if:true={showOpportunityPicker}>
+      <div class="form-section slds-m-bottom_medium opp-section">
+        <label class="section-label">{labels.oppLabel}</label>
+
+        <lightning-combobox
+          label={labels.oppLabel}
+          variant="label-hidden"
+          value={linkedOpportunityId}
+          options={oppOptions}
+          placeholder="Pilih Peluang Terbuka..."
+          onchange={handleOpportunityChange}
+          class="slds-m-top_xx-small"
+        ></lightning-combobox>
+
+        <template if:true={hasPrefillNotice}>
+          <div class="prefill-banner slds-m-top_x-small">
+            <lightning-icon icon-name="utility:info" size="xx-small" class="icon-info slds-m-right_xx-small"></lightning-icon>
+            <span>{labels.prefillHint}</span>
+          </div>
+        </template>
+      </div>
+    </template>
+
+    <!-- Physical Proof Photo Section -->
+    <div class="form-section slds-m-bottom_medium">
+      <label class="section-label">{labels.photoTitle} *</label>
+
+      <template if:false={hasPhoto}>
+        <div class="photo-placeholder slds-m-top_xx-small" onclick={handleTakePhoto}>
+          <div class="camera-icon-wrap">
+            <lightning-icon icon-name="utility:photo" size="medium" class="icon-camera"></lightning-icon>
+          </div>
+          <span class="photo-cta-text">{labels.takePhoto}</span>
+          <span class="photo-subtext">Wajib foto langsung di lokasi pertemuan</span>
+        </div>
+      </template>
+
+      <template if:true={hasPhoto}>
+        <div class="photo-preview-wrap slds-m-top_xx-small">
+          <img src={photoSnapshotUrl} alt="Foto Pertemuan" class="photo-thumbnail" />
+          <div class="photo-meta-overlay">
+            <template if:true={photoCapturedAt}>
+              <span class="photo-time-badge">{photoCapturedAt}</span>
+            </template>
+            <button type="button" class="btn-retake" onclick={handleRetakePhoto}>
+              <lightning-icon icon-name="utility:refresh" size="xx-small" class="slds-m-right_xx-small"></lightning-icon>
+              <span>{labels.retakePhoto}</span>
+            </button>
+          </div>
+        </div>
+
+        <template if:true={isDuplicatePhoto}>
+          <div class="duplicate-alert slds-m-top_x-small">
+            <lightning-icon icon-name="utility:warning" size="xx-small" class="icon-warn slds-m-right_xx-small"></lightning-icon>
+            <span>Foto terdeteksi duplikat dengan kunjungan lain. Skor bukti fisik diatur ke 0.</span>
+          </div>
+        </template>
+      </template>
+    </div>
+  </div>
+</template>

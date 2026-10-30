@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms_Locked_After_Proposal</fullName>
+    <active>true</active>
+    <description>Payment Terms are fixed once the proposal is processed: cannot be changed when the previous stage is Proposal/Quote, Negotiation, Closed Won or Closed Lost. Setting terms in the same save that moves the deal to Proposal/Quote is still allowed.</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Taman_Safari&quot;,
+  NOT(ISNEW()),
+  ISCHANGED(Payment_Terms__c),
+  OR(
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Proposal/Quote&quot;),
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Negotiation&quot;),
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Closed Won&quot;),
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Closed Lost&quot;)
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Payment_Terms__c</errorDisplayField>
+    <errorMessage>Payment Terms can no longer be changed because the proposal has already been processed (Proposal/Quote or later). Set the terms before moving to Proposal/Quote.</errorMessage>
+</ValidationRule>

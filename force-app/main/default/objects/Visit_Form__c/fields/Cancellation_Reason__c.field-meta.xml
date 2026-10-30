@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason__c</fullName>
+    <label>Cancellation Reason</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Not Available</fullName>
+                <default>false</default>
+                <label>Client Not Available</label>
+            </value>
+            <value>
+                <fullName>Wrong Target Selected</fullName>
+                <default>false</default>
+                <label>Wrong Target Selected</label>
+            </value>
+            <value>
+                <fullName>Rescheduled</fullName>
+                <default>false</default>
+                <label>Rescheduled</label>
+            </value>
+            <value>
+                <fullName>Auto-Cancelled (Stale)</fullName>
+                <default>false</default>
+                <label>Auto-Cancelled (Stale)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

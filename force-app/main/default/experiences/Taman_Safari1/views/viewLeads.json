@@ -1,0 +1,61 @@
+{
+  "appPageId" : "7157b2a7-1483-4997-a9cb-8cd980892b08",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "1ce57176-8ae2-4591-b6f2-ac84c2cc29d5",
+  "label" : "View Leads",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "76913695-3427-4b18-97ec-efc328067360",
+          "columns" : [ {
+            "UUID" : "02177332-c4fd-4f72-8795-ae524c5e9159",
+            "columnKey" : "col1",
+            "columnName" : "Lead List Column",
+            "columnWidth" : "12",
+            "seedComponents" : [ {
+              "attributes" : {
+                "objectApiName" : "Lead",
+                "sfdc:identifier" : "forceCommunity_pipelineinspection_lead"
+              },
+              "fqn" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer"
+            } ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "76913695-3427-4b18-97ec-efc328067360",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "objectApiName" : "Lead"
+          },
+          "componentName" : "runtime_pipeline_inspector:pipelineInspectorHomeExperienceContainer",
+          "id" : "4824ce69-0bd7-4471-95f7-d9f0293818f5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "02177332-c4fd-4f72-8795-ae524c5e9159",
+        "regionLabel" : "Lead List Column",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a1208fd7-e2ad-49a9-9961-2e9c85f8a591",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "lead-list"
+}

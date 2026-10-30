@@ -1,0 +1,256 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KmefbIAB"
+        },
+        "Id": "003Bh00000KmefbIAB",
+        "FirstName": "Rodrigo",
+        "LastName": "Fernandes",
+        "AccountId": "001Bh00000NsdIeIAJ",
+        "Email": null,
+        "Phone": null,
+        "Title": "HR"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KmfrqIAB"
+        },
+        "Id": "003Bh00000KmfrqIAB",
+        "FirstName": "Modaro",
+        "LastName": "Kowe",
+        "AccountId": "001Bh00000NsoE3IAJ",
+        "Email": null,
+        "Phone": null,
+        "Title": null
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJITIA3"
+        },
+        "Id": "003Bh00000KoJITIA3",
+        "FirstName": "Bambang",
+        "LastName": "Suryono",
+        "AccountId": "001Bh00000NuXtjIAF",
+        "Email": "bambang.suryono@bankmandiri.co.id",
+        "Phone": null,
+        "Title": "VP Human Capital"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIUIA3"
+        },
+        "Id": "003Bh00000KoJIUIA3",
+        "FirstName": "Dewi",
+        "LastName": "Lestari",
+        "AccountId": "001Bh00000NuXtkIAF",
+        "Email": "dewi.lestari@telkomsel.co.id",
+        "Phone": null,
+        "Title": "Head of Employee Engagement"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIVIA3"
+        },
+        "Id": "003Bh00000KoJIVIA3",
+        "FirstName": "Hendra",
+        "LastName": "Wijaya",
+        "AccountId": "001Bh00000NuXtlIAF",
+        "Email": "hendra.wijaya@astra.co.id",
+        "Phone": null,
+        "Title": "Corporate Secretary Manager"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIWIA3"
+        },
+        "Id": "003Bh00000KoJIWIA3",
+        "FirstName": "Siti",
+        "LastName": "Nurhaliza",
+        "AccountId": "001Bh00000NuXtmIAF",
+        "Email": "siti.nurhaliza@bca.co.id",
+        "Phone": null,
+        "Title": "Talent Development Lead"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIXIA3"
+        },
+        "Id": "003Bh00000KoJIXIA3",
+        "FirstName": "Budi",
+        "LastName": "Santoso",
+        "AccountId": "001Bh00000NuXtnIAF",
+        "Email": "budi.santoso@indofood.co.id",
+        "Phone": null,
+        "Title": "Procurement Lead"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIYIA3"
+        },
+        "Id": "003Bh00000KoJIYIA3",
+        "FirstName": "Aditya",
+        "LastName": "Pratama",
+        "AccountId": "001Bh00000NuXtoIAF",
+        "Email": "aditya.pratama@kalbe.co.id",
+        "Phone": null,
+        "Title": "Corporate HR Director"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIZIA3"
+        },
+        "Id": "003Bh00000KoJIZIA3",
+        "FirstName": "Eko",
+        "LastName": "Prasetyo",
+        "AccountId": "001Bh00000NuXtpIAF",
+        "Email": "eko.prasetyo@sig.id",
+        "Phone": null,
+        "Title": "General Affairs Manager"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIaIAN"
+        },
+        "Id": "003Bh00000KoJIaIAN",
+        "FirstName": "Tri",
+        "LastName": "Wahyuni",
+        "AccountId": "001Bh00000NuXtqIAF",
+        "Email": "tri.wahyuni@gudanggaram.com",
+        "Phone": null,
+        "Title": "Event & Sponsorship Lead"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIbIAN"
+        },
+        "Id": "003Bh00000KoJIbIAN",
+        "FirstName": "Agus",
+        "LastName": "Setiawan",
+        "AccountId": "001Bh00000NuXtrIAF",
+        "Email": "agus.setiawan@bpdbali.co.id",
+        "Phone": null,
+        "Title": "Head of Corporate Welfare"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIcIAN"
+        },
+        "Id": "003Bh00000KoJIcIAN",
+        "FirstName": "Maya",
+        "LastName": "Anggraini",
+        "AccountId": "001Bh00000NuXtsIAF",
+        "Email": "maya.anggraini@scm.co.id",
+        "Phone": null,
+        "Title": "Head of Corporate Events"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIdIAN"
+        },
+        "Id": "003Bh00000KoJIdIAN",
+        "FirstName": "Dwi",
+        "LastName": "Cahyono",
+        "AccountId": "001Bh00000NuXttIAF",
+        "Email": "dwi.cahyono@pupuk-indonesia.com",
+        "Phone": null,
+        "Title": "Industrial Relations Specialist"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIeIAN"
+        },
+        "Id": "003Bh00000KoJIeIAN",
+        "FirstName": "Ratna",
+        "LastName": "Sari",
+        "AccountId": "001Bh00000NuXtuIAF",
+        "Email": "ratna.sari@sinarmasland.com",
+        "Phone": null,
+        "Title": "Head of Internal Communication"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIfIAN"
+        },
+        "Id": "003Bh00000KoJIfIAN",
+        "FirstName": "Fitri",
+        "LastName": "Handayani",
+        "AccountId": "001Bh00000NuXtvIAF",
+        "Email": "fitri.handayani@unilever.com",
+        "Phone": null,
+        "Title": "Talent & Organization Manager"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIgIAN"
+        },
+        "Id": "003Bh00000KoJIgIAN",
+        "FirstName": "Arif",
+        "LastName": "Hidayat",
+        "AccountId": "001Bh00000NuXtwIAF",
+        "Email": "arif.hidayat@pti-cosmetics.com",
+        "Phone": null,
+        "Title": "Senior Culture & People Lead"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIhIAN"
+        },
+        "Id": "003Bh00000KoJIhIAN",
+        "FirstName": "Reza",
+        "LastName": "Pahlevi",
+        "AccountId": "001Bh00000NuXtxIAF",
+        "Email": "reza.pahlevi@garuda-indonesia.com",
+        "Phone": null,
+        "Title": "Employee Welfare Specialist"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoJIiIAN"
+        },
+        "Id": "003Bh00000KoJIiIAN",
+        "FirstName": "Rina",
+        "LastName": "Kusuma",
+        "AccountId": "001Bh00000NuXtyIAF",
+        "Email": "rina.kusuma@pertamina.com",
+        "Phone": null,
+        "Title": "HR Business Partner"
+      },
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v68.0/sobjects/Contact/003Bh00000KoKEuIAN"
+        },
+        "Id": "003Bh00000KoKEuIAN",
+        "FirstName": "Azis",
+        "LastName": "Pakaya",
+        "AccountId": "001Bh00000Nua1LIAR",
+        "Email": "azis@kopikamu.com",
+        "Phone": "087345221665",
+        "Title": "Owner"
+      }
+    ],
+    "totalSize": 19,
+    "done": true
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ticket &amp; Voucher</fullName>
+                <default>false</default>
+                <label>Ticket &amp; Voucher</label>
+            </value>
+            <value>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+                <label>Accommodation</label>
+            </value>
+            <value>
+                <fullName>Team Building</fullName>
+                <default>false</default>
+                <label>Team Building</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+            <value>
+                <fullName>F&amp;B</fullName>
+                <default>false</default>
+                <label>F&amp;B</label>
+            </value>
+            <value>
+                <fullName>Ads &amp; Media Placement</fullName>
+                <default>false</default>
+                <label>Ads &amp; Media Placement</label>
+            </value>
+            <value>
+                <fullName>Bundled Package</fullName>
+                <default>false</default>
+                <label>Bundled Package</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

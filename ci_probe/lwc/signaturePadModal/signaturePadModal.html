@@ -1,0 +1,50 @@
+<template>
+  <lightning-modal-header label={label}></lightning-modal-header>
+
+  <lightning-modal-body>
+    <div class="slds-m-bottom_small modal-description">{description}</div>
+
+    <div class="pad-container">
+      <canvas
+        class="signature-pad"
+        onmousedown={handleDrawStart}
+        onmousemove={handleDrawing}
+        onmouseup={handleDrawEnd}
+        onmouseout={handleDrawEnd}
+        ontouchstart={handleDrawStart}
+        ontouchmove={handleDrawing}
+        ontouchend={handleDrawEnd}
+      >
+      </canvas>
+    </div>
+  </lightning-modal-body>
+
+  <lightning-modal-footer>
+    <div class="footer-actions">
+      <!-- Left side action -->
+      <lightning-button
+        label="Clear"
+        icon-name="utility:delete"
+        onclick={handleClear}
+        variant="destructive-text"
+      >
+      </lightning-button>
+
+      <!-- Right side actions -->
+      <div class="right-actions">
+        <lightning-button
+          label="Cancel"
+          onclick={handleCancel}
+          class="slds-m-right_x-small"
+        >
+        </lightning-button>
+        <lightning-button
+          label="Save Signature"
+          variant="brand"
+          onclick={handleSave}
+        >
+        </lightning-button>
+      </div>
+    </div>
+  </lightning-modal-footer>
+</template>

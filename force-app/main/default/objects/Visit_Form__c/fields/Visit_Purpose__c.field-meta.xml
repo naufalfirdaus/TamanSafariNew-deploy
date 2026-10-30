@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visit_Purpose__c</fullName>
+    <label>Visit Purpose</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial Canvassing / Discovery</fullName>
+                <default>false</default>
+                <label>Initial Canvassing / Discovery</label>
+            </value>
+            <value>
+                <fullName>Follow-Up / Proposal Review</fullName>
+                <default>false</default>
+                <label>Follow-Up / Proposal Review</label>
+            </value>
+            <value>
+                <fullName>Final Confirmation / Contracting</fullName>
+                <default>false</default>
+                <label>Final Confirmation / Contracting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

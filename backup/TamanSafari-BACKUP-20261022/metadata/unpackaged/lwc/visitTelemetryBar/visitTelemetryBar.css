@@ -1,0 +1,164 @@
+:host {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  width: 100%;
+
+  /* Taman Safari Brand Palette */
+  --slds-g-color-accent-1: #82bb3a;
+  --slds-g-color-on-accent-1: #ffffff;
+  --slds-g-color-accent-2: #11532f;
+  --slds-g-color-surface-container-2: #ffffff;
+  --slds-g-color-on-surface-1: #11532f;
+  --slds-g-color-on-surface-2: #334139;
+  --slds-g-color-on-surface-3: #66786e;
+  --slds-g-color-border-1: #d5e0d8;
+  --slds-g-color-success-1: #2e844a;
+  --slds-g-color-success-container-1: #ebf7ee;
+  --slds-g-color-warning-1: #dd7a01;
+  --slds-g-color-warning-container-1: #fff3e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --slds-g-color-accent-1: #96d649;
+    --slds-g-color-on-accent-1: #082010;
+    --slds-g-color-accent-2: #45c65a;
+    --slds-g-color-surface-container-2: #232c27;
+    --slds-g-color-on-surface-1: #f4f8f5;
+    --slds-g-color-on-surface-2: #c4d1c9;
+    --slds-g-color-on-surface-3: #8ca094;
+    --slds-g-color-border-1: #2e3a33;
+    --slds-g-color-success-1: #45c65a;
+    --slds-g-color-success-container-1: #153320;
+    --slds-g-color-warning-1: #ffa238;
+    --slds-g-color-warning-container-1: #3d260a;
+  }
+}
+
+.telemetry-bar {
+  background-color: var(--slds-g-color-surface-container-2, #ffffff);
+  border-bottom: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  padding: 0.625rem 1rem;
+}
+
+.telemetry-bar__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.telemetry-bar__timer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--slds-g-color-surface-container-1, #f8faf9);
+  border: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+  border-radius: var(--slds-g-radius-border-pill, 9999px);
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--slds-g-color-on-surface-1, #11532f);
+}
+
+.timer-icon {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-accent-2, #11532f);
+}
+
+.telemetry-bar__gps-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--slds-g-radius-border-pill, 9999px);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.gps-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.telemetry-bar__gps-pill--success {
+  background-color: var(--slds-g-color-success-container-1, #ebf7ee);
+  color: var(--slds-g-color-success-1, #2e844a);
+  border: 1px solid var(--slds-g-color-success-1, #2e844a);
+}
+.telemetry-bar__gps-pill--success .gps-dot {
+  background-color: var(--slds-g-color-success-1, #2e844a);
+}
+
+.telemetry-bar__gps-pill--warning {
+  background-color: var(--slds-g-color-warning-container-1, #fff3e0);
+  color: var(--slds-g-color-warning-1, #dd7a01);
+  border: 1px solid var(--slds-g-color-warning-1, #dd7a01);
+}
+.telemetry-bar__gps-pill--warning .gps-dot {
+  background-color: var(--slds-g-color-warning-1, #dd7a01);
+}
+
+.telemetry-bar__gps-pill--acquiring {
+  background-color: var(--slds-g-color-surface-container-1, #f8faf9);
+  color: var(--slds-g-color-on-surface-3, #66786e);
+  border: 1px solid var(--slds-g-color-border-1, #d5e0d8);
+}
+.telemetry-bar__gps-pill--acquiring .gps-dot {
+  background-color: var(--slds-g-color-accent-1, #82bb3a);
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+.telemetry-bar__gps-pill--error {
+  background-color: var(--slds-g-color-error-container-1, #fee8e6);
+  color: var(--slds-g-color-error-1, #ea001e);
+  border: 1px solid var(--slds-g-color-error-1, #ea001e);
+}
+.telemetry-bar__gps-pill--error .gps-dot {
+  background-color: var(--slds-g-color-error-1, #ea001e);
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.8); opacity: 0.5; }
+}
+
+.cancel-link {
+  background: none;
+  border: none;
+  color: var(--slds-g-color-error-1, #ea001e);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--slds-g-radius-border-1, 0.25rem);
+  text-decoration: underline;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.telemetry-bar__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.375rem;
+}
+
+.target-title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--slds-g-color-on-surface-1, #11532f);
+}
+
+.saving-indicator {
+  font-size: 0.75rem;
+  color: var(--slds-g-color-on-surface-3, #66786e);
+  font-style: italic;
+}

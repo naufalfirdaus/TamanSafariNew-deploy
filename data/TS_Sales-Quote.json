@@ -1,0 +1,124 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef1"
+      },
+      "Name": "Baxter Proposal",
+      "Status": "Draft",
+      "ExpirationDate": "2020-06-10",
+      "OpportunityId": "@OpportunityRef1"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef2"
+      },
+      "Name": "Quote v1",
+      "Status": "Draft",
+      "ExpirationDate": "2020-06-10",
+      "OpportunityId": "@OpportunityRef2"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef3"
+      },
+      "Name": "United Partners",
+      "Status": "Draft",
+      "ExpirationDate": "2021-02-09",
+      "OpportunityId": "@OpportunityRef3"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef4"
+      },
+      "Name": "Advanced Interconnections Corp - 20K",
+      "Status": "Draft",
+      "ExpirationDate": "2020-06-10",
+      "OpportunityId": "@OpportunityRef4"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef5"
+      },
+      "Name": "Quote 1",
+      "Status": "Rejected",
+      "ExpirationDate": "2021-02-01",
+      "OpportunityId": "@OpportunityRef5"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef6"
+      },
+      "Name": "Quote 3",
+      "Status": "Presented",
+      "ExpirationDate": "2021-02-07",
+      "OpportunityId": "@OpportunityRef5"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef7"
+      },
+      "Name": "Quote 2",
+      "Status": "Denied",
+      "ExpirationDate": "2021-02-02",
+      "OpportunityId": "@OpportunityRef5"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef8"
+      },
+      "Name": "Quotation V2.0 - Intedesign",
+      "Status": "Approved",
+      "ExpirationDate": "2026-08-31",
+      "OpportunityId": "@OpportunityRef6"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef9"
+      },
+      "Name": "Quotation V1.0 - Interdesign Package Battery",
+      "Status": "Approved",
+      "ExpirationDate": "2026-08-31",
+      "OpportunityId": "@OpportunityRef6"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef10"
+      },
+      "Name": "Quotation Interdesign - Corporate Gathering",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "OpportunityId": "@OpportunityRef7"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef11"
+      },
+      "Name": "Quotation Bank Cakrawala - Voucher Batch",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "OpportunityId": "@OpportunityRef8"
+    },
+    {
+      "attributes": {
+        "type": "Quote",
+        "referenceId": "QuoteRef12"
+      },
+      "Name": "Quotation Nusantara EO - MICE Batang",
+      "Status": "Draft",
+      "ExpirationDate": "2026-09-10",
+      "OpportunityId": "@OpportunityRef9"
+    }
+  ]
+}

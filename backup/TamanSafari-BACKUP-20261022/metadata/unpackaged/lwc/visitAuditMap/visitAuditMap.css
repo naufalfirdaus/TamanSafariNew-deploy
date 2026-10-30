@@ -1,0 +1,360 @@
+/* Taman Safari Palette & SLDS2 Variables */
+:host {
+    --ts-leaf-green: #82BB3A;
+    --ts-deep-forest: #11532F;
+    --ts-terracotta: #D26E4B;
+    --ts-amber-warning: #B95E00;
+    --ts-amber-bg: #FEF3D6;
+    --ts-crimson-danger: #C23934;
+    --ts-crimson-bg: #FEE7E6;
+    --ts-gray-bg: #F8FAF9;
+    --ts-card-bg: #FFFFFF;
+    --ts-text-primary: #181818;
+    --ts-text-secondary: #514F4D;
+    --ts-border-color: #D5E0D8;
+    display: block;
+    width: 100%;
+}
+
+/* Dark Mode Adaptation */
+@media (prefers-color-scheme: dark) {
+    :host {
+        --ts-leaf-green: #96D649;
+        --ts-deep-forest: #11532F;
+        --ts-terracotta: #E28564;
+        --ts-amber-warning: #FFA238;
+        --ts-amber-bg: #3D260A;
+        --ts-crimson-danger: #FF7B77;
+        --ts-crimson-bg: #3A100E;
+        --ts-gray-bg: #1B221E;
+        --ts-card-bg: #232C27;
+        --ts-text-primary: #F4F8F5;
+        --ts-text-secondary: #C4D1C9;
+        --ts-border-color: #2E3A33;
+    }
+}
+
+.card-body-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Loading & Empty States */
+.loading-container {
+    min-height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.no-markers-box {
+    min-height: 240px;
+    background-color: var(--ts-gray-bg);
+    border: 1px dashed var(--ts-border-color);
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+/* Anomaly Badges Banner */
+.anomaly-banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.anomaly-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 16px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.badge-warning {
+    background-color: var(--ts-amber-bg);
+    color: var(--ts-amber-warning);
+    border: 1px solid var(--ts-amber-warning);
+}
+
+.badge-danger {
+    background-color: var(--ts-crimson-bg);
+    color: var(--ts-crimson-danger);
+    border: 1px solid var(--ts-crimson-danger);
+}
+
+/* Layout Grid */
+.audit-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.map-column_full {
+    width: 100%;
+}
+
+/* Map Wrapper & Map Fill */
+.map-wrapper {
+    width: 100%;
+    height: 380px;
+    min-height: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--ts-border-color);
+    background-color: var(--ts-gray-bg);
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Ensure lightning-map and its internal SLDS container expand to fill 100% of wrapper */
+.audit-map {
+    --slds-c-map-height: 100%;
+    --sds-c-map-height: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Side-by-side on wide screens (>= 1024px) */
+@media (min-width: 1024px) {
+    .audit-grid_split {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .map-column_split {
+        width: 58%;
+        flex: 1 1 58%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .verification-column {
+        width: 42%;
+        flex: 0 0 42%;
+    }
+
+    .audit-grid_split .map-wrapper {
+        height: 100%;
+        min-height: 420px;
+        flex: 1 1 auto;
+    }
+
+    .audit-grid_split .audit-map {
+        --slds-c-map-height: 100%;
+        --sds-c-map-height: 100%;
+        height: 100%;
+        flex: 1 1 auto;
+    }
+}
+
+/* Tablet Layout (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .map-wrapper {
+        height: 340px;
+    }
+    .audit-map {
+        --slds-c-map-height: 340px;
+        height: 340px;
+    }
+}
+
+/* Mobile Screen & Salesforce Mobile App Optimization (< 768px) */
+@media (max-width: 767px) {
+    .card-body-wrapper {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .anomaly-banner {
+        gap: 6px;
+    }
+
+    .anomaly-badge {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        border-radius: 12px;
+    }
+
+    /* Keep map to ergonomic mobile height (280px) to allow comfortable touch scrolling */
+    .map-wrapper {
+        height: 280px;
+        min-height: 280px;
+        border-radius: 6px;
+    }
+
+    .audit-map {
+        --slds-c-map-height: 280px;
+        height: 280px;
+    }
+
+    .verification-column {
+        padding-left: 0 !important;
+        margin-top: 0.25rem;
+        width: 100%;
+    }
+
+    .verification-card {
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .score-chips-container {
+        gap: 6px;
+    }
+
+    .score-chip {
+        padding: 6px 8px;
+    }
+
+    .score-value {
+        font-size: 1rem;
+    }
+
+    .ai-summary-box {
+        padding: 8px 10px;
+    }
+
+    .ai-summary-text {
+        font-size: 0.775rem;
+        line-height: 1.4;
+    }
+
+    .investigation-field {
+        font-size: 0.775rem;
+    }
+}
+
+/* Verification Card Styling */
+.verification-card {
+    background-color: var(--ts-gray-bg);
+    border: 1px solid var(--ts-border-color);
+    border-radius: 8px;
+    padding: 14px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tier Header & Badges */
+.tier-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+}
+
+.tier-verified {
+    background-color: var(--ts-deep-forest);
+}
+
+.tier-coaching {
+    background-color: var(--ts-amber-warning);
+}
+
+.tier-flagged {
+    background-color: var(--ts-crimson-danger);
+}
+
+.tier-neutral {
+    background-color: #706E6B;
+}
+
+/* Score Chips */
+.score-chips-container {
+    display: flex;
+    gap: 10px;
+}
+
+.score-chip {
+    flex: 1;
+    background-color: var(--ts-card-bg);
+    border: 1px solid var(--ts-border-color);
+    border-radius: 6px;
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-label {
+    font-size: 0.75rem;
+    color: var(--ts-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.score-value {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--ts-text-primary);
+}
+
+/* Subtitles */
+.section-subtitle {
+    font-size: 0.775rem;
+    font-weight: 700;
+    color: var(--ts-text-secondary);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+/* Fraud Tags Cloud */
+.fraud-tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.fraud-pill {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--ts-card-bg);
+    border: 1px solid var(--ts-amber-warning);
+    color: var(--ts-amber-warning);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* AI Summary Box */
+.ai-summary-box {
+    background-color: var(--ts-card-bg);
+    border: 1px solid var(--ts-border-color);
+    border-left: 3px solid var(--ts-leaf-green);
+    border-radius: 4px;
+    padding: 10px 12px;
+}
+
+.ai-summary-text {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--ts-text-primary);
+    white-space: pre-line;
+}
+
+/* Investigation Fields */
+.investigation-field {
+    font-size: 0.8125rem;
+    line-height: 1.35;
+}
+
+.investigation-label {
+    font-weight: 600;
+    color: var(--ts-text-secondary);
+}
+
+.investigation-value {
+    color: var(--ts-text-primary);
+}

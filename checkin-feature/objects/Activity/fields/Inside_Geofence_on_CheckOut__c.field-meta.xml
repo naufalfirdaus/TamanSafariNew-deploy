@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Geofence_on_CheckOut__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field for Geofence</description>
+    <label>Inside Geofence on CheckOut</label>
+    <type>Checkbox</type>
+</CustomField>

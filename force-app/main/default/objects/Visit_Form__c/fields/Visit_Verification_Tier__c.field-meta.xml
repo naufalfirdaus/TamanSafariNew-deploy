@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visit_Verification_Tier__c</fullName>
+    <label>Verification Tier</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Verified</fullName>
+                <default>false</default>
+                <label>Verified</label>
+            </value>
+            <value>
+                <fullName>Coaching Needed</fullName>
+                <default>false</default>
+                <label>Coaching Needed</label>
+            </value>
+            <value>
+                <fullName>Flagged for Investigation</fullName>
+                <default>false</default>
+                <label>Flagged for Investigation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

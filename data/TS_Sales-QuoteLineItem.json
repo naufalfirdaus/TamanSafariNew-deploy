@@ -1,0 +1,108 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef1"
+            },
+            "Quantity": 3,
+            "UnitPrice": 2000,
+            "LineNumber": "00000001"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef2"
+            },
+            "Quantity": 1,
+            "UnitPrice": 499,
+            "LineNumber": "00000002"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef3"
+            },
+            "Quantity": 8,
+            "UnitPrice": 2000,
+            "Discount": 10,
+            "LineNumber": "00000003"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef4"
+            },
+            "Quantity": 2,
+            "UnitPrice": 1500,
+            "Discount": 10,
+            "LineNumber": "00000004"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef5"
+            },
+            "Quantity": 50,
+            "UnitPrice": 1000,
+            "LineNumber": "00000010"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef6"
+            },
+            "Quantity": 50,
+            "UnitPrice": 1500,
+            "LineNumber": "00000011"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef7"
+            },
+            "Quantity": 10,
+            "UnitPrice": 350000,
+            "Discount": 0,
+            "LineNumber": "00000015"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef8"
+            },
+            "Quantity": 10,
+            "UnitPrice": 150000,
+            "Discount": 25,
+            "LineNumber": "00000016"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef9"
+            },
+            "Quantity": 10,
+            "UnitPrice": 950000,
+            "Discount": 10,
+            "LineNumber": "00000017"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef10"
+            },
+            "Quantity": 50,
+            "UnitPrice": 1000,
+            "LineNumber": "00000018"
+        },
+        {
+            "attributes": {
+                "type": "QuoteLineItem",
+                "referenceId": "QuoteLineItemRef11"
+            },
+            "Quantity": 50,
+            "UnitPrice": 1500,
+            "LineNumber": "00000019"
+        }
+    ]
+}

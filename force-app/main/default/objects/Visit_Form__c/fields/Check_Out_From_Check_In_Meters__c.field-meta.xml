@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Out_From_Check_In_Meters__c</fullName>
+    <label>Check-Out From Check-In (m)</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <precision>18</precision>
+    <scale>2</scale>
+    <required>false</required>
+</CustomField>

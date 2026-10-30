@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <label>Event Type</label>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Team Building</fullName>
+                <default>false</default>
+                <label>Team Building</label>
+            </value>
+            <value>
+                <fullName>Family Gathering</fullName>
+                <default>false</default>
+                <label>Family Gathering</label>
+            </value>
+            <value>
+                <fullName>Corporate Meeting</fullName>
+                <default>false</default>
+                <label>Corporate Meeting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

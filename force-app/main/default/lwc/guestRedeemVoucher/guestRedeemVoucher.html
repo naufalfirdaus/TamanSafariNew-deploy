@@ -1,0 +1,95 @@
+<template>
+    <div class="redeem-wrap">
+        <template if:true={errorMessage}>
+            <div class="redeem-error">{errorMessage}</div>
+        </template>
+
+        <!-- Step 1: input kode -->
+        <template if:true={isCodeStep}>
+            <lightning-input
+                label="Masukkan Kode Voucher"
+                value={voucherCode}
+                onchange={handleCodeChange}
+                required>
+            </lightning-input>
+            <div class="redeem-actions">
+                <lightning-button
+                    variant="brand"
+                    label="Cek Kode"
+                    onclick={handleCheckCode}
+                    disabled={isLoading}
+                    class="ts-btn">
+                </lightning-button>
+            </div>
+        </template>
+
+        <!-- Step 2: detail transaksi -->
+        <template if:true={isDetailStep}>
+            <lightning-input
+                label="Nama Pembeli"
+                value={customerName}
+                onchange={handleCustomerNameChange}
+                required>
+            </lightning-input>
+            <lightning-input
+                label="Nomor Booking / Tiket"
+                value={bookingNumber}
+                onchange={handleBookingNumberChange}
+                required>
+            </lightning-input>
+            <lightning-combobox
+                label="Produk / Kategori"
+                value={productFamily}
+                options={productFamilyOptions}
+                onchange={handleProductFamilyChange}
+                required>
+            </lightning-combobox>
+            <lightning-input
+                type="number"
+                label="Jumlah / Qty"
+                value={qty}
+                onchange={handleQtyChange}
+                required>
+            </lightning-input>
+            <lightning-input
+                type="number"
+                label="Total Belanja (Rp)"
+                value={grossAmount}
+                onchange={handleGrossAmountChange}
+                required>
+            </lightning-input>
+            <div class="redeem-actions">
+                <lightning-button
+                    variant="brand"
+                    label="Redeem Sekarang"
+                    onclick={handleSubmitRedemption}
+                    disabled={isLoading}
+                    class="ts-btn">
+                </lightning-button>
+            </div>
+        </template>
+
+        <!-- Step 3a: sukses -->
+        <template if:true={isSuccessStep}>
+            <div class="redeem-success">
+                <p><strong>Voucher berhasil diredeem!</strong></p>
+                <p>Selamat menikmati layanan Taman Safari Indonesia.</p>
+            </div>
+        </template>
+
+        <!-- Step 3b: gagal -->
+        <template if:true={isFailStep}>
+            <div class="redeem-actions">
+                <lightning-button
+                    variant="neutral"
+                    label="Coba Lagi"
+                    onclick={handleRestart}>
+                </lightning-button>
+            </div>
+        </template>
+
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Memproses..." size="small"></lightning-spinner>
+        </template>
+    </div>
+</template>
